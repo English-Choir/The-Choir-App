@@ -28,6 +28,10 @@ outputs/choir-android/screenshots/
 outputs/choir-android/version-*-test-reports/
 outputs/choir-web/
 
+# ── Raw extraction source (large, one-time use — results are in assets/) ─
+PSR-SX900*.bup
+extraction_work/banks.json
+
 # ── OS / editor ─────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
