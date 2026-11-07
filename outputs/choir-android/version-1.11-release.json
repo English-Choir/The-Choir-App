@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "packageName": "com.phantominnovation.choir",
+  "versionCode": 12,
+  "versionName": "1.11",
+  "downloadUrl": "https://drive.google.com/file/d/1REcN7ZZlKK3Wf9F02Xfr2cT1LMmVeV97/view",
+  "sha256": "fc0dd15b084ada47778faf6119298e3020c515e4e94fd4d5c76e1ca0564a2845",
+  "sizeBytes": 20653767,
+  "publishedAt": "2026-11-07T07:34:11.329Z",
+  "notes": "New All Hymns section! Browse 337 hymns organized by Mass section, with instant section search and library lookup.",
+  "guestReadVerified": true
+}
