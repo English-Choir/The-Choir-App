@@ -71,6 +71,7 @@ fun ChoirApp(model: ChoirViewModel = viewModel()) {
     val snackbar = remember { SnackbarHostState() }
     var tab by rememberSaveable { mutableStateOf("sections") }
     var sectionId by rememberSaveable { mutableStateOf<String?>(null) }
+    var hymnSectionId by rememberSaveable { mutableStateOf<String?>(null) }
     var query by rememberSaveable { mutableStateOf("") }
     var filter by rememberSaveable { mutableStateOf(LinkFilter.ALL) }
     var chordFilter by rememberSaveable { mutableStateOf(ChordFilter.ALL) }
@@ -92,11 +93,12 @@ fun ChoirApp(model: ChoirViewModel = viewModel()) {
         if (!canEdit) { editorId = null; editId = null; deleteId = null; chordControl = null; addingSection = false; managingSection = null }
     }
     fun goBack() {
-        if (catalog?.sections?.any { it.id == sectionId && it.other } == true) sectionId = "other"
+        if (tab == "all_hymns" && hymnSectionId != null) hymnSectionId = null
+        else if (catalog?.sections?.any { it.id == sectionId && it.other } == true) sectionId = "other"
         else if (sectionId != null) sectionId = null else tab = "sections"
         query = ""; filter = LinkFilter.ALL; chordFilter = ChordFilter.ALL
     }
-    BackHandler(sectionId != null || tab != "sections") { goBack() }
+    BackHandler(sectionId != null || tab != "sections" || (tab == "all_hymns" && hymnSectionId != null)) { goBack() }
     fun open(link: DriveLink) {
         try {
             context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(requireNotNull(validDriveUrl(link.url)))))
@@ -157,6 +159,11 @@ fun ChoirApp(model: ChoirViewModel = viewModel()) {
                     icon = { Symbol(Mark.HYMNS, if (tab == "hymns") Blue else Muted) }, label = { Text("Hymn lists") },
                     colors = navigationColors(), modifier = Modifier.testTag("nav_hymns"),
                 )
+                NavigationBarItem(
+                    selected = tab == "all_hymns", onClick = { tab = "all_hymns"; hymnSectionId = null; sectionId = null; focusSearch = false },
+                    icon = { Symbol(Mark.ALL_HYMNS, if (tab == "all_hymns") Blue else Muted) }, label = { Text("All Hymns") },
+                    colors = navigationColors(), modifier = Modifier.testTag("nav_all_hymns"),
+                )
             }
             }
         },
@@ -170,6 +177,11 @@ fun ChoirApp(model: ChoirViewModel = viewModel()) {
                 }
             } else if (catalog == null) {
                 CircularProgressIndicator(Modifier.align(Alignment.Center), color = Blue)
+            } else if (tab == "all_hymns") {
+                AllHymnsScreen(
+                    selectedSectionId = hymnSectionId,
+                    onSelectSection = { hymnSectionId = it }
+                )
             } else if (tab == "hymns") {
                 HymnPlansScreen(catalog, chords, hymnPlans, canEdit, model::saveHymnPlan, ::open,
                     onNotice = { scope.launch { snackbar.showSnackbar(it) } },

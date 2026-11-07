@@ -1,4 +1,5 @@
 import './styles.css';
+import hymnCatalog from './hymn-catalog.json';
 import {subscribe,getState,login,logout,resetPassword,addSection,changeSection,saveRegistration,setChord,savePlan,friendlyError} from './data.js';
 import {filterRows,matchHymns,parseHymns,hymnResources} from './logic.js';
 
@@ -18,7 +19,8 @@ const icons={
  link:'<path d="m10 13 4-4m-6 5-2 2a4 4 0 0 0 6 6l4-4m0-8 2-2a4 4 0 0 0-6-6L8 6"/>',
  edit:'<path d="m15 4 5 5M3 21l5-1L21 7a2 2 0 0 0-5-5L3 15z"/>',
  music:'<path d="M9 18V5l12-3v13M9 8l12-3"/><ellipse cx="6" cy="18" rx="3" ry="2"/><ellipse cx="18" cy="15" rx="3" ry="2"/>',
- copy:'<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V3H3v13h5"/>'
+ copy:'<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V3H3v13h5"/>',
+ hymnal:'<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10M6 14h6"/>'
 };
 const icon=(name,cls='')=>`<svg class="icon ${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name]||icons.music}</svg>`;
 let state=getState(),query='',chordFilter='all',linkFilter='all',limit=60,toastTimer,modalHost=false,hadHost=false;
@@ -31,7 +33,7 @@ const titleFor=id=>state.catalog.sections.find(s=>s.id===id)?.title||'Other regi
 const action=(name,label,attrs='',cls='secondary')=>`<button type="button" class="${cls}" data-action="${name}" ${attrs}>${label}</button>`;
 function navigation(where){
   return `<nav class="${where}" aria-label="Main navigation">${[
-    ['sections','grid','Sections'],['library','library','All registrations'],['hymns','list','Hymn lists']
+    ['sections','grid','Sections'],['library','library','All registrations'],['hymns','list','Hymn lists'],['allhymns','hymnal','All Hymns']
   ].map(([page,symbol,label])=>`<a href="#${page}" ${route.page===page?'aria-current="page"':''}>${icon(symbol)}<span>${label}</span></a>`).join('')}</nav>`;
 }
 function searchBar(){
@@ -118,9 +120,46 @@ function hymnPage(){
     ${resourceSummary(matches)}</div>`:
       empty('A service starts with a song','Add your hymns in service order. We’ll find the registrations and gather the chord names.',action('add-hymns',icon('plus')+' Add hymns','','primary'))}`;
 }
+function allHymnsPage(){
+  const sec = route.section ? hymnCatalog.find(s=>s.id===route.section) : null;
+  const q = query.trim().toLowerCase();
+
+  if(sec){
+    const list = q ? sec.hymns.filter(h=>h.toLowerCase().includes(q)) : sec.hymns;
+    return `<a class="back-link" href="#allhymns">${icon('back')} All Hymns</a>
+      <div class="page-heading"><div><div class="eyebrow">ORDER OF SERVICE HYMNS</div><h1>${esc(sec.title)}<span class="blue">.</span></h1><p>${sec.hymns.length} hymns in this section</p></div></div>
+      <div class="search">${icon('search')}<input id="search" type="search" placeholder="Search hymns in ${esc(sec.title)}" aria-label="Search hymns" value="${esc(query)}" autocomplete="off"></div>
+      ${list.length ? `<ol class="hymnal-list">${list.map((h,i)=>`<li><span class="hymn-num">${String(i+1).padStart(2,'0')}</span><span class="hymn-title">${esc(h)}</span></li>`).join('')}</ol>` : empty('No hymns found', 'Try another search term.', '')}`;
+  }
+
+  if(q){
+    const allMatches = [];
+    for(const s of hymnCatalog){
+      for(const h of s.hymns){
+        if(h.toLowerCase().includes(q)){
+          allMatches.push({section: s.title, sectionId: s.id, hymn: h});
+        }
+      }
+    }
+    return `<div class="eyebrow">ORDER OF SERVICE HYMNS</div><div class="hero"><div><h1>All Hymns<span class="blue">.</span></h1><p>Every hymn across all 13 sections.</p></div><div class="hero-mark">${icon('hymnal')}</div></div>
+      <div class="search">${icon('search')}<input id="search" type="search" placeholder="Search across all hymns" aria-label="Search across all hymns" value="${esc(query)}" autocomplete="off"></div>
+      <div class="result-heading"><span>${allMatches.length} MATCHING HYMNS</span></div>
+      ${allMatches.length ? `<ul class="hymnal-search-results">${allMatches.map(m=>`<li><a href="#allhymns/${encodeURIComponent(m.sectionId)}"><strong>${esc(m.hymn)}</strong><span class="badge">${esc(m.section)}</span></a></li>`).join('')}</ul>` : empty('No hymns found', 'Try another search term.', '')}`;
+  }
+
+  const totalHymns = hymnCatalog.reduce((sum, s) => sum + s.hymns.length, 0);
+  return `<div class="eyebrow">ORDER OF SERVICE HYMNS</div><div class="hero"><div><h1>All Hymns<span class="blue">.</span></h1><p>Browse hymns by Mass section.</p></div><div class="hero-mark">${icon('hymnal')}</div></div>
+    <div class="search">${icon('search')}<input id="search" type="search" placeholder="Search across all hymns" aria-label="Search across all hymns" value="${esc(query)}" autocomplete="off"></div>
+    <div class="section-heading"><h2>Sections</h2><span>13 SECTIONS · ${totalHymns} HYMNS</span></div>
+    <div class="hymnal-grid">${hymnCatalog.map((s, i)=>`<a class="hymnal-card" href="#allhymns/${encodeURIComponent(s.id)}">
+      <div class="hymnal-card-top"><span class="ordinal">${String(i+1).padStart(2,'0')}</span>${icon('arrow')}</div>
+      <h3>${esc(s.title)}</h3>
+      <span class="hymnal-count">${s.hymns.length} hymns</span>
+    </a>`).join('')}</div>`;
+}
 function render(){
   const active=document.activeElement,focus=active?.id,selection=active?.selectionStart,scroll=window.scrollY;
-  const content=route.page==='other'?other():route.page==='hymns'?hymnPage():['section','library'].includes(route.page)?library():home();
+  const content=route.page==='other'?other():route.page==='hymns'?hymnPage():route.page==='allhymns'?allHymnsPage():['section','library'].includes(route.page)?library():home();
   $('#app').innerHTML=`<aside class="sidebar"><a class="brand" href="#sections"><span class="brand-icon">${icon('wave')}</span><span>THE CHOIR<small>READY FOR EVERY SERVICE</small></span></a>${navigation('desktop-nav')}
     <div class="sidebar-bottom"><div class="keyboard-label">${icon('music')} PSR-SX900 library</div><p>Music brings us together.</p>${action('install-help','Use on your home screen','','text-button')}</div></aside>
     <div class="workspace"><header class="topbar"><a class="mobile-brand" href="#sections">${icon('wave')}THE CHOIR</a><div class="connection"><i class="${state.online&&state.synced?'connected':''}"></i>${!state.online?'Offline · saved library':state.errors.size?'Connection needs attention':state.synced?'Library synced':'Connecting…'}</div><div class="topbar-actions">${state.release?.enabled?`<a class="android-link" href="${esc(state.release.downloadUrl)}" target="_blank" rel="noopener">Android app ↗</a>`:''}

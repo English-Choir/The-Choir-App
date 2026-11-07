@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.unit.dp
 
-enum class Mark { WAVE, SEARCH, BACK, CHEVRON, PLUS, EXTERNAL, LINK, EDIT, CLOSE, SECTIONS, LIBRARY, FOLDER, LOCK, DELETE, HYMNS }
+enum class Mark { WAVE, SEARCH, BACK, CHEVRON, PLUS, EXTERNAL, LINK, EDIT, CLOSE, SECTIONS, LIBRARY, FOLDER, LOCK, DELETE, HYMNS, ALL_HYMNS }
 
 @Composable
 fun Symbol(mark: Mark, color: Color = Blue, modifier: Modifier = Modifier) {
@@ -47,6 +47,12 @@ fun Symbol(mark: Mark, color: Color = Blue, modifier: Modifier = Modifier) {
             Mark.FOLDER -> path(3f to 6f, 10f to 6f, 12f to 9f, 21f to 9f, 21f to 20f, 3f to 20f, 3f to 6f)
             Mark.LOCK -> { path(7f to 10f, 7f to 6f, 9f to 3f, 15f to 3f, 17f to 6f, 17f to 10f); path(4f to 10f, 20f to 10f, 20f to 21f, 4f to 21f, 4f to 10f); line(12f, 14f, 12f, 17f) }
             Mark.DELETE -> { line(3f, 6f, 21f, 6f); path(8f to 6f, 8f to 3f, 16f to 3f, 16f to 6f); path(5f to 6f, 7f to 21f, 17f to 21f, 19f to 6f); line(10f, 10f, 10f, 17f); line(14f, 10f, 14f, 17f) }
+            Mark.ALL_HYMNS -> {
+                path(4f to 19f, 4f to 4.5f, 6.5f to 2.5f, 20f to 2.5f, 20f to 21.5f, 6.5f to 21.5f, 4f to 19f)
+                line(7f, 7f, 17f, 7f)
+                line(7f, 11f, 17f, 11f)
+                line(7f, 15f, 13f, 15f)
+            }
         }
     }
 }
