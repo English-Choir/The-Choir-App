@@ -1,0 +1,19 @@
+{
+  "version": "1.2",
+  "projectId": "the-choir-app-39f0a",
+  "projectName": "The Choir App",
+  "account": "englishchoir00@gmail.com",
+  "registrations": 458,
+  "sections": 20,
+  "firestoreLocation": "asia-south1",
+  "rulesTestsPassed": 7,
+  "androidUnitTestsPassed": 3,
+  "androidDeviceTestsPassed": 16,
+  "loginUiTestRerunPassed": true,
+  "lintErrors": 0,
+  "lintWarnings": 12,
+  "sourceDataVerified": true,
+  "installedOn": "emulator-5580",
+  "apkSHA256": "D4BE40781C0B98BA67EF3C3F6FCFB7BA0DF717B037D12D6FE99E05003C4A92C2",
+  "checkedAt": "2026-10-19T14:32:20.1373825Z"
+}

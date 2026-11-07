@@ -1,0 +1,195 @@
+Starting a Gradle Daemon, 7 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so.
+
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:generateReleaseBuildConfig
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:generateReleaseResValues
+> Task :app:processReleaseGoogleServices
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:mergeReleaseResources
+> Task :app:parseReleaseLocalResources
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:javaPreCompileRelease
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseStartupProfile
+> Task :app:processReleaseManifestForPackage
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseArtProfile
+> Task :app:mergeReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:compressReleaseAssets
+> Task :app:extractProguardFiles
+> Task :app:processReleaseResources
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :app:processDebugGoogleServices
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:parseDebugLocalResources
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeExtDexRelease
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebug
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:preQaBuild UP-TO-DATE
+> Task :app:mergeQaNativeDebugMetadata NO-SOURCE
+> Task :app:generateQaBuildConfig
+> Task :app:generateQaResValues
+> Task :app:processQaGoogleServices
+> Task :app:checkQaAarMetadata
+> Task :app:mapQaSourceSetPaths
+> Task :app:mergeDebugResources
+> Task :app:generateQaResources
+> Task :app:optimizeReleaseResources
+> Task :app:packageQaResources
+> Task :app:createQaCompatibleScreenManifests
+> Task :app:processDebugManifestForPackage
+> Task :app:parseQaLocalResources
+> Task :app:extractDeepLinksQa
+> Task :app:mergeQaResources
+> Task :app:processQaMainManifest
+> Task :app:processQaManifest
+> Task :app:javaPreCompileQa
+> Task :app:mergeQaShaders
+> Task :app:compileQaShaders NO-SOURCE
+> Task :app:generateQaAssets UP-TO-DATE
+> Task :app:mergeQaAssets
+> Task :app:desugarQaFileDependencies
+> Task :app:mergeQaJniLibFolders
+> Task :app:processQaManifestForPackage
+> Task :app:mergeQaNativeLibs
+
+> Task :app:stripQaDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so.
+
+> Task :app:compressQaAssets
+> Task :app:validateSigningQa
+> Task :app:writeQaAppMetadata
+> Task :app:writeQaSigningConfigVersions
+> Task :app:checkQaDuplicateClasses
+> Task :app:processQaResources
+> Task :app:processDebugResources
+> Task :app:preQaAndroidTestBuild SKIPPED
+> Task :app:mergeLibDexQa
+> Task :app:processQaAndroidTestManifest
+> Task :app:generateQaAndroidTestBuildConfig
+> Task :app:checkQaAndroidTestAarMetadata
+> Task :app:generateQaAndroidTestResValues
+> Task :app:mapQaAndroidTestSourceSetPaths
+> Task :app:generateQaAndroidTestResources
+> Task :app:javaPreCompileQaAndroidTest
+> Task :app:mergeQaAndroidTestShaders
+> Task :app:compileQaAndroidTestShaders NO-SOURCE
+> Task :app:generateQaAndroidTestAssets UP-TO-DATE
+> Task :app:mergeQaAndroidTestAssets
+> Task :app:compressQaAndroidTestAssets
+> Task :app:desugarQaAndroidTestFileDependencies
+> Task :app:checkQaAndroidTestDuplicateClasses
+> Task :app:mergeQaAndroidTestJniLibFolders
+> Task :app:mergeLibDexQaAndroidTest
+> Task :app:mergeQaAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripQaAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningQaAndroidTest
+> Task :app:writeQaAndroidTestSigningConfigVersions
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:mergeQaAndroidTestResources
+> Task :app:mergeExtDexQaAndroidTest
+> Task :app:processQaAndroidTestResources
+> Task :app:mergeExtDexQa
+
+> Task :app:compileReleaseKotlin
+w: file:///C:/Users/griff/Documents/PHANTOM%20INNOVATION/APPs/The%20CHOIR%20App/android/app/src/main/java/com/phantominnovation/choir/FirebaseHostAccess.kt:41:49 Unnecessary safe call on a non-null receiver of type 'DocumentSnapshot'.
+
+> Task :app:compileQaKotlin
+w: file:///C:/Users/griff/Documents/PHANTOM%20INNOVATION/APPs/The%20CHOIR%20App/android/app/src/main/java/com/phantominnovation/choir/FirebaseHostAccess.kt:41:49 Unnecessary safe call on a non-null receiver of type 'DocumentSnapshot'.
+
+> Task :app:compileDebugKotlin
+w: file:///C:/Users/griff/Documents/PHANTOM%20INNOVATION/APPs/The%20CHOIR%20App/android/app/src/main/java/com/phantominnovation/choir/FirebaseHostAccess.kt:41:49 Unnecessary safe call on a non-null receiver of type 'DocumentSnapshot'.
+
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:processReleaseJavaRes
+> Task :app:compileDebugJavaWithJavac
+> Task :app:processDebugJavaRes
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:compileQaJavaWithJavac
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseJavaResource
+> Task :app:dexBuilderQa
+> Task :app:compileDebugUnitTestKotlin
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugUnitTestJavaRes
+> Task :app:mergeQaGlobalSynthetics
+> Task :app:mergeProjectDexQa
+> Task :app:compileReleaseArtProfile
+> Task :app:testDebugUnitTest
+> Task :app:processQaJavaRes
+> Task :app:generateReleaseLintReportModel
+> Task :app:bundleQaClassesToCompileJar
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:generateReleaseUnitTestLintModel
+> Task :app:mergeQaJavaResource
+> Task :app:packageQa
+> Task :app:createQaApkListingFileRedirect
+> Task :app:assembleQa
+
+> Task :app:compileQaAndroidTestKotlin
+w: file:///C:/Users/griff/Documents/PHANTOM%20INNOVATION/APPs/The%20CHOIR%20App/android/app/src/androidTest/java/com/phantominnovation/choir/FirebaseIntegrationTest.kt:180:56 Unnecessary non-null assertion (!!) on a non-null receiver of type 'Catalog'.
+
+> Task :app:lintAnalyzeReleaseUnitTest
+> Task :app:compileQaAndroidTestJavaWithJavac
+> Task :app:dexBuilderQaAndroidTest
+> Task :app:mergeQaAndroidTestGlobalSynthetics
+> Task :app:processQaAndroidTestJavaRes
+> Task :app:mergeProjectDexQaAndroidTest
+> Task :app:mergeQaAndroidTestJavaResource
+> Task :app:packageQaAndroidTest
+> Task :app:createQaAndroidTestApkListingFileRedirect
+> Task :app:assembleQaAndroidTest
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease SKIPPED
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+> Task :app:lintAnalyzeRelease
+
+> Task :app:lintReportRelease
+Wrote HTML report to file:///C:/Users/griff/Documents/PHANTOM%20INNOVATION/APPs/The%20CHOIR%20App/android/app/build/reports/lint-results-release.html
+
+> Task :app:lintRelease
+
+BUILD SUCCESSFUL in 1m 52s
+148 actionable tasks: 148 executed

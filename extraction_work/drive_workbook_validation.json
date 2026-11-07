@@ -1,0 +1,171 @@
+{
+  "checks": [
+    {
+      "folder": "ENTRANCE",
+      "last": 54,
+      "rows": 47,
+      "matched": 29,
+      "review": 0,
+      "missing": 18
+    },
+    {
+      "folder": "LHM",
+      "last": 32,
+      "rows": 25,
+      "matched": 18,
+      "review": 0,
+      "missing": 7
+    },
+    {
+      "folder": "GLORY",
+      "last": 31,
+      "rows": 24,
+      "matched": 16,
+      "review": 0,
+      "missing": 8
+    },
+    {
+      "folder": "RESPONSE",
+      "last": 57,
+      "rows": 50,
+      "matched": 31,
+      "review": 0,
+      "missing": 19
+    },
+    {
+      "folder": "ALLELUIA",
+      "last": 26,
+      "rows": 19,
+      "matched": 14,
+      "review": 0,
+      "missing": 5
+    },
+    {
+      "folder": "OFFERTORY",
+      "last": 43,
+      "rows": 36,
+      "matched": 27,
+      "review": 0,
+      "missing": 9
+    },
+    {
+      "folder": "HOLY",
+      "last": 27,
+      "rows": 20,
+      "matched": 16,
+      "review": 0,
+      "missing": 4
+    },
+    {
+      "folder": "PROCLAMATION",
+      "last": 25,
+      "rows": 18,
+      "matched": 15,
+      "review": 0,
+      "missing": 3
+    },
+    {
+      "folder": "LOG",
+      "last": 28,
+      "rows": 21,
+      "matched": 13,
+      "review": 0,
+      "missing": 8
+    },
+    {
+      "folder": "COMMUNION",
+      "last": 74,
+      "rows": 67,
+      "matched": 37,
+      "review": 0,
+      "missing": 30
+    },
+    {
+      "folder": "THANKS GIVING",
+      "last": 42,
+      "rows": 35,
+      "matched": 22,
+      "review": 0,
+      "missing": 13
+    },
+    {
+      "folder": "RECESSIONAL",
+      "last": 47,
+      "rows": 40,
+      "matched": 25,
+      "review": 0,
+      "missing": 15
+    },
+    {
+      "folder": "OUR FATHER",
+      "last": 24,
+      "rows": 17,
+      "matched": 10,
+      "review": 0,
+      "missing": 7
+    },
+    {
+      "folder": "Z-Grade",
+      "last": 8,
+      "rows": 1,
+      "matched": 0,
+      "review": 0,
+      "missing": 1
+    },
+    {
+      "folder": "WE BELIEVE",
+      "last": 8,
+      "rows": 1,
+      "matched": 1,
+      "review": 0,
+      "missing": 0
+    },
+    {
+      "folder": "Ash",
+      "last": 8,
+      "rows": 1,
+      "matched": 1,
+      "review": 0,
+      "missing": 0
+    },
+    {
+      "folder": "Adoration",
+      "last": 8,
+      "rows": 1,
+      "matched": 0,
+      "review": 0,
+      "missing": 1
+    },
+    {
+      "folder": "Way of the cross",
+      "last": 15,
+      "rows": 8,
+      "matched": 8,
+      "review": 0,
+      "missing": 0
+    },
+    {
+      "folder": "Mission Wedding",
+      "last": 30,
+      "rows": 23,
+      "matched": 9,
+      "review": 0,
+      "missing": 14
+    },
+    {
+      "folder": "SOB",
+      "last": 11,
+      "rows": 4,
+      "matched": 0,
+      "review": 0,
+      "missing": 4
+    }
+  ],
+  "verified": 30,
+  "sourceFiles": 322,
+  "summaryLast": 30,
+  "fileHeader": 37,
+  "fileStart": 38,
+  "fileLast": 359,
+  "output": "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\sx900-registration-extraction\\SX900 Registrations - ENTRANCE reviewed.xlsx"
+}

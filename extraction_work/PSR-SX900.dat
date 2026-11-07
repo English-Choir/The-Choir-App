@@ -1,0 +1,7494 @@
+// InstrumentFile : PSR-SX900.dat
+// Last Edited : MixMaster v22r1  2021-12-29 11:40:40
+//# Edited by Etienne Volbragt
+
+[VOICES]
+// First column = MSB LSB PC (PC value is zero-based)
+// Second column = Voice name
+// Number of Voices : 1424
+000122000;ConcertGrand
+104011000;PopGrand
+104010000;RockPiano
+104013000;UprightPiano
+104013001;PopUpright
+104016004;SuitcaseHard
+104010004;SuitcasePhaser
+000113002;CP80 Stage
+000123005;DX Dynamic
+104008004;VintageEP
+104009000;AmbientPiano
+104014000;70sBalladUpright
+104015000;ChilloutUpright
+104013003;HonkyTonkUpright
+104014001;SaloonUpright
+104007004;SuitcaseSoft
+104009004;SuitcaseBallad
+104013004;SuitcaseJazz
+104011004;SuitcaseDrive
+104012004;SuitcaseTremolo
+104002003;OctavePiano1
+104003003;OctavePiano2
+104014003;UprightOneOctave
+104015003;UprightTwoOctaves
+104001003;CocktailPiano
+104000005;DX Sweet
+000124005;DX Ballad
+104002005;DX BalladBells
+104001005;DX Midnight
+104003005;DX Dream
+104002002;MIDIGrand
+104003002;MIDIGrandPad
+104008000;MIDIGrandSyn
+104012000;Piano&Orchestra
+104014004;SuitcaseWarmth
+104010005;TX Bright
+104011005;TX Mellow
+104012005;TX Warm
+000121005;DX Sparkle
+104015004;VintageEP Drive
+008033020;Clavi JS
+008034020;ClaviFunk JS
+008036020;ClaviAmped JS
+008032112;Harpsichord JS
+000113006;GrandHarpsichord
+008032029;WhiterBars JS
+008032113;JazzRotary JS
+008032030;AllBarsOut JS
+008034029;ClassicBars JS
+008033113;RockOrgan JS
+000121016;CurvedBars
+000111016;EvenBars
+000127016;HollowBars
+000118018;ClassicScanner
+008033029;ProgRockOrgan JS
+010003000;RockOrgan
+010000000;JazzStandard
+010002000;OrganPops
+010005000;BalladOrgan
+010000002;EuroPercussion
+010004000;GospelOrgan
+010001000;UpsideDownSmile
+010006000;OrganClarinet
+010007000;JazzSquabble
+010002002;EuroReeds
+010004002;EuroBright
+010006002;EuroFull
+010001002;EuroBallad
+010004001;HomeHollowTibias
+010005001;HomeOrganEvens
+010003002;EuroEvenWarmth
+010005002;EuroPops
+010007002;EuroMelodic
+010001001;Home16&Odds
+010002001;HomeTheatreOrgan
+010003001;HomeOrganJazz
+010000001;HomeOrganBallad
+104032016;60sComboOrgan1
+104034016;60sComboOrgan3
+000111018;R&B TremoloOrgan
+010006001;HomeOrganWarmth
+010007001;HomeOrganFull
+104033016;60sComboOrgan2
+104035016;60sComboOrgan4
+104000016;OrganAGoGo
+000108017;VintageAccomp1
+000107017;VintageAccomp2
+000106017;VintageAccomp3
+000105017;VintageAccomp4
+000104017;VintageAccomp5
+104037018;HomeAccomp1
+104038018;HomeAccomp2
+104033017;EuroAccomp1
+104034017;EuroAccomp2
+104035017;EuroAccomp3
+104006019;LieblichGedackt
+104004019;Diapason
+104005019;Claribel&Flute
+104007019;SoftReeds
+104001019;GrandJeu
+104002019;FondsEtAnches
+104003019;OrganoPleno
+104000019;ConcertOrganTutti
+000113019;ChapelOrgan1
+000115019;ChapelOrgan2
+104028018;TheatreTibia&Vox
+104029018;TheatreOpenTibias
+104030018;TheatreGambaCeleste
+104031018;TheatreOrganMix1
+104032018;TheatreOrganMix2
+104033018;TheatreOrganMix3
+104034018;TheatreFlute Acmp
+104035018;TheatreStrings Acmp
+104026018;TheatreSeaside
+104036018;TheatreChrys Acmp
+104028017;TheatreChrysoglott
+104029017;TheatreGlockenspiel
+104030017;TheatreXylophone
+104031017;TheatreOrganChime
+104032017;TheatreWoodenHarp
+104016018;TheatrePedal1
+104017018;TheatrePedal2
+000114020;Harmonium1
+000115020;Harmonium2
+000114019;HymnOrgan
+104025018;HomeOrganKinura
+104019018;HomeOrganTrombone
+104021018;HomeOrganCello
+104023018;HomeOrganCornet
+104020018;HomeOrganClarinet
+104022018;HomeOrganHorn
+104024018;HomeOrganViolin
+008032000;ConcertGuitar
+008034001;SpanishGuitar
+008037001;SteelAcousticPick
+008032001;SteelGuitar
+008033006;SemiAcoustic
+008044005;50sVintageSolo
+008045005;50sVintageStage
+008047005;50sHeavyRock
+008038004;CleanFingers
+008045003;BrightChorus
+000117024;NylonGuitarSlide
+104009025;SpanishGuitarSlide
+000118025;SteelGuitarSlide
+008039001;12StringPicked
+008040001;12StringStrum SW
+008035001;FlamencoGuitar
+008036001;SpanishElectro
+104012025;SteelGuitarTwin1
+104013025;SteelGuitarTwin2
+008035000;ElectroAcoustic
+104011025;ChickenPickGuitar
+008038001;ChickenPick SW
+008036003;PedalSteelGuitar
+008052003;PedalSteelAmp
+000118026;AlohaGuitar
+008049005;50sVintageWarm
+008048005;50sVintageDelay
+008037005;50sVintageBlues
+008043005;50sVintageFull
+008054003;50sVintageSpring
+008041003;50sVintageAmp
+008036005;50sVintageRock
+008051005;BigAmpCombo
+008037004;BluesyFinger
+008039004;RoughFingers
+008050005;SoloKing
+008053005;RhythmKing
+008044003;CountryPick
+008040004;CountryPickDrive
+008041004;CountryPickVintage
+008058003;SeventiesChorus
+008056003;ShadowedGuitar
+008057003;SixtiesGuitar
+008042005;50sVintagePure
+008052005;OldiesGuitar
+008043003;FingerAmp
+008050003;FingerBright
+008042003;FingerChorus
+008051003;FingerSlapSlide SW
+008053003;LightChorus
+008054005;70sJazzCombo
+008035004;BrightBlues
+008034004;WarmBlues
+008055003;BluesyNight
+008036004;BluesySlapSlide SW
+008032006;JazzGuitarClean
+008035006;JazzGuitarSmooth SW
+008040006;SolidJazzGuitar
+008039006;JazzArtistGuitar
+008038006;JazzGuitarAmp
+008046003;BalladDelay
+008033003;WarmSolid
+008034003;CleanSolid
+000119028;MutedGuitar
+008049003;FunkSlap
+008046005;50sDriveWahWah
+008055005;HalfWahLead
+008056005;WahWahGuitar
+008039005;OverdriveWahWah
+008041005;ClassicAmpStack
+008040005;GrungeGuitar
+008035005;RockHero
+008038005;StageLead
+008034005;RockLegend
+000118021;MasterAccordion
+104002021;FullRegister
+104001021;AccordionClarinet
+000119021;FrenchMusette
+104003021;CajunAccordion
+000114023;TangoAccordion
+000120021;JazzAccordion
+000114022;BluesHarp
+000112022;Harmonica
+000113022;ModernHarp
+000122021;MasterBass
+104005021;FullRegisterBass
+000121021;AccordionBass
+000123021;MusetteBass
+104006021;CajunAccBass
+000115023;TangoAccBass
+104000021;Cassotto
+000113023;Bandoneon
+000117021;Steirische
+008033049;SeattleStrings
+008036048;SeattleClassical
+008037048;TheatreStrings
+008041048;SeattleLushStrings
+008035049;SeattleSlowStrings
+008033043;Orchestral1stViolin
+008033044;Orchestral2ndViolin
+008033045;OrchestralViola
+008033046;OrchestralCello
+000113045;PizzicatoStrings
+008039048;SeattleWarm
+008043049;SeattleRomance
+008042048;SeattleChamber
+008043048;SeattleStringsPad
+104000044;SeattleTremolo
+008032043;Seattle1stViolins
+008032044;Seattle2ndViolins
+008032045;SeattleViolas
+008032046;SeattleCellos
+008032047;SeattleBasses
+008032049;ConcertStrings
+008032048;StudioStrings
+008034049;BalladStrings
+008040048;BigStrings
+008034047;SeattleQuartet
+008033048;Spiccato
+104006048;SeattleSpiccato
+104001044;SeattleStrings sfz
+000115045;PizzicatoGlocken
+104001049;TheatreOrchestra
+000123049;DiscoStrings1
+000124049;DiscoStrings2
+000112050;SynthStrings1
+000113050;SynthStrings2
+000113051;OberStrings
+008034043;Classic1stVns
+008034044;Classic2ndVns
+008034045;ClassicViolas
+008034046;ClassicCellos
+104001046;OrchestralHarp
+000125048;Watariyat
+000114025;Mandolin
+000113105;Oud
+104000105;Banjo1
+000112105;Banjo2
+104000104;Sitar1
+000113104;Sitar2
+104001015;Zither1
+104000015;Zither2
+104000046;MellowHarp
+000113110;ErHu
+000119105;PiPa
+000112106;Shamisen
+000112107;Koto
+000113107;Kanoun
+104002046;Hackbrett1
+000113046;Hackbrett2
+008032064;BrightTrumpet
+008037064;BigBandTrumpet
+008034064;GoldenTrumpet
+008033064;SilverTrumpet
+000114059;MutedTrumpet
+000119056;Cornet
+104000059;MutedCornet
+000118056;Flugelhorn
+104000057;BrightTrombone
+000117057;SweetTrombone
+104000061;PopHorns
+008044056;PopHornsBright
+008043056;PopHornsMellow
+104003061;PopHornsAccent
+104005061;PopHornsCresc
+008041056;WarmPopHorns
+104004061;PopHornsShake
+008046056;PopHornsDoit SW
+008047056;PopHornsFall SW
+008048056;PopHornsSwell JS
+104003056;OrchTrumpets
+104003057;OrchTrombones
+104000060;OrchHorns
+104009061;OrchTpts&Tbns1
+104010061;OrchTpts&Tbns2
+104013061;OrchHorns&Tbns
+104012061;OrchBrassOctave
+104011061;OrchHornsPad
+104008061;SymphonyBrass
+104014061;BrassBand
+104004056;OrchTrumpetsFast
+104004057;OrchTrombonesFast
+104004060;OrchHornsFast
+104015061;SymphonyHornsFast
+008033060;WarmOrchHorns
+104001060;SymphonyHorns
+104003060;StoppedOrchHorns
+104002060;SymphonyHornsOct
+008032060;SoftOrchHorns
+104000058;Tuba
+008045056;PopHornsCresc JS
+008042056;BrightHornSection
+000127061;DynamicBrass
+000121062;PowerBrass
+000105061;Sforzando
+000107061;SforzandoFall
+008036056;SmoothBrass
+000113033;AlpBass
+000114058;BaritoneHit
+000113058;BaritoneHorn
+008037056;BigBandBrass SW
+000110066;BigBandHorns1
+000109066;BigBandHorns2
+000108066;BigBandOctave
+000113059;BallroomBrass
+104006061;BalladBrass
+104002061;MuteSwingHorns
+104001061;WarmSwingHorns
+008034056;BrassFalls&Doits JS
+008032056;BrassShake JS
+104009062;80sSynthBrassStab
+104010062;80sSynthBrassTack
+104044081;80sStackBrass
+104014095;80sSynthProSwell
+104015095;80sSynthSlowSwell
+000113062;80sBrass
+104001062;80sSynthBrassProf
+104000062;80sSynthBrassThin
+104006062;FastPWM Brass
+000116063;FatSynthBrass
+000112063;AnalogBrass
+000115062;FunkyAnalog
+000113063;OberBrass
+000115063;OberHorns
+104002062;SlowPWM Brass
+000114063;SoftAnalog
+000120062;SoftVelocityBrass
+000114062;TechnoBrass
+008032082;Saxophone
+008035082;BigBandSax
+000127066;PopTenor
+008033082;RockSax JS
+000126066;BalladTenorSax
+000113064;SopranoSax
+008032066;CleanAltoSax
+008034066;SoftAltoSax
+000111066;GrowlSax
+104000067;BaritoneSax1
+000116066;SaxSection
+008038082;SmoothSaxes1
+008036082;SmoothSaxes2
+008037082;SmoothSaxesOctave
+000119066;BalladSection
+000122066;SaxSectionHard
+000121066;SaxSectionSoft
+008039082;MellowSaxes
+000123066;SaxAppeal
+000115071;Moonlight
+008032073;OrchestralFlute
+000115073;ClassicalFlute
+000113068;ClassicalOboe
+104000071;OrchestralClarinet
+104000070;OrchestralBassoon
+104002073;Flutes&Oboes
+104001071;Clarinet&Flutes
+104001068;Clarinet&Oboe
+000112069;EnglishHorn
+000112072;Piccolo
+000114073;JazzFlute
+008032068;MOR Oboe
+000114071;JazzClarinet
+104002071;GermanClarinet
+000112078;Whistle
+104002068;DoubleReeds
+000116073;FluteEnsemble
+104001073;FluteSection
+104001070;OrchWoodwind
+000112074;Recorder
+000112109;Bagpipe
+000112079;Ocarina
+000113075;PanPipes
+000114077;Nay
+000118073;DiZi
+000116109;Sheng
+000112077;Shakuhachi
+008042055;JazzScatVocals SW
+008050055;JazzScatLegato
+008032051;BoysChoirOoh
+008033051;BoysChoirAah
+008040055;PopVocals
+104004099;80sHarpvox
+104014050;80sDreamStrings
+104013051;80sMiamiStrings
+104015050;80sPopStrings
+104016050;80sBalladPad
+008045055;JazzScatShoo SW
+008046055;JazzScatDwee SW
+008032054;GospelVocalsHmm
+008033054;GospelVocalsWow
+008034054;GospelVocalsHey
+104010089;80sSoftPad
+104013095;80sFifthSlow
+104000054;80sBreathyVoice
+104001054;80sDreamyVox
+104011089;80sWarmVCF Pad
+008041055;LatinVocals SW
+008048055;Do-Be-Do-Be SW
+008055055;Shoo-Ba-Doo-Ba SW
+008032055;Shoo-Bee-Doo-Bah1 SW
+008047055;Shoo-Bee-Doo-Bah2 SW
+008035055;Shoo-BeeDynamic SW
+104012053;GospelHmm
+008035054;GospelWow-Hey SW
+008037054;GospelWow-Hey JS
+008036054;GospelHmm-Aah JS
+008037051;BoysChoirOoh f
+008038051;BoysChoirAah f
+008049055;BoysChoirOh-Ah SW
+104007052;GospelHey
+104015052;AccompAah
+008035051;BoysChoirOoh p
+008036051;BoysChoirAah p
+008034051;BoysChoir JS
+104013053;GospelWow
+104015053;AccompOoh
+008036055;Ba-Da-Yah
+008051055;Ya-Ba-Da-Ba SW
+008052055;Do-We-Yo-Be SW
+008053055;What-Should-We-Do SW
+008040039;SoftWah
+008039055;Hoo-Wah SW
+008056055;Hoo-WeeAuto SW
+008054055;Who-Are-You SW
+008043055;BaroqueScat SW
+008049040;Ahh-OohAuto SW
+008034040;BoysOoh
+008040040;BoysDoo
+008034039;BoysHaa
+008035040;BoysOohVibrato
+008038039;Wah
+008036040;GirlsOoh
+008041040;GirlsDoo
+008035039;GirlsHaa
+008037040;GirlsOohVibrato
+008039039;WahVibrato
+008032040;Ooh
+008045039;Daa
+008041039;Baa
+008038040;Doo
+008032039;Haa
+008033040;OohVibrato
+008046039;DaaVibrato
+008042039;BaaVibrato
+008039040;DooVibrato
+104004052;BeeVibrato
+104037088;80sGlassyHook
+104010088;NewHeaven
+104011088;FantasyBells
+104013088;ItopiaBells
+104018088;Sinesphere
+104003091;HeavenPad
+104015088;BreathBells
+104012088;OrganBells
+104016088;SkyBells
+104005094;SpectrumPad
+104000093;EarlyDigital
+104007101;Digisweeper
+104006094;MysticPad
+104004095;DeepMotion
+104006095;PadVoices
+104001101;CrossPhase
+104004089;NewAtmosphere
+104002095;HotSwell
+104001095;SpaceRider
+104000091;BreathPad
+104001088;NobleMan
+104003089;DarkLight
+104004050;OctaveStrings
+104000088;AmbientPad
+104010050;MedDetunedStrings
+104002089;DarkFatSaw
+104000095;Trance
+000120089;AnalogPad
+104000094;MorningDew
+104000101;PercPad
+104014088;SpectrumTheme
+104009051;NextGeneration
+104020088;AmbientTheme
+104004091;HybridLines
+104000089;VP Soft
+104003095;DouxFlange
+104002051;LightPad
+104002050;ButterStrings
+104000050;MediumTunePad
+104004090;BrightPadTrance
+104006051;ChillinChords
+104003050;BrightPopPad
+104001050;SoftEnsemble
+104005090;BrightFatSaw
+000122089;LitePad
+000112090;PopPad
+104006101;AllOrNothing
+104003051;AnaDayz
+104000092;WhisperGallery
+104003088;GalaxyPad
+104001094;Aerosphere
+104002099;NylonHeaven
+104017088;AiryHarp
+104003094;SoundPictures
+104011101;Atlantis
+008032017;VintageRound
+008033017;VintageFlat
+008032018;VintageMute
+008032019;FretlessBass
+000112036;SlapBass
+104000034;VintagePickMute
+000112033;MellowFinger
+008032016;AcousticBass
+008033016;SoftAcousticBass
+008034016;AcousticJazzBass
+000114033;ElectricBass
+000115033;HalfMute
+000113034;PickDynoBass
+000113035;SuperFretless
+000113036;FusionBass
+000112034;PickBass
+104002034;VintageDyno
+000112037;FunkBass
+000114034;RockBass
+104000032;BallroomBass
+104024038;BerlinDroneBass
+104025038;EDM ClassicOctBass
+104026038;EDM DanceBass1
+104027038;EDM DXBass
+104028038;EDM ElectroHardBass
+104029038;EDM TransistorBass
+104030038;EDM PitchyPulseBass
+104025039;EDM DanceBass2
+104026039;EDM FatSquareBass
+104027039;EDM GarageBass
+104028039;EDM HeavyDubBass
+104031038;MonolanBass
+104032038;MonolanCombiSolid
+104033038;Q HouseBass
+104034038;VM SawBass
+104023039;ClassicBassEnvelope
+104024039;ClassicBassSustain
+104029039;OrganHouseBass
+104030039;PluckHouseBass
+104031039;RegistrationBass
+104032039;BasicBass
+104033039;SawClickBass
+104034039;SolidBass
+104012038;80sDynFilterBass
+104013038;80sFM MetalBass
+104014038;80sEX PulseBass
+104015038;80sPulseBass
+104017038;80sSynthPopBass
+104018038;80sSeqBass
+104019038;80sArnoldBass
+104020038;80sRetroPulseBass
+104022038;80sUnisonBass
+008032122;BPF Buzz JS
+008033122;Wobble JS
+008034122;RampBass JS
+008035122;SquarePluck JS
+104019087;ModernPop
+104021087;BriteDubBass
+104022087;Pulse&Saw
+104023087;TwentyFive
+104024087;PunchySquare
+104025087;Softwood
+104026087;PunchyDX
+104027087;DarkSeqBass
+104028087;PumpingSaw
+104029087;PumpingSquare
+104005039;SubCutBass
+104010038;DynoAcidBass
+104006039;MiniSub
+104011038;FatSineResonance
+104007039;BalladBass
+104017081;VelocityMaster
+000114039;SubBass
+000114038;HardBass
+000112038;ResonanceBass
+000116038;HouseBass
+000118038;BigDrone
+000117039;TB Bass
+000110101;LFO SynBass
+000118039;DX100Bass
+000119038;FatLoBass
+000119039;RampBass
+000120039;DarkCoreBass
+000121039;FunkBass
+000122039;BleepBass
+104027017;ClickOrganBass
+104018087;DeepSub
+104020087;MultiSawBass
+104002086;80sUnisonFifth
+104040081;80sPowerEnvelope
+104041081;80sArnoldLead
+104042081;80sBigLines
+104043081;80sSmartStack
+104045081;80sPitchySaw
+104014084;80sUnisonLead
+104046081;80sSmallPulse
+104047081;80sCheapMod
+104048081;80sTakeMeOut
+104049081;80sPolyPop
+104050081;80sUnisonFat
+104037087;80sResoPercSynth
+104039087;80sBellSynthStick
+104040087;80sPercSynth&Bell
+104017080;80sSmallPulsePoly
+104015084;80sFM Polystar
+104051081;80sUnisonPoly
+104042087;80sInterlude
+104043087;80s5thDigiSequence
+104044087;80sGlassyComp
+104047087;80sSharpPerc
+104048087;80sShortStepper
+104018080;80sBitSquareArp
+104050087;80sSawAttackArp
+104016080;80sLFO PulseLead
+104049087;80sSyncMove
+104038087;80sPunchySynth
+104045087;80sWoodenArp
+104041087;80sStaccatoComp
+104019090;Crowds
+104020090;Gemini
+104021090;HandsUp!
+104022090;StraightRaver
+104023090;TranceArtist
+104010090;NastySaw
+104011090;GrowlingHook
+008036123;WheelTech JS
+000120081;WireLead
+000114087;CryingLead
+104008084;PitchyPatch
+104009084;SoftChordSynth
+104026088;SquareStepz
+104028088;TriPicks
+104029088;Cracky
+104007081;PunchLead
+104003062;ClubLead
+104000090;HPF Dance
+104009081;DancyHook
+104020081;1984Synth
+104002084;LektroCodes
+104006088;BalladComp
+104007088;BrightPadBell
+104017090;Cyclist
+104016090;HardTeeth
+008034123;CoolHiPa JS
+008033123;FourStack JS
+008035123;NuLine JS
+008037123;Redoubling JS
+008032123;SquareStack JS
+104015090;LoonyLead
+104014090;Persecutor
+104018090;TenPercent
+104025090;TrancyChordz
+104013090;UnstableLead
+104012090;Yipping
+104012084;ArpeggioLine
+104010084;ChordBuddy
+104004084;ShortUnison
+104007084;StaccMelody
+104006084;TekkTune
+104011084;TuneComp
+104009050;UnisonStrings
+104027088;DynaSequence
+104025088;PWM Picks
+104024088;SoftStepper
+104001122;TrancyNoise
+104001011;Vibraphone
+104000012;Marimba
+104000013;Xylophone
+104000009;Glockenspiel
+000114011;Vibes&Flutes
+127000017;RockDrumKit
+127000073;PopDrumKit
+127000075;JazzBrushKitComp
+127000066;80sPopKit
+127000067;80sR&B Kit
+000113011;JazzVibes
+000112008;Celesta
+000112014;TubularBells
+000112047;Timpani
+008033011;Vibes&JazzGuitar
+127000068;DubstepKit
+127000070;ElectroKit
+127000071;TrapKit
+127000072;SchlagerKit
+127000069;EDM Kit
+126000045;PopPercKit
+126000043;PopLatinKit1
+126000044;PopLatinKit2
+126000040;CubanKit
+126000067;TurkishKit
+126000114;IndianKit
+126000036;ArabicKit1
+126000064;ArabicMixKit
+126000124;ChineseKit
+127000127;ChineseMixKit
+126000106;VocalBeatbox
+126000020;BassDrumKit
+126000021;ReverseBD Kit
+127000058;AnalogT8Kit
+127000059;AnalogT9Kit
+127000091;RealDrumKit
+127000041;RealBrushesKit
+127000090;RockKit
+127000089;AcousticKit
+127000048;SymphonyKit
+000112108;Kalimba
+000112015;Dulcimer
+000112114;SteelDrums
+000112010;MusicBox
+000112055;OrchestraHit
+104008088;StackBell
+104009088;NiceBell
+126000110;GospelAdLibs
+126000109;VocalEffectsKit
+127000061;DrumMachine
+127000087;PowerKit1
+127000088;PowerKit2
+127000086;StudioKit
+127000008;RoomKit
+127000032;JazzKit
+127000025;AnalogKit
+127000056;HipHopKit
+127000027;DanceKit
+127000057;BreakKit
+127000060;HouseKit
+127000004;HitKit
+126000049;CymbalKit
+126000008;NoisesKit
+126000002;NewSFX Kit1
+126000003;NewSFX Kit2
+104000126;Applause1
+104001126;Applause2
+104000122;SeaShore
+104000125;Helicopter
+104000127;GunShot
+000115000;ConcertGrand
+000113000;GrandPiano
+000112001;BrightPiano
+000114000;WarmGrand
+104005000;PopGrand
+104004000;RockPiano
+104003000;AmbientPiano
+104000003;CocktailPiano
+000113003;OctavePiano1
+000114003;OctavePiano2
+000112003;HonkyTonk
+104000002;MIDIGrand
+104001002;MIDIGrandPad
+104001000;MIDIGrandSyn
+104002000;PianoOrchestra
+000112002;MIDIGrand
+000112006;Harpsichord
+000119004;ElectricPiano
+000113004;TremoloSuitcase
+000118004;SuitcaseEP
+000116004;VintageEP
+000117004;StageEP
+000120004;PhaseEP
+000115005;ModernEP
+000112004;FunkEP
+000119005;SmoothTine
+000113005;HyperTines
+000116005;NewTines
+000118005;JazzChorus
+000114002;BalladStack
+000120005;ChorusBell
+000114004;GalaxyEP
+000114005;VenusEP
+000115004;PolarisEP
+000117005;SuperDX
+000112005;DX Modern
+104000004;Magnetics
+000112007;ClaviBright
+000113007;WahClavi
+000115007;PhaseClavi
+000114007;StereoClavi
+000117018;RotaryOrgan
+000117016;ClassicJazz
+000111017;HoldItFast
+000115018;FullRocker
+000109017;TwoChannels
+000115017;MellowVintage
+000127017;JazzFast
+000126017;JazzSlow
+104001017;WhiterBarsSlow
+104000017;WhiterBarsFast
+104001018;AllBarsOutSlow
+104000018;AllBarsOutFast
+104002018;AllBarsPhase
+000112017;ClickOrgan
+000113017;DanceOrgan
+000116016;BrightDrawbar
+000120017;DrawbarOrgan1
+000115016;DrawbarOrgan2
+000118017;ElectricOrgan
+000119016;GospelOrgan
+000112016;JazzOrgan1
+000113016;JazzOrgan2
+000120016;JazzOrgan3
+000119017;PercOrgan
+104003018;FullRocker2
+000114018;PurpleOrgan
+000112018;RockOrgan1
+000119018;RockOrgan2
+000113018;RockOrgan3
+000116018;RotaryDriveOrgan
+000110017;RotarySwitch
+000116017;60sOrgan
+000112019;FullOrgan
+000127018;FullTheatre
+000126018;SweetTheatre
+104005017;TibiaChorus
+104008016;Tibia16'&4'
+104009016;Tibia8'&4'
+104010016;Vox&Tibia
+104006017;Tibia8'
+104007017;VoxHumana8'
+000125017;Trumpet&Kinura
+000118016;EuroOrgan
+000115003;BallroomOrgan
+000123016;Kinura8'
+000124016;TheatreTrumpet
+000124017;Trumpet16'&8'
+000122017;Tibia8'Accomp
+000122016;Tibia8'&4'Accomp
+000114016;Tibia16'&4'Accomp
+000114017;TibiaFullAccomp
+000123017;Vox8'Accomp
+000125016;Vox&TibiaAccomp
+000112020;ReedOrgan
+000126016;ClassicJazz
+010000008;OrganFlutes
+010001008;USDSmile
+010002008;ReggaeBars
+010003008;WarmTheatre
+010004008;OrganPops
+010005008;RockOrgan
+010006008;SoulPercussion
+010007008;GospelTruth
+010008008;PadOrgan
+010009008;FullOrgan
+010000009;StringBars
+010001009;LatinSpin
+010002009;ShadyBars
+010003009;FunkOrgan
+010004009;BalladOrgan
+010005009;RichBars
+010006009;TrumpetBars
+010007009;SoulBars
+010008009;ClariBars
+010009009;JazzSquabble
+010000010;EuroPerc
+010001010;BalladEuro
+010002010;EuroReeds
+010003010;EvenWarmth
+010004010;BrightEuro
+010005010;EuroPops
+010006010;FullEuro
+010007010;EuroAccomp1
+010008010;EuroAccomp2
+010009010;EuroAccomp3
+008034000;NylonGuitar SW
+000119024;NylonMute
+000116024;DynamicNylonGtr
+000115024;ClassicalGuitar
+008033000;FlamencoGuitar
+000118024;HardFlamenco
+104010025;SteelAcoustic
+000116025;DynamicSteelGtr
+000120025;SteelMute
+000117025;SteelGuitar
+000113025;12StringGuitar
+000119025;18StringGuitar
+008033001;FolkGtHarmonics SW
+000112025;FolkGuitar
+000115025;CampfireGuitar
+000109027;BalladSolid
+000116027;BrightClean
+000124027;ChorusGuitar
+000107027;ChorusSolid
+000114027;DeepChorus
+008035003;CleanElectric SW
+000112027;CleanGuitar
+104003027;CleanSolid
+000117027;60sCleanGuitar
+104004027;CoolWahGuitar
+000118028;DynamicMute
+000114028;ElectricGuitar
+000119027;Electric12String
+000116028;FunkGuitar
+000113028;FunkGuitar
+000112028;MutedGuitar
+008039003;SingleCoilClean
+104000027;Slapback
+000108027;SlapSolid
+000117028;SlideClean
+104005027;SlideFinger
+104007027;SlidePick
+104008027;SlidePickAmp
+000110027;SlideSolid
+104006027;SlideWarm
+000121027;SolidChord
+008038003;70sSolidGuitar
+104001027;70sSolidGuitar
+000118027;SolidGuitar
+000113027;TremoloGuitar
+000111027;TremoloSolid
+008040003;VintageAmp
+008047003;VintagePure
+008048003;VintageSlap
+104000028;VintageMute
+000123027;VintageOpen
+000126027;VintageStrum
+000120027;VintageTrem
+000115028;50sVintageMute
+000122027;WahGuitar
+008032003;WarmElectric SW
+104002027;WarmSolid
+104000026;SlideJazzGuitar
+000115026;JazzGuitar
+000116026;JazzSoloGuitar
+000117026;DX JazzGuitar
+104001026;LoungeGuitar
+000113026;OctaveGuitar
+000117029;BluesGuitar
+104002030;StereoRockGuitar
+008032004;HeavyRockGuitar
+008032005;GuitarHero
+104000030;GuitarHero
+000113030;CrunchGuitar
+000112030;DistortionGuitar
+008033004;Feedbacker JS
+000113029;FeedbackGuitar
+104001030;HeavyRock
+000114030;HeavyStack
+000120030;MetalMaster
+000115030;PowerLead
+000117030;PowerChord
+000116030;VodooLead
+008033005;CrunchGuitar
+008037003;HalfDrive
+104000029;HalfDrive
+000125027;VintageLead
+000114029;LeadGuitar
+000116029;RockGuitar
+000112029;OverdriveGuitar
+000119026;SmoothLead
+000115029;VintageAmp
+000115027;PedalSteelGuitar
+104001034;VintagePick
+104001033;VintageRound
+104002033;VintageFlat
+104003033;VintageMute
+000112035;FretlessBass
+104001032;AcousticBass2
+000112032;AcousticBass3
+104002032;SoftAcousticBass
+000114032;Bass&Cymbal
+104000039;LoBass
+104001039;DarkBass
+104000038;MoonBass
+104001038;KickBass
+104002038;ClubBass
+104002039;FatPulse
+104003080;WazzoSaw
+104003038;DeepPoint
+104003039;TightBass
+104004038;Competitor
+104005038;1o1Sub
+104006038;LittleBassSynth
+104007038;TeknoBass
+104008038;PercPunch
+104004039;SquareBass
+104009038;TranceBass
+000115038;ClickBass
+000117038;PunchyBass
+000112039;AnalogBass
+000113037;DX FunkBass
+000116039;DrySynthBass
+000115039;80sSynthBass
+000113038;HiQ Bass
+000116021;Accordion
+000112023;BallroomAccordion
+000112021;MusetteAccordion
+000115021;SmallAccordion
+000114021;SoftAccordion
+000113021;TuttiAccordion
+000113040;Violin
+000112041;Viola
+000112110;Fiddle
+000112042;Cello
+000112043;Contrabass
+000112040;SoloViolin
+008040049;SeattleStrings f
+008041049;SeattleStrings mf
+008042049;SeattleStrings p
+104004049;SeattleStrings f
+104005049;SeattleStrings mf
+104006049;SeattleStrings p
+000119048;Strings f
+000118048;Strings mf
+000117048;Strings p
+000120048;Spiccato
+000112045;Pizzicato
+008034048;TremoloBowing JS
+000113044;TremoloStrings
+000112044;TremoloStrings
+000117049;Strings Pad
+000123048;MovieStrings
+000124048;DynamicStrings
+000112049;ChamberStrings
+000116048;BowStrings
+000115048;ConcertoStrings
+000122049;Allegro
+000115049;Marcato
+000116049;Orchestra
+000113048;OrchStrings
+000113049;SlowStrings
+000121048;StringFalls
+000114049;StringQuartet
+000112048;Strings
+000114048;Symphonic
+000120049;OrchestraTutti
+104000049;SymphonicUnison
+000119049;Orchestra&Flute
+000121049;Orchestra&Oboe
+000118049;Orchestra&Horns
+000112051;AnalogStrings
+000112104;Sitar3
+000112046;Harp
+008038064;TrumpetFall JS
+008035064;TrumpetShake JS
+000115056;Trumpet
+000121056;SilverTrumpet
+000122056;GoldenTrumpet
+000120056;MellowTrumpet
+000116056;JazzTrumpet
+000112056;SoloTrumpet
+000112059;MutedTrumpet
+000113056;Flugelhorn
+000112057;SoloTrombone
+000116057;Trombone
+000115057;SoftTrombone
+000114057;MellowTrombone
+000118057;SmoothTrombone
+000112058;Tuba2
+008034060;MutedHorns
+000112060;FrenchHorns
+000117060;SoftHorns
+000115060;SymphonyHorns2
+000119061;MellowHorns
+000118060;SoftTrombones
+000113057;TromboneSection
+000109061;AccentBrass
+000108061;Brass f
+000110061;Brass mf
+000111061;Brass p
+008035056;BrassFalls mf JS
+000119060;SymphonyBrass
+000106061;BrassDynamics
+000117062;PopBrass
+008038056;AccentFalls JS
+000118062;HyperBrass
+000120060;SmallBrass
+000116062;OctaveBrass
+000123056;BrassBand
+000113061;BigBandBrass
+000121061;BigBrass
+000115066;BrassCombo
+000126061;BrassHit
+000112061;BrassSection
+000116060;BreathBrass
+000120061;BrightBrass
+000114061;FullHorns
+000115061;HighBrass
+000116061;MellowBrass
+000124061;NaturalBrass
+000125061;Sforzando
+000117061;SmallBrass
+000123061;SoftBrass
+000122061;TrumpetEns
+000119062;HybridComp
+000113060;Hybrihorn
+000114060;Hybripad
+000118061;PopBrass
+000112062;SynthBrass
+104000073;OrchestralFlute
+000112073;Flute
+104000068;OrchestralOboe
+000112068;Oboe
+000112071;Clarinet
+000112070;Bassoon
+000112064;SopranoSax
+104000065;PopAltoSax
+000114065;AltoSax
+000112065;AltoSax
+104000066;Saxophone
+000125066;SweetTenorSax
+000117066;TenorSax
+000112066;TenorSax
+000118066;GrowlSax
+000112067;BaritoneSax2
+000113073;ChiffPanFlute
+000112075;EthnicFlute
+000124066;SaxStack
+000113066;WoodwindsEns
+000120066;SaxyMood
+104012052;Baa
+104013052;Daa
+104016053;Doo
+104009052;Haa
+104017053;Ooh
+104010052;Wah
+104018053;Yoo
+008042040;Yoo
+008043040;YooVibrato
+008033039;BoysHaaVibrato
+104008053;BoysChoirOoh
+104008052;BoysChoirAah
+000116052;GospelVoices
+000118052;Humming
+000117052;Mmh
+000113053;GothicVox
+000114052;HahChoir
+000112054;AirChoir
+000112052;Choir
+000115052;UuhChoir
+000113054;Voices
+000112053;VoxHumana
+000116094;HahPad
+000123088;Sunbeam
+000119095;AnalogSwell
+000112089;Area51
+104006089;Atmo5th
+000113095;BrightOber
+104003090;BrightPadClassic
+000113089;DarkMoon
+000118095;DarkPad
+000114089;Dunes
+000112094;Equinox
+000117101;EveningStars
+000112088;Fantasia
+000114093;GlassPad
+000114090;GloriousPhase
+000115088;GoldenAge
+000115094;Ionosphere
+000117095;MellowPad
+000116095;Messenger
+104003101;MidnightSpecial
+000115089;NeoWarmPad
+104004088;NightMotion
+000115095;OberSweep
+000120088;PanHeaven
+104002088;PearlsPad
+000122088;ProHeaven
+000118101;PsychoPad
+000115101;S&H Groove
+000114101;Sirius
+000112101;Skydiver
+000114094;Solaris
+000119089;SuperDarkPad
+104001089;VaporPad
+000112095;Wave2001
+000112091;XenonPad
+000119088;BellHeaven
+000121088;DreamHeaven
+000114088;Stargate
+000118088;SweetHeaven
+104001051;80sPad
+000112092;DX Pad
+104019088;Pianosphere
+104003099;PianoSweeper
+000114098;AngelVibes
+000112099;Atmosphere
+104005088;Bellsphere
+000115090;BigOctavePad
+000113090;BrightSawPad
+000113101;Bubblespace
+000113099;CyberPad
+000121089;DarkAngelPad
+000115093;DigitalPad
+000116089;Disclosure
+000112097;FarEast
+104001099;FlyingHarmonics
+000114095;HipaStrings
+104022088;HybridPad
+000113094;Insomnia
+000114099;Mediterrain
+104008101;MetallicRain
+000117088;Millennium
+104005101;MyGeneration
+000113097;Mystery
+104000099;NylonPad
+104000051;PremiumPad
+104005089;RainyDay
+104010101;Randomizer
+104021088;ReflectingZone
+104002101;SixthSense
+104004094;Spectralis
+000113088;Symbiont
+104009101;TheFog
+000116088;TimeTravel
+104002097;Tric-Trac
+000116101;VelocityAshrami
+104002094;WarpedWaves
+104004101;WaterGames
+008032120;MagicBell
+000113084;Adrenaline
+000112083;AeroLead
+000115081;Analogon
+000126081;AttackSaw
+000113081;BigLead
+104000084;BleepLead
+000113055;BrassHit
+104005062;BrassyLead
+000125080;BrightMini
+104001084;DetunedVintage
+000118081;EarlyLead
+000119081;Fargo
+000116081;FireWire
+104002081;FlangeFilter
+104015081;FusionLead
+000116080;HiBias
+000118084;HipaLead
+000113080;HipLead
+000117080;HopLead
+000113087;Impact
+000123081;Matrix
+000114080;MiniLead
+104000081;MouthLead
+000122081;Oxygen
+000127081;PunchyHook
+104001081;PWM Lead
+000112081;SawLead
+000115084;Skyline
+000124080;SoftMini
+000119080;SoftR&B
+104016081;SoftSaw
+104005080;SoftSquare
+000112080;SquareLead
+104000080;SubLead
+000117084;TechLead
+000116084;Tekkline
+000118080;TinyLead
+000125081;TrumpetSaw
+000115080;VinylLead
+000117081;Warp
+104007051;FatSawHook
+104003087;AnalogSeq
+104004081;Attack
+000125088;CrystalEyes
+104002087;DigitalSequence
+000117089;MelodyMaker
+000126088;Padbells
+000122080;PanLead
+104007087;PercSeqFM1
+104008087;PercSeqFM2
+104006087;PercSeqFS
+104009087;PercSeqHipa
+104011081;PercSeqSaw
+000123080;PercSquare
+104000103;PitchFall
+000120080;PopLead
+000112084;Portatone
+000113083;ProLead
+104006081;PWM Percussion
+104004080;PWM Wild
+104004062;ResonanceComp
+104002090;ResonantClavi
+104012081;SimpleComp
+000112098;Stardust
+000124088;StringBells
+000113098;SunBell
+104005081;TrancePerc
+104004087;TranceSeq1
+104005087;TranceSeq2
+104001090;TranceSeq3
+104001087;Xtune
+000118089;BigTune
+104005084;BriteDecay
+104001097;EasternAir
+104004051;FaaatComp
+104000100;HeavenBell
+000120122;Noise
+104001104;Nomad
+104000097;SazFeeze
+104000106;SynthSticks
+000114081;Blaster
+104013081;Chordmaster
+104010081;ChorusSawLead
+104005051;DanceChords
+000112086;DanceHook
+104008081;DetunedSawOctave
+000121081;FunkyLead
+000104101;LFO Pad
+000108101;LFO Sync1
+000107101;LFO Sync2
+000109101;LFO Sync3
+000106101;LFO Sync4
+000105101;LFO Sync5
+000113086;OctaveHook
+000126080;OrbitSine
+000114084;Paraglide
+104024090;PunchyChordz
+000124081;Robolead
+000105081;RS Sync1
+000119087;RS Sync2
+104000087;TalkModLead
+104014081;TechGlide
+000112087;UnderHeim
+104003081;VinalogSaw
+000126089;RS AnalogPad
+000114083;RS DistortionLead
+000109081;RS DualSaw
+000127080;RS DualSquare
+000124089;RS NoisePad
+000119084;RS QuackLead
+000107081;RS RampLead
+000104081;RS SawLead1
+000106081;RS SawLead2
+000116090;RS ShortResonance
+000123089;RS SynthPad
+000108081;RS TechSaw
+000125089;RS TeknoMan
+000113091;RS WarmPad
+000121080;TranceLead
+000112011;Vibraphone
+000112012;Marimba
+000112013;Xylophone
+000112009;Glockenspiel
+127000016;RockKit
+127000040;BrushKit
+127000000;StandardKit1
+127000001;StandardKit2
+127000024;ElectroKit
+126000035;ArabicKit2
+126000000;SFX Kit1
+126000001;SFX Kit2
+008000000;NylonGuitar
+008003000;FlamencoGuitar
+008004000;SpanishMedium
+008005000;SpanishHard
+008001001;SteelAcousticPick
+008002001;SteelAcousticSlap
+008000001;SteelGuitar
+008005001;SteelGuitarTwin1
+008006001;SteelGuitarTwin2
+008001002;12StringGuitar
+008007001;12StringPickTwin1
+008008001;12StringPickTwin2
+008000002;HiStringGuitar
+008000003;CleanGuitar
+008004003;50sVintageFinger
+008005003;50sVintageFingerSlap
+008001003;SolidGuitar1
+008002003;SolidGuitar2
+008003003;SingleCoilGuitar
+008008003;SlapAmpGuitar
+008006003;50sVintagePick
+008007003;50sVintageSlap
+008000006;JazzGuitar
+008000005;DistortionGuitar
+008000004;OverdriveGuitar
+008000016;AcousticBass
+008000017;ElectricBass
+008000018;PickBass
+008002017;VintageFlat
+008001018;VintagePick
+008001017;VintageRound
+008000019;FretlessBass
+008001048;ClassicalStrings
+008001049;SeattleStrings
+008000049;LargeStrings
+008000048;SmallStrings
+008000064;Trumpet
+008001056;PopHorns1
+008002056;PopHorns2
+008000056;Brass
+008000082;TenorSax
+008000054;GospelChoir
+008000051;MaleVoiceChoir
+008000100;PopHaa
+008000101;PopDaa
+008000102;PopBaa
+008000105;PopHoo
+008000106;PopDoo
+008000103;PopShoo
+008000110;PopHee
+008000107;PopBee
+008000115;PopHaaLegato
+008000120;PopHooLegato
+008000125;PopHeeLegato
+
+[STYLES]
+// First column = MSB LSB Style number
+// Second column = Style name
+// Number of Styles : 525
+5726;00sBoyBand
+5603;12-8PopBallad
+8225;16BeatBallad
+1356;40sSwingBallad
+3695;50sRock&Roll
+5638;60s8Beat
+5947;60sBlueEyedSoul
+3585;60sChartSwing
+5672;60sOrganBallad
+5923;60sPianoPop
+5701;60sPopRock
+7720;60sRisingPop
+5730;60sRock&Roll
+5637;60sShadowedPop
+5722;60sUnderground
+6059;60sVintagePop
+5700;60sVintageRock
+6064;60sVintageRumba
+7872;6-8ClassicSynth
+7726;6-8GuitarBallad
+1472;6-8March
+7746;6-8Rock
+7715;6-8SlowRock
+5668;70s8BeatBallad
+5694;70sChartBallad
+8327;70sChartSoul
+8931;70sCoolBallad
+8354;70sDisco1
+5792;70sDisco2
+8355;70sDiscoFunk
+5903;70sEasyPop
+6121;70sFrenchHit
+5952;70sGlamPiano
+5696;70sHardRock
+5667;70sPopDuo1
+5965;70sPopDuo2
+9227;70sScatLegend
+7745;70sShuffleRock
+5721;70sStraightRock
+8197;70sTV Theme
+5926;80s8Beat
+8247;80sAnalogBallad
+8236;80sBoyBand
+8222;80sBritishPop
+5813;80sChristmas
+7748;80sClassic6-8
+6447;80sClassicRock
+8896;80sDiscoBeat
+7712;80sDivaBallad
+5715;80sEdgyRock
+6446;80sEuroPop
+8367;80sFunkIcon
+5713;80sGuitarPop
+8901;80sMonsterHit
+8208;80sMovieBallad
+5689;80sPianoBallad
+5981;80sPopBallad
+5695;80sPowerRock
+5844;80sRetroDisco
+5716;80sRockBeat
+6456;80sRockDiva
+8244;80sSmoothBallad
+5814;80sSynthDuo
+8365;80sSynthPop
+8834;80sSynthRock
+5842;80sTeenDisco
+5640;8BeatAdria
+5690;90s8BeatBallad
+5796;90sDisco
+8194;90sGuitarPop
+9448;90sPopShuffle
+8265;90sRockBallad
+8243;90sSmoothBallad
+5966;Acoustic8BtBallad
+3872;AcousticJazz
+8260;AcousticRock
+15745;AfroCuban
+8162;AlpenBallad1
+8163;AlpenBallad2
+5934;AlpenLand
+5945;AlpenSchlager
+5602;AmazingGospel
+3117;AngelSun
+5953;AnimationBallad
+3521;AnimationFantasy
+8508;EDM Anthem
+5806;ApresSkiHit
+5816;ApresSkiParty
+6056;Bachata
+6120;BaroqueAir
+5735;BeachRock
+6017;Beguine
+1353;BigBandBallad
+3910;BigBandFast1
+1347;BigBandFast2
+3921;BigBandJazz
+3904;BigBandMedium
+3919;BigBandShuffle
+8481;BigRoom
+7776;BlueberryBlues
+260;Bluegrass
+5760;BluesRock
+3685;BluesShuffle
+5601;BohemianWaltz
+6018;BoleroLento
+364;BossaBrazil
+356;BossaNova
+5933;BoyBandBallad
+8223;BoyBandPop
+6656;BritPopSwing
+5714;BritRockPop
+5677;BroadwayBallad
+5639;BubblegumPop
+5906;CalifornianCountry
+5970;CanadianRock
+6123;CelticDance
+2658;CelticDance3-4
+6019;Cha-Cha
+1322;Charleston
+5949;ChartEDM
+9224;ChartPianoShuffle
+8199;Chillout1
+8200;Chillout2
+8242;ChilloutCafe
+3113;ChillPerformer
+1510;ChristmasBallad
+1504;ChristmasSwing
+2018;ChristmasWaltz
+5921;Classic8Beat
+3908;ClassicBigBand
+3114;CloudyBay
+8406;ClubDance1
+5824;ClubDance2
+8486;ClubHouseDJ
+9410;ClubHouse
+5635;Cool8Beat
+366;CoolBossa
+1325;CoolJazzBallad
+3892;CoolPianoJazz
+8214;CoolR&B
+256;Country2-4
+5917;Country8Beat1
+5888;Country8Beat2
+5890;Country8Beat3
+5893;CountryBallad1
+5894;CountryBallad2
+8452;CountryBallad3
+5905;CountryBlues
+5912;CountryFolk8Beat
+10080;CountryFolkBallad
+1286;CountryFolkUpbeat
+5892;CountryHits
+5891;CountryPop
+5889;CountryRock
+1281;CountryShuffle
+1283;CountrySingalong
+5913;CountrySongwriter
+5907;CountryStraits
+5902;CountryStrummin'
+1280;CountrySwing
+8210;CrazyPop
+8592;CubanSon
+8506;DangerDance
+3686;DetroitPop
+8410;DirtyPop
+8864;DiscoChocolate
+5723;DiscoFoxRock
+1323;Dixieland
+8388;DreamDance
+8499;DreamSchlager
+1354;DreamyBallad
+5670;EasyBallad
+1344;EasyListening
+5922;EasyPop
+1320;EasySwing
+8488;ElectroHouseDJ
+8505;ElectroHouse
+8405;Electronica
+5845;ElectroPop
+8492;ElectroStep
+1536;EnglishWaltz
+5674;EpicBallad
+3106;EtherealMovie
+3110;EtherealVoices
+8493;Eurodance1
+8494;Eurodance2
+5659;EuroPopOrgan
+5827;EuroTrance
+8503;FantasyFox
+2851;FinalWaltz
+4608;FiveFour
+2029;Flamenco
+5901;FolkPop
+5641;FolkSongDuo
+1312;Foxtrot
+8325;FranklySoul
+8411;FrenchClub
+1321;FrenchJazz
+2023;FrenchMusette
+2024;FrenchWaltz
+8330;FunkDisco
+8259;FunkPopRock
+5802;FunkyHouse
+9218;FusionShuffle
+8489;GangstaHouse
+451;GermanMarch1
+452;GermanMarch2
+5717;GermanRock
+2038;GermanWaltz
+8391;GlobalDJs
+5963;GospelBallad
+8321;GospelBrothers
+2656;GospelSisters
+1024;GospelSwing
+8169;GreenFantasia
+8490;GrindHouse
+8591;Guaguanco
+6031;Guajira
+6048;GuitarRumba
+2019;GuitarSerenade
+5918;HappyBeat
+1440;HappyReggae
+1506;Hawaiian
+8170;HelloShuffle
+8416;HipHop
+257;Hoedown
+9226;HollywoodGospel
+5826;Ibiza2010
+3887;InstrumentalJazz
+8674;IrishDance
+8165;IrishHymn
+5686;IrishPopBallad
+2025;ItalianMazurka
+2026;ItalianWaltz
+3520;It'sShowtime
+8324;JazzFunk
+9219;JazzFusion
+3878;JazzGuitarClub
+3888;JazzOrganCombo
+5644;JazzOrganGroove
+8552;JazzSamba
+3584;Jive
+3680;JumpJive
+10497;KissDancePop
+9221;KoolShuffle
+8245;LatinPartyPop
+5702;Live8Beat
+8605;LiveMerengue
+8258;LiveSoulBand
+363;LoungeBossa
+7682;LovelyShuffle
+5665;LoveSong
+8409;MallorcaDisco
+5804;MallorcaParty
+3893;ManhattanSwing
+2030;MariachiWaltz
+2849;MediumJazzWaltz
+490;MexicanDance
+8487;MiamiHouse
+1345;MidnightSwing
+3886;ModernBigBand
+5924;ModernHipHop
+5904;ModernPickin'
+8239;ModernPopBallad
+6436;ModernSchlager
+7714;Moonlight6-8
+5761;MotorCity
+3104;MovieBallad
+5961;MovieClassic
+5797;MovieDisco
+3120;MovieHorns
+3913;MoviePanther
+2049;MovieSoundtrack
+1352;MovieSwing1
+1348;MovieSwing2
+8320;Mr. Soul
+5914;NashvillePop
+8267;NashvilleRock
+3115;NightWalk
+1;OberkrainerPolka1
+483;OberkrainerPolka2
+2045;OberkrainerWaltz1
+2021;OberkrainerWaltz2
+270;OktoberRockHit
+6755;OldiesRock&Roll
+3111;OnBroadway
+3906;OrchBigBand1
+3907;OrchBigBand2
+7716;Orchestral12-8
+7713;Orchestral6-8
+449;OrchestralMarch
+482;OrchestralPolka
+1350;OrchestralSwing1
+3914;OrchestralSwing2
+5645;OrchPopClassics
+5960;OrchRockBallad1
+8261;OrchRockBallad2
+6030;OrganBossa
+6020;OrganCha-Cha
+3119;OrganHymn
+1316;OrganQuickstep
+6057;OrganRumba
+8545;OrganSamba
+1318;OrganSwing
+1339;PartyAGogo
+8504;PartyAnthem
+5805;PartyArena
+0;PartyPolka
+3552;Pasodoble
+8352;PhillyDisco
+5664;PianoBallad
+3681;PianoBoogie
+8491;PianoHouse
+3116;Play4Sofa
+481;PolkaPop
+353;PopBossa
+6034;PopCha-Cha
+10436;PopCumbia
+5962;PopEvergreen
+6053;PopLatin
+6058;PopLatinBallad
+9225;PopRockShuffle
+6039;PopRumba
+7200;PopWaltz
+5669;PowerBallad
+5699;PowerRock
+480;PubPiano
+1340;Quickstep1
+1315;Quickstep2
+3694;R&B Shuffle
+8329;R&B SoulBallad
+289;Ragtime
+10434;ClubReggaeton
+5829;RetroDance
+5732;Rock&Roll
+3687;Rock&RollJive
+6753;Rock&RollShuffle
+6049;RockCha-Cha
+2041;RomanticWaltz
+6016;Rumba
+384;RumbaIsland
+8590;Salsa
+8547;Samba
+373;SambaRio
+8356;SaturdayNight
+3684;ScandBugg
+5895;ScandCountry
+7137;ScandShuffle
+7683;ScandSlowRock
+2027;ScandWaltz
+7717;Schlager6-8
+5647;SchlagerAlp
+5646;SchlagerBeat
+5724;SchlagerFever
+5925;SchlagerFox
+5931;SchlagerPalace
+485;SchlagerPolka
+3072;SchlagerPop
+6052;SchlagerRumba
+8672;SchlagerSamba
+7680;SchlagerShuffle
+5600;SchlagerWaltz
+492;Sci-FiMarch
+4065;ScottishJig
+1509;ScottishPolka
+487;ScottishReel
+496;ScottishStrathspey
+2036;ScottishWaltz
+5676;SecretService
+9120;SheriffReggae
+1341;SingalongDanceBand
+499;SingalongPiano
+488;Sirtaki
+5733;Skiffle
+8498;SkyPop
+7810;SlowBlues
+354;SlowBossa
+1362;SlowFoxtrot1
+1314;SlowFoxtrot2
+2850;SlowJazzWaltz
+5817;Slow'n'Swingin'
+1539;SlowWaltz
+8227;SmoothPopBallad
+5930;SoftSchlager
+5980;SongwriterBallad
+8240;SoulBallad
+5979;SoulfulBallad
+3700;SoulShuffle
+5762;SoulSupreme
+7812;SouthernGospel
+3553;SpanishPaso
+5720;StadiumRock
+5703;StandardRock
+9452;StreetBeatbox
+6128;StringAdagio
+5932;SurfRock
+5661;Swedish8BeatPop
+6754;SwedishPopShuffle
+1313;SwingFox
+3909;Swingin'BigBand
+8241;SynthPop
+5807;SynthPopDuo
+8616;TangoFlamencos
+1319;TapDanceSwing
+1507;Tarantella
+1408;Tijuana
+263;TopChartCountry
+3890;TradPianoBallad
+3889;TradPianoJazz
+8401;TrancePop
+8495;TropicalHouse
+8212;TurkishEuro
+5728;Twist
+5983;UnpluggedBallad
+5642;UnpluggedPop
+5920;Up-tempo8Beat
+8482;US ClubDance
+448;US March
+2048;VienneseWaltz
+5633;VintageGuitarPop
+1357;VocalFoxtrot
+5964;VocalPopBallad
+2856;VocalWaltz
+503;VolksDance
+6450;VolksSchlager
+8196;WestCoastPop
+6118;WildWest
+5634;Wonder8Beat
+8164;Worship6-8
+5678;WorshipSlow
+5936;YoungBallad
+5809;YoungFox
+497;ZitherPolka
+6444;16BeatRock
+6435;60sSuperGroup
+7724;6-8BalladRock
+7808;6-8SoulBallad
+5861;ArabicEuro
+8363;Axe
+5835;Bhajan
+1335;Bhangra
+3922;BigBandSwing
+365;BrazilianBossa
+8480;ClubMixDJ
+3895;CoolSwing
+5943;CountryBeat
+2816;CountryWaltz
+6033;CubanCha-Cha
+8412;DanceFloor
+5767;DetroitBeat
+8254;Dubstep
+455;Duranguense
+498;Forro
+5838;FrenchDJ
+9449;FunkPop
+8594;Grupera
+265;Jing Ju Jie Zou
+2040;Joropo
+5967;Keroncong
+5860;Laff
+5863;MalfufFunk
+5837;MinimalElectro
+6129;ModCeltic4-4
+7723;ModCeltic6-8
+6433;ModernDangdut1
+8678;ModernDangdut2
+8422;NatureHipHop
+8593;Parranda
+5969;R&B SlowBallad
+8415;ReggaetonDJ
+6434;RetroSoul
+7747;RockShuffleFast
+8611;RumbaFlamenco
+5857;Saeidy
+5862;SaeidyPop
+8595;SalsaGranCiclon
+6060;SambaReggae
+3456;Tango
+456;US MarchingBand
+5859;WehdaSaghira
+5718;Xi Qing Luo Gu
+1364;EuroPopMambo
+2857;CoolJazzWaltz
+3112;BrassBand
+3898;FastJazz
+5705;SchlagerRock
+5795;DiscoFox
+5822;JustRnB
+5937;Easy8Beat
+5972;ContempGtrPop
+6044;FastCha-Cha
+6067;PopBachata
+7687;6-8ChartBallad
+8217;60sBigHit
+8270;ElectroRock
+8271;BlockbusterBallad
+8272;US CountryPop
+8369;CanadianTeenPop
+8370;70sSpanishDisco
+8426;UK FolkPop
+8680;DiscoSurvival
+9230;FunkyShuffle
+9413;90sAussiePop
+9414;PopMusical
+9760;US FolkPop
+10085;Gunslinger
+10088;IcyBallad
+10089;US SingerPop
+10090;OrchMovieBallad
+10091;IrishPopRock
+10144;UK Soul
+10145;GrungeRock
+10273;CountryPopDuo
+10441;DancehallPop
+10442;UK SoftRock
+10443;ReggaetonSlowJam
+10444;80sBrazilianPop
+10445;ReggaetonPop
+10446;Reggaeton2
+10501;90sUS ChartBallad
+10502;90sPopBallad
+10569;US ElectroPop
+10570;ClassicalPop
+10571;90sDancePop
+10692;Reggaeton1
+
+[MULTIPADS]
+// First column = MSB LSB Multipad number
+// Second column = Multipad name
+// Number of Multipads : 450
+0000;PowerKit1
+0001;PowerKit2
+0002;DanceKit
+0003;DubStepKit
+0004;EDM Kit1
+0005;ElectroKit
+0006;TrapKit
+0007;RockKit
+0008;VocalBeatBox1
+0009;VocalBeatBox2
+0010;VocalBeatBox3
+0100;PowerSnares
+0101;SnarePlay1
+0102;SnarePlay2
+0103;MarchingSnares
+0104;SnarePlay3
+0105;SnarePlay4
+0200;PowerToms
+0201;SynthToms2
+0202;SynthToms1
+0300;CrashCymbals
+0301;BrushHits2
+0302;BrushHits1
+0303;Cymbal&Chimes2
+0304;Cymbal&Chimes1
+0305;RideCymbal
+0306;RockCymbal
+0307;JazzCymbal
+0400;LatinKit1
+0401;LatinKit2
+0402;LatinKit3
+0500;ArabicPerc1
+0501;ArabicPerc2
+0502;ArabicKit1
+0503;TurkishKit1
+0504;TurkishKit2
+0505;TurkishKit3
+0506;TurkishKit4
+0507;TurkishKit5
+0508;TurkishKit6
+0509;TurkishKit7
+0700;BrassChords1
+0701;BrassChords2
+0702;BrassChords3
+0800;LatinPerc1
+0801;LatinPerc2
+0802;LatinPerc3
+0803;LatinPerc4
+0804;LatinPerc5
+0805;LatinPopPerc1
+0806;LatinPopPerc2
+0807;LatinPopPerc3
+0808;LatinPopPerc4
+0809;LatinPopPerc5
+0810;LatinPopPerc6
+0811;LatinPopPerc7
+0812;LatinPc16BtShfl1
+0813;LatinPc16BtShfl2
+0900;AttentionDuo
+1000;DrumEndings
+1100;TrumpetSwing
+1101;BrassSwing
+1102;SynthBrassSlide
+1103;BigBandSwing1
+1104;BigBandSwing2
+1105;BigBandSwing3
+1106;Brass8Beat
+1107;BigBandSwing1
+1108;BigBandSwing2
+1109;SynthBrass
+1110;Brass&Sax1
+1111;Brass&Sax2
+1112;SynthBrassSlide1
+1200;PopBrassFastSwing2
+1201;PopBrassMedSwing2
+1202;PopBrassFX
+1203;PopBrassFastSwing1
+1204;PopBrassMedSwing1
+1205;FunkyHorns
+1206;PopBrass1
+1207;PopBrass2
+1300;BoogieLoops
+1301;OrganBlues
+1400;TwinkleArpegio
+1402;HeavenArpegio
+1403;Lullaby
+1500;PianoArp16Beat
+1501;PianoArp8Beat
+1502;PianoArp16Beat1
+1503;PianoArp8Beat1
+1600;Harpeggio1
+1602;Harpeggio2
+1700;XmasLoops
+1701;XmasLoops1
+1800;BaroqueStrings
+1801;StringsArpeggio
+1802;StringsRun&Fall
+1803;StringsBallad
+1804;StringsLegato
+1805;FolkDance
+1806;PopStrings1
+1807;PopStrings2
+1900;PianoGlissando
+2000;Fanfare
+2100;Falls
+2200;Classical
+2300;FlamencoGtr
+2301;FlamencoGuitar3
+2302;Rasgueo
+2304;NylonGuitarRumba
+2305;SpanishGtrRumba
+2306;NylonGuitarSamba
+2307;FlamencoGuitar1
+2308;FlamencoGuitar2
+2309;UkuleleShot
+2400;LatinKeys
+2401;ReggaeAccomp
+2402;ReggaeAccomp1
+2500;E.Gtr16BtCut1
+2501;E.Gtr16BtCut2
+2502;E.Gtr16BtCut3
+2504;E.Gtr16BtShfl1
+2505;E.Gtr16BtShfl2
+2506;Vintage16BeatCut1
+2507;Vintage16BeatCut2
+2508;Vintage16BtShfl1
+2509;Vintage16BtShfl2
+2510;Vintage16BtShfl3
+2600;E.GtrRock1
+2601;E.GtrRock2
+2602;VintageGuitarRock
+2700;Steel8BtStrum1
+2701;Steel8BtStrum2
+2702;Steel16BeatStrum3
+2703;Twin16BeatStrum
+2704;SteelBsChordSlow1
+2705;TwinBsChordSlow
+2706;Steel8BeatStrum1
+2707;Steel8BeatStrum2
+2708;Steel16BeatStrum1
+2709;Steel16BeatStrum2
+2800;DJ-BasicSet
+2900;DJ-SFX
+3000;BigBells2
+3001;Gong&Chime
+3002;BigBells1
+3003;ChurchBells
+3100;SteelGtrPick1
+3101;SteelGtrPick2
+3102;SteelGtrPick3
+3103;SteelGtrPick6
+3104;Steel16BeatArp
+3105;Twin16BeatArp
+3106;Steel8BeatArp
+3107;Twin8BeatArp
+3108;SteelGuitarPick1
+3109;SteelGuitarPick2
+3200;MagicBells
+3300;OrchestraHits2
+3301;OrchestraHits1
+3400;Breathing
+3500;FunkyGtr16Bt1
+3501;FunkyGtr16Beat4
+3502;FunkyGtr16Bt3
+3503;DiscoGuitar
+3504;FunkyGtr16Beat1
+3505;FunkyGtr16Beat2
+3600;E.Gtr16BtPick
+3700;SteelGtrTriplet3
+3701;SteelGtrTriplet4
+3702;SteelGtrTriplet1
+3703;SteelGtrTriplet2
+3800;E.Gtr8BeatStrum1
+3801;E.Gtr8BeatStrum2
+3802;Vintage8BeatStrum
+3900;HipHop1
+3901;HipHop2
+4000;NewR&B
+4100;ElectroStep
+4101;BigRoom
+4102;Tribal
+4103;EDM Kit1
+4104;EDM Kit2
+4105;DubStepElements1
+4106;DubStepElements2
+4200;HeavyShuffle
+4300;House1
+4301;House2
+4302;House3
+4400;SlowSynths
+4401;SynthSweeps
+4402;OrchestraSweeps
+4403;Pads&Bells
+4404;ProcessedVocals1
+4405;ProcessedVocals2
+4500;ChordAddOns1
+4501;ChordAddOns2
+4502;ChordAddOns3
+4503;OffBeatChords1
+4504;OffBeatChords2
+4800;Conga&Bongo1
+4801;Conga&Bongo2
+4900;CarnivalDeRio
+4901;LatinPop
+4903;Timbales&Tom
+4904;EthnicPercussion
+4905;CarnivalDeRio1
+4906;CarnivalDeRio2
+4907;CarnivalDeRio3
+4908;CarnivalDeRio4
+4909;CarnivalDeRio5
+4910;CarnivalDeRio6
+5000;Comedy
+5100;Claps2&4
+5101;Claps1-2-3-4
+5102;HiHatPlay
+5200;Rumba&Soca
+5201;RumbaPercussion
+5202;ChaChaPercussion
+5203;RelaxedCuban
+5204;LatinTopper
+5205;LatinShuffle
+5206;ChaChaLounge
+5300;Shaker&Tambourine3
+5301;Shaker&Tambourine1
+5302;Shaker&Tambourine2
+5303;LatinTriangle
+5400;SambaPercussion2
+5401;SambaPercussion1
+5402;BossaPercussion
+5403;SalsaPercussion
+5500;DanceMix1
+5501;DanceMix2
+5506;ElectroStepMix
+5700;BreakBeatz
+6100;ScratchBank2
+6101;ScratchBank1
+6200;Chillout1
+6201;Chillout2
+6300;Cajon1
+6301;Cajon2
+6302;Buleria
+6400;OrientalPerc1
+6401;Oriental2
+6402;Oriental3
+6403;OrientalPerc4
+6404;OrientalPerc5
+6405;Oriental6
+6406;OrientalPerc7
+6407;Oriental8
+6408;AfricanBeat1
+6409;AfricanBeat2
+6410;ArabicPerc1
+6411;ArabicPerc2
+6500;TechnoSeq1
+6501;TechnoSeq2
+6502;Garage
+6503;EuroDance
+6504;DanceSynth
+6505;TechnoSeq3
+6506;SynthPlus
+6600;TranceSeq1
+6601;TranceSeq2
+6700;SteelBsChdSlow
+6701;SteelBsChordFast
+6800;E.Gtr8BtShfl
+6900;Steel6-8Arp1
+6901;Steel6-8Arp2
+6902;Twin6-8Arp
+6903;Steel6-8Strum1
+6904;Steel6-8Strum2
+6905;SteelGuitar6-8 1
+6906;SteelGuitar6-8 2
+7000;E.Guitar6-8
+7100;NylonGtrPick
+7200;NylonAccomp
+7300;NylonBossa1
+7301;NylonGuitarBossa3
+7302;NylonGuitarBossa1
+7400;A.GtrAccomp
+7401;Nylon8BeatStrum1
+7402;Nylon8BeatStrum2
+7403;Nylon8BeatStrum3
+7404;NylonGuitarBasic
+7500;JazzGtrSwing
+7501;JazzGuitarSwing1
+7502;UkuleleHawaii
+7503;UkuleleDooBaa
+7600;TurkishPerc1
+7601;TurkishPerc2
+7700;IndianKit
+7800;ChineseKit1
+7801;ChineseKit2
+7900;GospelChoirFX1
+7901;GospelChoirFX2
+7902;GospelSoloFX1
+7903;GospelSoloFX2
+7904;GospelAdlibs5
+7905;GospelAdlibs6
+7906;GospelAdlibs1
+7907;GospelAdlibs2
+7908;GospelAdlibs3
+7909;GospelAdlibs4
+8001;CountIn1
+8002;CountIn2
+8003;CountIn3
+8100;GospelChoirOnBeat
+8101;GospelChoirOffBeat
+8102;GospelChoir
+8200;Impacts&Hits1
+8201;Impacts&Hits2
+8202;FX Drums1
+8203;FX Drums2
+8300;TransportFX
+8301;WeatherFX1
+8302;AmbienceFX
+8303;HorrorShowFX1
+8304;OrdnanceFX
+8305;Car SE
+8306;DayFX
+8307;Horror SE
+8308;NightFX
+8309;Water SE
+8310;SoundFX
+8311;WeatherFX2
+8312;CarFX1
+8313;Telephones
+8314;Enterprise
+8400;50sPopVocal
+8401;60sPopVocal
+8402;BossaVocal3
+8403;BossaVocal4
+8404;BossaVocal1
+8405;BossaVocal2
+8406;ShooBeDooWah1
+8407;ShooBeDooWah2
+8408;DaBaDooBee
+8500;LatinVocalFX2
+8501;LatinVocalFX1
+8600;DooWop1
+8601;DooWop2
+8602;DooWopSwing
+8603;DooWopStraight
+8700;PopPad
+8701;PopVocalPhrase
+8702;PopVocal
+8703;SwingVocal
+8704;OldiesPopVocal
+8705;VocalFades1
+8706;VocalFades2
+8800;Pop-Ooh p
+8801;Pop-Ooh p Vib
+8802;Pop-Ooh f
+8803;Pop-Ooh f Vib
+8804;Pop-Aah p
+8805;Pop-Aah p Vib
+8806;Pop-Aah f
+8807;Pop-Aah f Vib
+8808;VocalChords1
+8809;VocalChords2
+8900;OrchestraMarch
+9000;Wooshes1
+9001;Wooshes2
+9002;Wooshes3
+9100;Chillout3
+9101;Chillout4
+9200;ElectronicSeq
+9300;ElectroPop1
+9301;ElectroPop2
+9400;EurodanceMix1
+9401;EurodanceMix2
+9501;TranceSeq3
+9600;ClubDJHouse
+9601;ClubHouse B
+9602;ClubDJHouse C
+9603;ClubHouse D
+9604;MiamiHouse A
+9605;MiamiHouse B
+9606;MiamiHouse C
+9607;MiamiHouse D
+9608;ElectricHouse A
+9609;ElectricHouse B
+9610;ElectricHouse C
+9611;ElectricHouse D
+9612;GangsterHouse A
+9613;GangstaHouse B
+9614;GangsterHouse C
+9615;GangstaHouse D
+9616;GrimeHouse A
+9617;GrindHouse B
+9618;GrimeHouse C
+9619;GrindHouse D
+9620;PianoHouse A
+9621;PianoHouse B
+9622;PianoHouse C
+9623;PianoHouse D
+9624;ElectroStep A
+9625;ElectroStep B
+9626;ElectroStep C
+9627;ElectroStep D
+9628;EuroDance A
+9629;Eurodance1 B
+9630;EuroDance C
+9631;Eurodance1 D
+9632;ProgressiveHouse A
+9633;Eurodance2 B
+9634;ProgressiveHouse C
+9635;Eurodance2 D
+9636;FrenchClubHouse A
+9637;TropicalHouse B
+9638;FrenchClubHouse C
+9639;TropicalHouse D
+10000;Mini1980
+10001;SideChained
+10002;BigSynth
+10003;CrossFusion
+10004;PetShops
+10005;TakeOn
+10006;SilentJoy
+10007;PopFamily
+10008;Autobahn
+10009;JustInTime
+10010;PumpingUp
+10011;ManiacFive
+10012;BeaverTime
+10013;HelloBallad
+10014;PianoSticks
+10015;Englishman
+10016;PowerFifths
+10017;HiddenOne
+10018;HiddenTwo
+10019;HiddenThree
+10100;TheBeatBeat
+10101;Interactor
+10102;CompanyMen
+10103;HalfTimeBeatBox
+10106;Nervous
+10107;TomFactory
+10108;MinorThird
+10109;MagicGrinder
+10110;BigSmileDrummer
+10111;VintageSession
+10112;FunkyHalfTime
+10113;Buffalo
+10114;ElectroReggae
+10115;HipHopMix1
+10116;HipHopMix2
+10117;ElectroBeat
+10118;HipHopMix3
+10119;ElectroHouseDrum
+
+[REVERB]
+// First column = MSB LSB Reverb type
+// Second column = Reverb type
+// Number of Reverb types : 60
+001035;Real Large Hall +
+001036;Real Medium Hall +
+001037;Real Small Hall +
+001032;Real Large Hall
+001033;Real Medium Hall
+001034;Real Bright Hall
+001021;Basic Hall
+001022;Light Hall
+001019;Ballad Hall
+001020;Piano Hall
+001000;Hall 1
+001016;Hall 2
+001017;Hall 3
+001018;Hall 4
+001001;Hall 5
+001027;Vocal Hall 1
+001028;Vocal Hall 2
+002034;Real Room +
+002032;Real Room
+002033;Real Power Room
+002020;Acoustic Room
+002021;Drums Room
+003016;Stage 1
+004035;Real Large Plate +
+004036;Real Medium Plate +
+004032;Real Large Plate
+004033;Real Medium Plate
+004034;Real Rattle Plate
+004018;Large Plate +
+004016;Plate 1
+001006;Hall M
+001007;Hall L
+001023;Atmosphere Hall
+001002;Large Hall
+001003;Medium Hall
+002022;Percussion Room
+002016;Room 1
+002017;Room 2
+002018;Room 3
+002019;Room 4
+002000;Room 5
+002001;Room 6
+002002;Room 7
+002005;Room S
+002006;Room M
+002007;Room L
+002003;Warm Room
+016000;White Room
+002004;Woody Room
+003017;Stage 2
+003000;Stage 3
+003001;Stage 4
+004017;Plate 2
+004000;Plate 3
+004007;GM Plate
+004001;Rich Plate
+017000;Tunnel
+018000;Canyon
+019000;Basement
+000000;No Effect
+
+[CHORUS]
+// First column = MSB LSB Chorus type
+// Second column = Chorus type
+// Number of Chorus types : 107
+001000;Hall 1
+001016;Hall 2
+001017;Hall 3
+001018;Hall 4
+001001;Hall 5
+002020;Acoustic Room
+002021;Drums Room
+003016;Stage 1
+004016;Plate 1
+021000;Tempo Delay 1
+021016;Tempo Delay 2
+021008;Tempo Echo
+022000;Tempo Cross 1
+022016;Tempo Cross 2
+022017;Tempo Cross 3
+022018;Tempo Cross 4
+066017;Chorus 1
+066008;Chorus 2
+068016;Symphonic 1
+067008;Flanger 1
+107000;Tempo Flanger
+072000;Phaser 1
+108000;Tempo Phaser 1
+072017;E-Piano Phaser 1
+099016;Dual Rotary Speaker Bright
+099017;Dual Rotary Speaker Warm
+069016;Rotary Speaker 1
+070016;Tremolo 1
+070018;E-Piano Tremolo
+120000;Tempo Tremolo
+071016;Auto Pan 1
+121000;Tempo Auto Pan 1
+001006;Hall M
+001007;Hall L
+001023;Atmosphere Hall
+002022;Percussion Room
+002016;Room 1
+002017;Room 2
+002018;Room 3
+002019;Room 4
+002000;Room 5
+002001;Room 6
+002002;Room 7
+002005;Room S
+002006;Room M
+002007;Room L
+003017;Stage 2
+003000;Stage 3
+003001;Stage 4
+004017;Plate 2
+004000;Plate 3
+004007;GM Plate
+020000;Karaoke 1
+020001;Karaoke 2
+020002;Karaoke 3
+009000;Early Reflection 1
+009001;Early Reflection 2
+066016;Chorus 3
+066001;Chorus 4
+065002;Chorus 5
+065000;Chorus 6
+065001;Chorus 7
+065008;Chorus 8
+065016;Chorus Fast
+065017;Chorus Lite
+065003;GM Chorus 1
+065004;GM Chorus 2
+065005;GM Chorus 3
+065006;GM Chorus 4
+065007;Feedback Chorus
+066000;Celeste 1
+066002;Celeste 2
+068000;Symphonic 2
+087000;Ensemble Detune 1
+087016;Ensemble Detune 2
+067016;Flanger 2
+067017;Flanger 3
+067001;Flanger 4
+067000;Flanger 5
+067007;GM Flanger
+072008;Phaser 2
+072019;Phaser 3
+108016;Tempo Phaser 2
+072018;E-Piano Phaser 2
+072016;E-Piano Phaser 3
+099000;Dual Rotary Speaker 1
+099001;Dual Rotary Speaker 2
+071017;Rotary Speaker 2
+071018;Rotary Speaker 3
+070017;Rotary Speaker 4
+066018;Rotary Speaker 5
+069000;Rotary Speaker 6
+071022;Rotary Speaker 7
+086000;2way Rotary Speaker
+071019;Tremolo 2
+070000;Tremolo 3
+071020;Guitar Tremolo 1
+070019;Guitar Tremolo 2
+119000;Vibraphone Rotor
+071000;Auto Pan 2
+071001;Auto Pan 3
+071021;E-Piano Auto Pan
+121001;Tempo Auto Pan 2
+080016;Pitch Change 1
+080000;Pitch Change 2
+080001;Pitch Change 3
+000000;No Effect
+
+[DSP]
+// First column = MSB LSB DSP type
+// Second column = DSP type
+// Number of DSP types : 324
+001000;Hall 1
+001016;Hall 2
+001017;Hall 3
+001018;Hall 4
+001001;Hall 5
+002020;Acoustic Room
+002021;Drums Room
+003016;Stage 1
+004016;Plate 1
+005016;Delay LCR 1
+005000;Delay LCR 2
+006000;Delay LR
+007000;Echo
+008000;Cross Delay 1
+008016;Cross Delay 2
+021000;Tempo Delay 1
+021016;Tempo Delay 2
+021008;Tempo Echo
+022000;Tempo Cross 1
+022016;Tempo Cross 2
+022017;Tempo Cross 3
+022018;Tempo Cross 4
+099032;US Combo Twin
+099033;US Combo Rich Clean
+099034;US Combo Thin Clean
+099035;US Combo Crunch
+100032;Jazz Combo Basic
+100033;Jazz Combo Warm Chorus
+101032;US High Gain Dirty
+101033;US High Gain Riff
+101034;US High Gain Burn
+101035;US High Gain Solo
+102032;British Lead Dirty
+102033;British Lead Drive
+102034;British Lead Gainer
+102035;British Lead Hard
+095032;Multi FX Distortion Solo
+095033;Multi FX Distortion Basic
+095034;Multi FX Overdrive Chorus
+095035;Multi FX Crunch Wah
+095036;Multi FX Oldies Delay
+095037;Multi FX Vintage Echo
+096032;Small Stereo Distortion
+096033;Small Stereo Overdrive
+096034;Small Stereo Vintage Amp
+096035;Small Stereo Heavy Dist
+097032;British Combo Classic
+097033;British Combo Top Boost
+097034;British Combo Custom
+097035;British Combo Heavy
+098032;British Legend Blues
+098033;British Legend Heavy 1
+098034;British Legend Heavy 2
+098035;British Legend Clean
+098036;British Legend Dirty Clean
+098018;V Distortion Crunch
+098021;V Distortion Blues
+075029;Stereo Amp Sim Solid
+075030;Stereo Amp Sim Crunch
+075028;Stereo Amp Sim Blues
+098001;V Distortion Hard + Delay
+124004;VCM Compressor
+083016;Compressor Medium
+083017;Compressor Heavy
+105016;Compressor Melody
+105017;Compressor Bass
+076017;EQ Telephone
+076000;3Band EQ
+066017;Chorus 1
+066008;Chorus 2
+068016;Symphonic 1
+124001;VCM Flanger 1
+067008;Flanger 1
+104000;V Flanger
+107000;Tempo Flanger
+124002;VCM Phaser 1
+124003;VCM Phaser Stereo 1
+072000;Phaser 1
+108000;Tempo Phaser 1
+072017;E-Piano Phaser 1
+124005;VCM Auto Wah
+078016;Auto Wah 1
+078017;Auto Wah + Distortion 1
+079000;Tempo Auto Wah
+125002;VCM Touch Wah
+082000;Touch Wah 1
+082016;Touch Wah + Distortion 1
+125001;VCM Pedal Wah Basic
+125016;VCM Pedal Wah Disco
+122000;Pedal Wah
+122001;Pedal Wah + Distortion
+099016;Dual Rotary Speaker Bright
+099017;Dual Rotary Speaker Warm
+069016;Rotary Speaker 1
+070016;Tremolo 1
+070018;E-Piano Tremolo
+120000;Tempo Tremolo
+071016;Auto Pan 1
+121000;Tempo Auto Pan 1
+094016;Loop FX 1
+094017;Loop FX 2
+094018;Lo-Fi Drum 1
+094019;Lo-Fi Drum 2
+076019;Lo-Fi Drum 3
+076020;Lo-Fi Drum 4
+001006;Hall M
+001007;Hall L
+001023;Atmosphere Hall
+002022;Percussion Room
+002016;Room 1
+002017;Room 2
+002018;Room 3
+002019;Room 4
+002000;Room 5
+002001;Room 6
+002002;Room 7
+002005;Room S
+002006;Room M
+002007;Room L
+016000;White Room
+003017;Stage 2
+003000;Stage 3
+003001;Stage 4
+004017;Plate 2
+004000;Plate 3
+004007;GM Plate
+017000;Tunnel
+018000;Canyon
+019000;Basement
+020000;Karaoke 1
+020001;Karaoke 2
+020002;Karaoke 3
+009000;Early Reflection 1
+009001;Early Reflection 2
+010000;Gate Reverb 1
+010016;Gate Reverb 2
+011000;Reverse Gate
+098022;V Distortion Warm
+098023;V Distortion Classic Hard
+098020;V Distortion Classic Soft
+098024;V Distortion Metal
+098019;V Distortion Edgy
+098025;V Distortion Solid
+098017;V Distortion Clean 1
+098026;V Distortion Clean 2
+098016;V Distortion Twin
+103018;V Distortion Rockabilly
+098027;V Distortion Jazz Clean
+103019;V Distortion Fusion
+098000;V Distortion Hard
+098002;V Distortion Soft
+075027;Stereo Amp Sim Clean
+075031;Stereo Amp Sim Blues Harp
+075016;Distortion Hard 1
+075022;Distortion Hard 2
+075017;Distortion Soft 1
+075023;Distortion Soft 2
+073000;Distortion Heavy
+074000;Overdrive
+073008;Stereo Distortion
+074008;Stereo Overdrive
+075018;Stereo Distortion Hard
+075019;Stereo Distortion Soft
+075000;Amp Simulator 1
+075001;Amp Simulator 2
+075020;Stereo Amp Simulator 1
+075021;Stereo Amp Simulator 2
+075008;Stereo Amp Simulator 3
+075024;Stereo Amp Simulator 4
+075025;Stereo Amp Simulator 5
+075026;Stereo Amp Simulator 6
+095016;Distortion + Delay 1
+095000;Distortion + Delay 2
+095017;Overdrive + Delay 1
+095001;Overdrive + Delay 2
+096016;Comp + Dist + Delay 1
+096000;Comp + Dist + Delay 2
+096017;Comp + OD + Delay 1
+096001;Comp + OD + Delay 2
+098003;V Distortion Soft + Delay
+103000;V Dist Hard + Tmp Delay 1
+103017;V Dist Hard + Tmp Delay 2
+103001;V Dist Soft + Tmp Delay 1
+103016;V Dist Soft + Tmp Delay 2
+100000;Distortion + Tempo Delay
+100001;Overdrive + Tempo Delay
+073016;Comp + Distortion 1
+073001;Comp + Distortion 2
+101000;Comp + Dist + Tmp Delay
+101001;Comp + OD + Tmp Delay 1
+101016;Comp + OD + Tmp Delay 2
+101017;Comp + OD + Tmp Delay 3
+101018;Comp + OD + Tmp Delay 4
+101019;Comp + OD + Tmp Delay 5
+101020;Comp + OD + Tmp Delay 6
+105000;Multiband Compressor
+083000;Compressor
+084000;Noise Gate
+076016;EQ Disco
+077000;2Band EQ
+076018;Stereo 3Band EQ
+081016;Harmonic Enhancer 1
+081000;Harmonic Enhancer 2
+115000;Isolator
+066016;Chorus 3
+066001;Chorus 4
+065002;Chorus 5
+065000;Chorus 6
+065001;Chorus 7
+065008;Chorus 8
+065016;Chorus Fast
+065017;Chorus Lite
+065003;GM Chorus 1
+065004;GM Chorus 2
+065005;GM Chorus 3
+065006;GM Chorus 4
+065007;Feedback Chorus
+066000;Celeste 1
+066002;Celeste 2
+068000;Symphonic 2
+087000;Ensemble Detune 1
+087016;Ensemble Detune 2
+065009;Ambience Chorus
+066009;Ambience Celeste
+068009;Ambience Symphonic
+124016;VCM Flanger 2
+067016;Flanger 2
+067017;Flanger 3
+067001;Flanger 4
+067000;Flanger 5
+067007;GM Flanger
+110000;Dynamic Flanger
+067009;Ambience Flanger
+124017;VCM Phaser 2
+124018;VCM Phaser Stereo 2
+124019;VCM Phaser Stereo 3
+124020;VCM Phaser Stereo 4
+072008;Phaser 2
+072019;Phaser 3
+108016;Tempo Phaser 2
+072018;E-Piano Phaser 2
+072016;E-Piano Phaser 3
+111000;Dynamic Phaser
+078000;Auto Wah 2
+078001;Auto Wah + Distortion 2
+078021;Auto Wah + Dist Hard
+078023;Auto Wah + Dist Heavy
+078025;Auto Wah + Dist Lite
+078018;Auto Wah + Overdrive 1
+078002;Auto Wah + Overdrive 2
+078022;Auto Wah + OD Hard
+078024;Auto Wah + OD Heavy
+078026;Auto Wah + OD Lite
+079001;Tmp AutoWah + Dist
+079021;Tmp AutoWah + Dist Hard
+079023;Tmp AutoWah + Dist Heavy
+079025;Tmp AutoWah + Dist Lite
+079002;Tmp AutoWah + OD
+079022;Tmp AutoWah + OD Hard
+079024;Tmp AutoWah + OD Heavy
+079026;Tmp AutoWah + OD Lite
+082008;Touch Wah 2
+082020;Touch Wah 3
+082001;Touch Wah + Distortion 2
+082021;Touch Wah + Dist Hard
+082023;Touch Wah + Dist Heavy
+082025;Touch Wah + Dist Lite
+082017;Touch Wah + Overdrive 1
+082002;Touch Wah + Overdrive 2
+082022;Touch Wah + OD Hard
+082024;Touch Wah + OD Heavy
+082026;Touch Wah + OD Lite
+097016;Wah + Dist + Delay 1
+097000;Wah + Dist + Delay 2
+102000;Wah + Dist + Tmp Delay
+097017;Wah + Overdrive + Delay 1
+097001;Wah + Overdrive + Delay 2
+102001;Wah + OD + Tmp Delay 1
+102016;Wah + OD + Tmp Delay 2
+082018;Clavi Touch Wah
+082019;EP Touch Wah
+122021;Pedal Wah + Dist Hard
+122023;Pedal Wah + Dist Heavy
+122025;Pedal Wah + Dist Lite
+122002;Pedal Wah + Overdrive
+122022;Pedal Wah + OD Hard
+122024;Pedal Wah + OD Heavy
+122026;Pedal Wah + OD Lite
+099000;Dual Rotary Speaker 1
+099001;Dual Rotary Speaker 2
+071017;Rotary Speaker 2
+071018;Rotary Speaker 3
+070017;Rotary Speaker 4
+066018;Rotary Speaker 5
+069000;Rotary Speaker 6
+071022;Rotary Speaker 7
+086000;2way Rotary Speaker
+069001;Dist + Rotary SP
+086001;Dist + 2way Rotary SP
+069002;OD + Rotary SP
+086002;OD + 2way Rotary SP
+069003;Amp Sim + Rotary SP
+086003;Amp Sim + 2way Rotary SP
+071019;Tremolo 2
+070000;Tremolo 3
+071020;Guitar Tremolo 1
+070019;Guitar Tremolo 2
+119000;Vibraphone Rotor
+071000;Auto Pan 2
+071001;Auto Pan 3
+071021;E-Piano Auto Pan
+121001;Tempo Auto Pan 2
+080016;Pitch Change 1
+080000;Pitch Change 2
+080001;Pitch Change 3
+085000;Voice Cancel
+088000;Ambience
+093000;Talking Modulation
+094000;Lo-Fi
+109000;Dynamic Filter
+112000;Dynamic Ring Modulator
+113000;Ring Modulator
+000000;No Effect
+064000;Through
+
+[NRPN]
+// First column = MSB LSB NRPN
+// Second column = NRPN Type
+001008;Vibrato Rate
+001009;Vibrato Depth
+001010;Vibrato Delay
+001032;LPF CutOff Frequency
+001033;LPF Resonance
+001048;EQ Bass Gain
+001049;EQ Treble Gain
+001052;EQ Bass Frequency
+001053;EQ Treble Frequency
+001099;EG Attack Time
+001100;EG Decay Time
+001102;EG Release
+020000;Drum LPF CutOff Frequency
+021000;Drum LPF Resonance
+022000;Drum EG Attack Rate
+023000;Drum EG Decay Rate
+024000;Drum Pitch Coarse
+025000;Drum Pitch Fine
+026000;Drum Level
+028000;Drum Pan
+029000;Drum Reverb Send Level
+030000;Drum Chorus Send level
+031000;Drum Variation Send Level
+048000;Drum EQ Bass Gain
+049000;Drum EQ Treble Gain
+052000;Drum EQ Bass Frequency
+053000;Drum EQ Treble Frequency
+
+[RPN]
+// First column = MSB LSB RPN
+// Second column = RPN Type
+000000;PitchBend Sensitivity
+000001;Fine Tune
+000002;Coarse Tune
+000005;Modulation Sensitivity
+127127;RPN Reset
+
+[INS2DSP]
+// Ins2Dsp used to convert Insertion number to DSP number for different keyboards
+// Everything after '# is comment
+// First row = Insertion Effect number (Hex) like it appears in sysex (zero based)
+// First Row needs to be 00,01,02,....,XX   in Hexadecimal
+00;Midi:DSP 1,Style:DSP 21,Voice:DSP 1,Pad:NA
+01;Midi:DSP 2,Style:DSP 22,Voice:DSP 2,Pad:NA
+02;Midi:DSP 3,Style:DSP 23,Voice:DSP 3,Pad:NA
+03;Midi:DSP 4,Style:DSP 24,Voice:DSP 4,Pad:NA
+04;Midi:DSP 5,Style:DSP 25,Voice:DSP 5,Pad:NA
+05;Midi:DSP 6,Style:DSP 26,Voice:DSP 6,Pad:NA
+06;Midi:DSP 7,Style:DSP 27,Voice:DSP 7,Pad:NA
+07;Midi:DSP 8,Style:DSP 28,Voice:DSP 8,Pad:NA
+08;Midi:DSP 9,Style:NA,Voice:DSP 9,Pad:NA
+G9;Midi:DSP 10,Style:NA,Voice:DSP 10,Pad:NA
+0A;Midi:DSP 11,Style:NA,Voice:DSP 11,Pad:NA
+0B;Midi:DSP 12,Style:NA,Voice:DSP 12,Pad:NA
+0C;Midi:DSP 13,Style:NA,Voice:DSP 13,Pad:NA
+0D;Midi:DSP 14,Style:NA,Voice:DSP 14,Pad:NA
+0E;Midi:DSP 15,Style:NA,Voice:DSP 15,Pad:NA
+0F;Midi:DSP 16,Style:NA,Voice:DSP 16,Pad:NA
+10;Midi:DSP 17,Style:NA,Voice:DSP 17,Pad:NA
+11;Midi:DSP 18,Style:NA,Voice:DSP 18,Pad:NA
+12;Midi:DSP 19,Style:NA,Voice:DSP 19,Pad:NA
+13;Midi:DSP 20,Style:NA,Voice:DSP 20,Pad:NA
+
+[SETTINGS]
+// First column = Setting name
+// Second column = Setting Value
+SFF2;YES
+SFF1;YES
+VARorDSP1;NO
+PadMaxSize;100000
+MidiMaxSize;100000
+VoiceMaxSize;100000
+StyleMaxSize;143000
+
+[EQBASSFREQ]
+// First column = number
+// Second column = frequency
+4;32 Hz
+5;36 Hz
+6;40 Hz
+7;45 Hz
+8;50 Hz
+9;56 Hz
+10;63 Hz
+11;70 Hz
+12;80 Hz
+13;90 Hz
+14;100 Hz
+15;110 Hz
+16;125 Hz
+17;140 Hz
+18;160 Hz
+19;180 Hz
+20;200 Hz
+21;225 Hz
+22;250 Hz
+23;280 Hz
+24;315 Hz
+25;355 Hz
+26;400 Hz
+27;450 Hz
+28;500 Hz
+29;560 Hz
+30;630 Hz
+31;700 Hz
+32;800 Hz
+33;900 Hz
+34;1.0 kHz
+35;1.1 kHz
+36;1.2 kHz
+37;1.4 kHz
+38;1.6 kHz
+39;1.8 kHz
+40;2.0 kHz
+
+[EQTREBLEFREQ]
+// First column = number
+// Second column = frequency
+28;500 Hz
+29;560 Hz
+30;630 Hz
+31;700 Hz
+32;800 Hz
+33;900 Hz
+34;1.0 kHz
+35;1.1 kHz
+36;1.2 kHz
+37;1.4 kHz
+38;1.6 kHz
+39;1.8 kHz
+40;2.0 kHz
+41;2.2 kHz
+42;2.5 kHz
+43;2.8 kHz
+44;3.2 kHz
+45;3.6 kHz
+46;4.0 kHz
+47;4.5 kHz
+48;5.0 kHz
+49;5.6 kHz
+50;6.3 kHz
+51;7.0 kHz
+52;8.0 kHz
+53;9.0 kHz
+54;10.0 kHz
+55;11.0 kHz
+56;12.0 kHz
+57;14.0 kHz
+58;16.0 kHz
+
+[NOTES]
+// First column = note number
+// Second column = note name
+13;C#-1
+14;D-1
+15;D#-1
+16;E-1
+17;F-1
+18;F#-1
+19;G-1
+20;G#-1
+21;A-1
+22;A#-1
+23;B-1
+24;C0
+25;C#0
+26;D0
+27;D#0
+28;E0
+29;F0
+30;F#0
+31;G0
+32;G#0
+33;A0
+34;A#0
+35;B0
+36;C1
+37;C#1
+38;D1
+39;D#1
+40;E1
+41;F1
+42;F#1
+43;G1
+44;G#1
+45;A1
+46;A#1
+47;B1
+48;C2
+49;C#2
+50;D2
+51;D#2
+52;E2
+53;F2
+54;F#2
+55;G2
+56;G#2
+57;A2
+58;A#2
+59;B2
+60;C3
+61;C#3
+62;D3
+63;D#3
+64;E3
+65;F3
+66;F#3
+67;G3
+68;G#3
+69;A3
+70;A#3
+71;B3
+72;C4
+73;C#4
+74;D4
+75;D#4
+76;E4
+77;F4
+78;F#4
+79;G4
+80;G#4
+81;A4
+82;A#4
+83;B4
+84;C5
+85;C#5
+86;D5
+87;D#5
+88;E5
+89;F5
+90;F#5
+91;G5
+92;G#5
+93;A5
+94;A#5
+95;B5
+96;C6
+97;C#6
+98;D6
+99;D#6
+100;E6
+101;F6
+102;F#6
+103;G6
+104;G#6
+105;A6
+106;A#6
+107;B6
+108;C7
+109;C#7
+110;D7
+111;D#7
+112;E7
+113;F7
+114;F#7
+115;G7
+116;G#7
+117;A7
+118;A#7
+119;B7
+120;C8
+121;C#8
+122;D8
+123;D#8
+124;E8
+125;F8
+126;F#8
+127;G8
+
+
+// ##### Begin of the DRUMKIT chunks
+// The DRUMKIT chunks need to be the last chunks in the instrumentfile
+
+[DRUMKIT:126000000-SFXKit1]
+36;Cutting Noise 1
+37;Cutting Noise 2
+39;String Slap
+52;Flute Key Click
+68;Shower
+69;Thunder
+70;Wind
+71;Stream
+72;Bubble
+73;Feed
+84;Dog
+85;Horse
+86;Bird Tweet
+90;Ghost
+91;Maou
+
+[DRUMKIT:126000001-SFXKit2]
+36;Phone Call
+37;Door Squeak
+38;Door Slam
+39;Scratch Cut
+40;Scratch Split
+41;Wind Chime
+42;Telephone Ring
+52;Car Engine Ignition
+53;Car Tires Squeal
+54;Car Passing
+55;Car Crash
+56;Siren
+57;Train
+58;Jet Plane
+59;Starship
+60;Burst
+61;Roller Coaster
+62;Submarine
+68;Laugh
+69;Scream
+70;Punch
+71;Heart Beat
+72;Foot Steps
+84;Machine Gun
+85;Laser Gun
+86;Explosion
+87;Firework
+
+[DRUMKIT:126000002-NewSFXKit1]
+36;Cutting Noise 1
+37;Cutting Noise 2
+39;String Slap
+52;Flute Key Click
+68;Shower 2
+69;Thunder 2
+70;Wind 2
+71;Stream 2
+72;Bubble 2
+73;Feed
+84;Dog
+85;Horse
+86;Bird Tweet
+90;Ghost
+91;Maou
+
+[DRUMKIT:126000003-NewSFXKit2]
+36;Phone Call 2
+37;Door Squeak 2
+38;Door Slam 2
+39;Scratch Cut
+40;Scratch Split
+41;Wind Chime
+42;Telephone Ring 2
+52;Car Engine Ignition
+53;Car Tires Squeal
+54;Car Passing
+55;Car Crash
+56;Siren 2
+57;Train 2
+58;Jet Plane 2
+59;Starship
+60;Burst
+61;Roller Coaster
+62;Submarine
+68;Laugh
+69;Scream 2
+70;Punch 2
+71;Heart Beat
+72;Foot Steps 2
+84;Machine Gun 2
+85;Laser Gun
+86;Explosion 2
+87;Firework
+
+[DRUMKIT:126000008-NoisesKit]
+36;White Noise  
+37;Pink Noise  
+38;White Noise Down 1  
+39;Pink Noise Down 1  
+40;White Noise Down 2  
+41;Pink Noise Down 2  
+42;White Noise Up 2  
+43;White Noise Up 1  
+44;Pink Noise Up  
+45;White Noise Up Release  
+46;Pink Noise Up Release  
+47;White Noise Up LFO  
+48;Pink Noise Up LFO 
+
+[DRUMKIT:126000020-BassDrumKit]
+13;BD Electro
+14;BD FX Gate  
+15;BD Hammer  
+16;BD Analog Power  
+17;BD Analog Distortion 5  
+18;BD Analog Distortion 6  
+19;BD Analog Distortion 4  
+20;BD Analog Distortion 3  
+21;BD Analog Distortion 2  
+22;BD Analog Tight  
+23;BD Analog 94  
+24;BD Analog Blip 2  
+25;BD Analog Rubber 2  
+26;BD Analog 93  
+27;BD Analog 90  
+28;BD Analog 83  
+29;BD Analog 82  
+30;BD Analog 92  
+31;BD Analog 91  
+32;BD Analog Deep  
+33;BD Analog Hard 2  
+34;BD Analog Hard 1  
+35;BD Analog Blip 1  
+36;BD Analog Rubber 1  
+37;BD Analog Loose  
+38;BD Synth 1  
+39;BD Synth 2  
+40;BD Analog Distortion 1  
+41;Ripper  
+42;BD Analog 70 L  
+43;BD Analog 70  
+44;BD Analog 80  
+45;BD Analog 80 Long  
+46;BD Dry  
+47;BD Dry Hard  
+48;BD Room 1  
+49;BD Soft  
+50;BD Room 2  
+51;BD Break Lo-fi 2  
+52;BD Break Lo-fi 1  
+53;BD & Hi-Hat Open  
+54;BD Jungle 2  
+55;BD Jungle 1  
+56;BD Jungle 3  
+57;BD D&B 1  
+58;BD D&B 2  
+59;BD RX5 1  
+60;BD RX5 2  
+61;BD Room 3  
+62;BD Power Gate  
+63;BD R&B 1  
+64;BD R&B 2  
+65;BD Lo-fi  
+66;BD Hip Deep  
+67;BD Break Deep  
+68;BD Break Heavy  
+69;BD Break Hard  
+70;Big Drum  
+71;Taiko Drum  
+72;Surdo Open  
+73;Feet 2  
+74;BD Industrial  
+75;Door Slam  
+76;Punch  
+77;Heart  
+78;Feet 1  
+79;BD Human  
+80;BD Human Deep  
+81;Vox Buh!  
+82;Vox Muh!
+
+[DRUMKIT:126000021-ReverseBDKit]
+13;Reverse BD Electro
+14;Reverse BD Fx Gate  
+15;Reverse BD Hammer  
+16;Reverse BD Analog Power  
+18;Reverse BD Analog Distortion 6  
+20;Reverse BD Analog Distortion 3  
+21;Reverse BD Analog Distortion 2  
+22;Reverse BD Analog Tight  
+23;Reverse BD Analog 94  
+24;Reverse BD Analog Blip 2  
+25;Reverse BD Analog Rubber 2  
+26;Reverse BD Analog 93  
+27;Reverse BD Analog 90  
+28;Reverse BD Analog 83  
+29;Reverse BD Analog 82  
+31;Reverse BD Analog 91  
+32;Reverse BD Analog Deep  
+34;Reverse BD Analog Hard 1  
+35;Reverse BD Analog Blip 1  
+36;Reverse BD Analog Rubber 1  
+37;Reverse BD Analog Loose  
+38;Reverse BD Synth 1  
+39;Reverse BD Synth 2  
+40;Reverse BD Analog Distortion 1  
+41;Reverse Ripper  
+43;Reverse BD Analog 70  
+44;Reverse BD Analog 81  
+46;Reverse BD Dry  
+49;Reverse BD Soft  
+50;Reverse BD Room 2  
+51;Reverse BD Break Lo-fi 2  
+52;Reverse BD Break Lo-fi 1  
+53;Reverse BD & Hi-Hat Open  
+56;Reverse BD Jungle 3  
+57;Reverse BD D&B 1  
+58;Reverse BD D&B 2  
+59;Reverse BD RX5 1  
+60;Reverse BD RX5 2  
+61;Reverse BD Room 3  
+62;Reverse BD Power Gate  
+63;Reverse BD R&B 1  
+64;Reverse BD R&B 2  
+65;Reverse BD Lo-fi  
+67;Reverse BD Break Deep  
+68;Reverse BD Break Heavy  
+69;Reverse BD Break Hard  
+70;Reverse Big Drum  
+71;Reverse Taiko Drum  
+72;Reverse Surdo Open  
+73;Reverse Feet 2  
+74;Reverse Tom Industrial  
+75;Reverse Door Slam  
+76;Reverse Punch  
+78;Reverse Feet 1  
+79;Reverse BD Human  
+80;Reverse BD Human Deep  
+81;Reverse Vox Buh!  
+82;Reverse Vox Muh!
+
+[DRUMKIT:126000035-ArabicKit]
+24;Nakarazan Dom  
+25;Cabasa  
+26;Nakarazan Edge  
+27;Hager Dom  
+28;Hager Edge  
+29;Bongo H  
+30;Bongo L  
+31;Conga H Mute  
+32;Conga H Open  
+33;Conga L  
+34;Zagrouda H  
+35;Zagrouda L  
+36;Kick Soft  
+37;Side Stick  
+38;Snare Soft  
+39;Arabic Hand Clap  
+40;Snare Drum  
+41;Floor Tom L  
+42;Hi-Hat Closed  
+43;Floor Tom H  
+44;Hi-Hat Pedal  
+45;Low Tom  
+46;Hi-Hat Open  
+47;Mid Tom L  
+48;Mid Tom H  
+49;Crash Cymbal 1  
+50;High Tom  
+51;Ride Cymbal 1  
+52;Crash Cymbal 2  
+53;Duhulla Dom  
+54;Tambourine  
+55;Duhulla Tak  
+56;Cowbell  
+57;Duhulla Sak  
+58;Claves  
+59;Doff Dom  
+60;Katem Dom  
+61;Katem Tak  
+62;Katem Sak  
+63;Katem Tak  
+64;Doff Tak  
+65;Tabla Dom  
+66;Tabla Tak 1  
+67;Tabla Tik  
+68;Tabla Tak 2  
+69;Tabla Sak  
+70;Tabla Roll Edge  
+71;Tabla Flam  
+72;Sagat 1  
+73;Tabel Dom  
+74;Sagat 3  
+75;Tabel Tak  
+76;Sagat 2  
+77;Riq Dom  
+78;Riq Tak 2  
+79;Riq Finger 1  
+80;Riq Tak 1  
+81;Riq Finger 2  
+82;Riq Brass Tremolo
+83;Riq Sak
+84;Riq Tik
+
+[DRUMKIT:126000036-ArabicKit1]
+13;Zarb Back mf
+14;Zarb Tom f
+15;Zarb Eshareh
+16;Zarb Whipping
+17;Tombak Tom f
+18;Neghareh Tom f
+19;Tombak Back f
+20;Neghareh Back f
+21;Tombak Snap f
+22;Neghareh Pelang f
+23;Tombak Trill
+24;Khaligi Clap 1
+25;Arabic Zalgouta Open
+26;Khaligi Clap 2
+27;Arabic Zalgouta Close
+28;Arabic Hand Clap
+29;Tabel Tak 1
+30;Sagat 1
+31;Tabel Dom
+32;Sagat 2
+33;Tabel Tak 2
+34;Sagat 3
+35;Riq Tik 3
+36;Riq Tik 2
+37;Riq Tik Hard 1
+38;Riq Tik 1
+39;Riq Tik Hard 2
+40;Riq Tik Hard 3
+41;Riq Tish
+42;Riq Snouj 2
+43;Riq Roll
+44;Riq Snouj 1
+45;Riq Sak
+46;Riq Snouj 3
+47;Riq Snouj 4
+48;Riq Tak 1
+49;Riq Brass 1
+50;Riq Tak 2
+51;Riq Brass 2
+52;Riq Dom
+53;Katem Tak Doff
+54;Katem Dom
+55;Katem Sak 1
+56;Katem Tak 1
+57;Katem Sak 2
+58;Katem Tak 2
+59;Daholla Sak 2
+60;Daholla Sak 1
+61;Daholla Tak 1
+62;Daholla Dom
+63;Daholla Tak 2
+64;Tablah Prok
+65;Tablah Dom 2
+66;Tablah Roll of Edge
+67;Tablah Tak Finger 4
+68;Tablah Tak Trill 1
+69;Tablah Tak Finger 3
+70;Tablah Tak Trill 2
+71;Tablah Tak Finger 2
+72;Tablah Tak Finger 1
+73;Tablah Tik 2
+74;Tablah Tik 4
+75;Tablah Tik 3
+76;Tablah Tik 1
+77;Tablah Tak 3
+78;Tablah Tak 1
+79;Tablah Tak 4
+80;Tablah Tak 2
+81;Tablah Sak 2
+82;Tablah Tremolo
+83;Tablah Sak 1
+84;Tablah Dom 1
+
+[DRUMKIT:126000040-CubanKit]
+22;Conga H Tip
+23;Conga Heel
+24;Conga H Open
+25;Conga H Mute
+26;Conga H Slap Open
+27;Conga H Slap 
+28;Conga H Slap Mute
+29;Conga L Tip
+30;Conga L Heel
+31;Conga L Open
+32;Conga L Mute
+33;Conga L Slap Open
+34;Conga L Slap
+35;Conga L Slide
+36;Bongo H Open 1 finger
+37;Bongo H Open 3 finger
+38;Bongo H Rim
+39;Bongo H Tip
+40;Bongo H Heel
+41;Bongo H Slap
+42;Bongo L Open 1 finger
+43;Bongo L Open 3 finger
+44;Bongo L Rim
+45;Bongo L Tip
+46;Bongo L Heel
+47;Bongo L Slap
+48;Timbale L Open
+53;Paila L
+54;Timbale H Open
+59;Paila H
+60;Cowbell Top
+64;Guiro Short
+65;Guiro Long
+68;Tambourine
+72;Maracas
+73;Shaker
+74;Cabasa
+
+[DRUMKIT:126000043-PopLatinKit1]
+13;Cajon Low
+14;Cajon Slap
+15;Cajon Tip
+16;Claves High
+17;ClavesLow
+18;Hand Clap
+20;Finger Snap
+21;Castanet
+22;Conga H Tip
+23;Conga Heel
+24;Conga H Open
+25;Conga H Mute
+26;Conga H Slap Open
+27;Conga H Slap 
+28;Conga H Slap Mute
+29;Conga L Tip
+30;Conga L Heel
+31;Conga L Open
+32;Conga L Mute
+33;Conga L Slap Open
+34;Conga L Slap
+35;Conga L Slide
+36;Bongo H Open 1 finger
+37;Bongo H Open 3 finger
+38;Bongo H Rim
+39;Bongo H Tip
+40;Bongo H Heel
+41;Bongo H Slap
+42;Bongo L Open 1 finger
+43;Bongo L Open 3 finger
+44;Bongo L Rim
+45;Bongo L Tip
+46;Bongo L Heel
+47;Bongo L Slap
+48;Timbale L Open
+53;Paila L
+54;Timbale H Open
+59;Paila H
+60;Cowbell Top
+61;Cowbell 1
+62;Cowbell 2
+63;Cowbell 3
+64;Guiro Short
+65;Guiro Long
+66;Metal Guiro Short
+67;Metal Guiro Long
+68;Tambourine
+69;Tambourim Open
+70;Tambourim Mute
+71;Tambourim Tip
+72;Maracas
+73;Shaker
+74;Cabasa
+75;Cuica Mute
+76;Cuica Open
+77;Cowbell High 1
+78;Cowbell High 2
+79;Shekere
+80;Shekere Tone
+81;Triangle Mute
+82;Triangle Open
+
+[DRUMKIT:126000044-PopLatinKit2]
+13;Cajon Low
+14;Cajon Slap
+15;Cajon Tip
+16;Claves High
+17;ClavesLow
+18;Hand Clap
+20;Finger Snap
+21;Castanet
+22;Conga H Tip
+23;Conga Heel
+24;Conga H Open
+25;Conga H Mute
+26;Conga H Slap Open
+27;Conga H Slap 
+28;Conga H Slap Mute
+29;Conga L Tip
+30;Conga L Heel
+31;Conga L Open
+32;Conga L Mute
+33;Conga L Slap Open
+34;Conga L Slap
+35;Conga L Slide
+36;Bongo H Open 1 finger
+37;Bongo H Open 3 finger
+38;Bongo H Rim
+39;Bongo H Tip
+40;Bongo H Heel
+41;Bongo H Slap
+42;Bongo L Open 1 finger
+43;Bongo L Open 3 finger
+44;Bongo L Rim
+45;Bongo L Tip
+46;Bongo L Heel
+47;Bongo L Slap
+48;Timbale L Open
+53;Paila L
+54;Timbale H Open
+55;Hand Clap Mute 1
+56;Hand Clap Mute 2
+57;Hand Clap Open 1
+58;Hand Clap Open 2
+59;Paila H
+60;Cowbell Top
+61;Cowbell 1
+62;Cowbell 2
+63;Cowbell 3
+64;Guiro Short
+65;Guiro Long
+66;Metal Guiro Short
+67;Metal Guiro Long
+68;Tambourine
+69;Tambourim Open
+70;Tambourim Mute
+71;Tambourim Tip
+72;Maracas
+73;Shaker
+74;Cabasa
+75;Cuica Mute
+76;Cuica Open
+77;Cowbell High 1
+78;Cowbell High 2
+79;Shekere
+80;Shekere Tone
+81;Triangle Mute
+82;Triangle Open
+
+[DRUMKIT:126000046-PopLatinKit2Comp]
+13;Cajon Low
+14;Cajon Slap
+15;Cajon Tip
+16;Claves High
+17;ClavesLow
+18;Hand Clap
+20;Finger Snap
+21;Castanet
+22;Conga H Tip
+23;Conga Heel
+24;Conga H Open
+25;Conga H Mute
+26;Conga H Slap Open
+27;Conga H Slap 
+28;Conga H Slap Mute
+29;Conga L Tip
+30;Conga L Heel
+31;Conga L Open
+32;Conga L Mute
+33;Conga L Slap Open
+34;Conga L Slap
+35;Conga L Slide
+36;Bongo H Open 1 finger
+37;Bongo H Open 3 finger
+38;Bongo H Rim
+39;Bongo H Tip
+40;Bongo H Heel
+41;Bongo H Slap
+42;Bongo L Open 1 finger
+43;Bongo L Open 3 finger
+44;Bongo L Rim
+45;Bongo L Tip
+46;Bongo L Heel
+47;Bongo L Slap
+48;Timbale L Open
+53;Paila L
+54;Timbale H Open
+55;Hand Clap Mute 1
+56;Hand Clap Mute 2
+57;Hand Clap Open 1
+58;Hand Clap Open 2
+59;Paila H
+60;Cowbell Top
+61;Cowbell 1
+62;Cowbell 2
+63;Cowbell 3
+64;Guiro Short
+65;Guiro Long
+66;Metal Guiro Short
+67;Metal Guiro Long
+68;Tambourine
+69;Tambourim Open
+70;Tambourim Mute
+71;Tambourim Tip
+72;Maracas
+73;Shaker
+74;Cabasa
+75;Cuica Mute
+76;Cuica Open
+77;Cowbell High 1
+78;Cowbell High 2
+79;Shekere
+80;Shekere Tone
+81;Triangle Mute
+82;Triangle Open
+
+[DRUMKIT:126000049-CymbalKit]
+36;Kick A
+37;Timbale A
+38;Timbale A
+39;Crash Cymbal A
+40;Ride Cymbal A
+41;Splash Cymbal A
+44;Crash Cymbal B1
+45;Crash Cymbal B2
+46;Ride Cymbal B
+49;Crash Cymbal C
+50;Ride Cymbal C
+51;Brush Ride Cymbal C
+52;Brush Sizzle Cymbal C
+55;Crash Cymbal D1
+56;Crash Cymbal D2
+57;Crash Cymbal D3
+58;Ride Cymbal D
+59;Ride Cymbal D
+62;Crash Cymbal E1
+63;Crash Cymbal E2
+64;Ride Cymbal E
+65;Hi-Hat Half Open E
+
+[DRUMKIT:126000064-ArabicMixKit]
+13;Conga Analog H
+14;Conga Analog M
+15;Conga Analog L
+16;Vibraslap
+17;Kick Techno L
+18;Side Stick Arabic Mix
+19;Snare Techno
+20;Guiro Long
+21;Kick Techno Q
+22;Open Rim Shot
+23;Funk Snare 2
+24;Kick Arabic Mix
+25;Funk Snare 1
+26;Snare Arabic Mix
+27;Hand Clap
+28;Snare
+29;Tom Electro 1
+30;Hi-Hat Closed Arabic Mix
+31;Tom Electro 2
+32;Hi-Hat Half Arabic Mix
+33;Tom Electro 3
+34;Hi-Hat Open Arabic Mix
+35;Tom Electro 4
+36;Tom Electro 5
+37;Crash Cymbal 1
+38;Tom Electro 6
+39;Hi-Hat Open 3
+40;Reverse Cymbal
+41;Timbale L
+42;Conga H Open
+43;Timbale H
+44;Conga H Mute
+45;Tambourine
+46;Conga L
+47;Cowbell
+48;Claves
+49;Bongo H
+50;Wood Block H
+51;Bongo L
+52;Wood Block L
+53;Kurdish Dohol Low f
+54;Cabasa
+55;Kurdish Dohol High f
+56;Shaker
+57;Snap 1
+58;Maracas
+59;Snap 2
+60;Khaligi Twaisat 3
+61;Khaligi Twaisat 1
+62;Khaligi Twaisat 2
+63;Khaligi Twaisat 5 Open
+64;Khaligi Twaisat 4 Open
+65;Khaligi Tablah Small Dom
+66;Khaligi Tar Barashim Group Dom
+67;Khaligi Tablah Small Snap
+68;Khaligi Tar Barashim Group Sak
+69;Khaligi Tablah Small Sak
+70;Khaligi Tar Barashim Group Tak
+71;Khaligi Tablah Small Tik
+72;Khaligi Tablah Big Dom 1
+73;Khaligi Tar Segal Dom
+74;Khaligi Tablah Big Tak 1
+75;Khaligi Tar Segal Tak
+76;Khaligi Tablah Big Sak 1
+77;Tablah Dom 1
+78;Tablah Tak 1
+79;Tablah Tremolo
+80;Tablah Tak 2
+81;Tablah Tik 1
+82;Tablah Sak 1
+83;Tablah Tik 3
+84;Tablah Tik 2
+
+[DRUMKIT:126000067-TurkishKit]
+13;Asma Davul Left Side
+14;Asma Davul Right Side
+15;Asma Davul Side Body
+16;Asma Davul Both Sides
+17;Koltuk Davul Flam
+18;Koltuk Davul Teke
+19;Koltuk Davul Tek
+20;Koltuk Davul Dum
+21;Bendir Teke Flam
+22;Bendir Teke Dead
+23;Bendir Tek Dead
+24;Bendir Teke
+25;Bendir Tek
+26;Bendir Slap
+27;Bendir Dum
+28;Zil Right Close
+29;Zil Right Open
+30;Zil Left Close
+31;Zil Left Open
+32;Tef Teke Flam
+33;Tef Tek Mute
+34;Tef Teke Damped
+35;Tef Tek Mute Medium
+36;Tef Dum Mute
+37;Tef Cymbal
+38;Tef Cymbal Mute
+39;Tef Tremolo
+40;Tef Shake 1
+41;Tef Shake 2
+42;Tef Tek Flam
+43;Tef Full Open
+44;Tef Teke Open Short
+45;Tef Tek Open Short
+46;Tef Tek Open
+47;Tef Dum Open
+48;Hollo Finger Dead
+49;Hollo Slap
+50;Hollo Dum
+51;Kasik
+52;Kasik Flam
+53;Bass Darbuka Tek Dead
+54;Bass Darbuka Tek Flam
+55;Bass Darbuka Teke
+56;Bass Darbuka Teke Other Finger
+57;Bass Darbuka Teke Index Finger
+58;Bass Darbuka Tek
+59;Bass Darbuka Slap
+60;Bass Darbuka Slap Medium
+61;Bass Darbuka Dum
+62;Darbuka Roll Close
+63;Darbuka Roll Open
+64;Darbuka Teke Damped Flam
+65;Darbuka Tek Dead
+66;Darbuka Tek Damped
+67;Darbuka Teke Open Flam
+68;Darbuka Teke Open
+69;Darbuka Teke Other Finger 1
+70;Darbuka Teke Index Finger 1
+71;Darbuka Tek 1
+72;Darbuka Teke Other Finger 2
+73;Darbuka Teke Index Finger 2
+74;Darbuka Tek 2
+75;Darbuka Slap Medium
+76;Darbuka Slap
+77;Darbuka Dum
+78;Bongo Tek Roll
+79;Bongo Flam
+80;Bongo Tek Flam
+81;Bongo Tek
+82;Bongo Slap
+83;Bongo Flam Hi
+84;Bongo Dum
+
+[DRUMKIT:126000106-VocalBeatBox]
+13;Kick 3 Fitubom 2 BB
+14;Kick 5 Throat BB
+15;Kick 4 Throat BB
+16;Special 18 VScratch 1 BB
+17;Special 18 VScratch 2 BB
+18;Special 3 VScratch 2 BB
+19;Special 18 VScratch 3 BB
+20;Kick 3 Fitubom 1 BB
+21;Kick 6 Electro 2 BB
+22;Special 14 ZtkPauu 1 BB
+23;Special 14 ZtkPauu 2 BB
+24;Kick 7 Throat BB
+25;Special 20 Breathe 2 BB
+26;Special 20 Breathe 1 BB
+27;Special 19 Breathe 1 BB
+28;Special 21 Breathe 1 BB
+29;Special 11 Vibrato 1 BB
+30;Snare 4 T-Style BB
+31;Snare 6 ISCH-Style BB
+32;Snare Clap 1 BB
+33;Kick 6 Electro 1 BB
+34;Snare 7 TSCH-Style BB
+35;Kick 2 Classic 1 BB
+36;Kick 1 Classic 1 BB
+37;Snare 3 Side Stick 1 BB
+38;Snare 1 Classic 1 BB
+39;Snare 5 KCH-Style BB
+40;Snare 8 KUCH-Style BB
+41;Tom 6 Classic 1 BB
+42;Hi-Hat 1 Z-Style BB
+43;Tom 5 Classic 1 BB
+44;Hi-Hat 5 Tch-Style BB
+45;Tom 4 Classic 1 BB
+46;Hi-Hat 7 Open 1 BB
+47;Tom 3 Classic 1 BB
+48;Tom 2 Classic 1 BB
+49;Cymbal 1 Crush Hi 1 BB
+50;Tom 1 Classic 1 BB
+51;Cymbal 1 Crush Hi 2 BB
+52;Cymbal 4 China 1 BB
+53;Cymbal 4 China 2 BB
+54;Hi-Hat 8 Pedal 2 BB
+55;Cymbal 3 FXCymbal Hi BB
+56;Hi-Hat 6 Wood-Style BB
+57;Cymbal 2 Crash Lo 1 BB
+58;Special 5 Scratch 1 BB
+59;Cymbal 2 Crash Lo 2 BB
+60;Tom 6 Rim Click BB
+61;Tom 5 Rim Click BB
+62;Tom 4 Rim Click BB
+63;Tom 3 Rim Click BB
+64;Tom 2 Rim Click BB
+65;Special 6 Now BB
+66;Special 6 Get Ready BB
+67;Special 13 Fanfare 1 BB
+68;Special 12 Trumpet 1 BB
+69;Percussion 1 Shaker 1 BB
+70;Hi-Hat 2 S-Style BB
+71;Special 1 Scratch 1 BB
+72;Special 2 Scratch 1 BB
+73;Hi-Hat 3 NZ-Style BB
+74;Special 4 Scratch 1 BB
+75;Hi-Hat 4 F-Style BB
+76;Special 9 Can 2 BB
+77;Special 9 Can 1 BB
+78;Tom 5 Electronic BB
+79;Tom 4 Electronic BB
+80;Tom 3 Electronic BB
+81;Tom 2 Electronic BB
+82;Tom 1 Electronic BB
+83;Special 16 VScratch 1 BB
+84;Special 16 VScratch 2 BB
+85;Special 17 VScratch 1 BB
+86;Special 17 VScratch 2 BB
+87;Special 15 Peeptkp 1 BB
+88;Special 15 Peeptkp 2 BB
+89;Special 7 Laughter 1 BB
+
+[DRUMKIT:126000109-VocalEffectsKit]
+13;Kick 3 Fitubom 2 BB
+14;Kick 5 Throat BB
+15;Kick 4 Throat BB
+16;Special 18 VScratch 1 BB
+17;Special 18 VScratch 2 BB
+18;Special 3 VScratch 2 BB
+19;Special 18 VScratch 3 BB
+20;Kick 3 Fitubom 1 BB
+21;Kick 6 Electro 2 BB
+22;Special 14 ZtkPauu 1 BB
+23;Special 14 ZtkPauu 2 BB
+24;Kick 7 Throat BB
+25;Special 20 Breathe 2 BB
+26;Special 20 Breathe 1 BB
+27;Special 19 Breathe 1 BB
+28;Special 21 Breathe 1 BB
+29;Special 11 Vibrato 1 BB
+30;Snare 4 T-Style BB
+31;Snare 6 ISCH-Style BB
+32;Snare Clap 1 BB
+33;Kick 6 Electro 1 BB
+34;Snare 7 TSCH-Style BB
+35;Kick 2 Classic 1 BB
+36;Kick 1 Classic 1 BB
+37;Snare 3 Side Stick 1 BB
+38;Snare 1 Classic 1 BB
+39;Snare 5 KCH-Style BB
+40;Snare 8 KUCH-Style BB
+41;Tom 6 Classic 1 BB
+42;Hi-Hat 1 Z-Style BB
+43;Tom 5 Classic 1 BB
+44;Hi-Hat 5 Tch-Style BB
+45;Tom 4 Classic 1 BB
+46;Hi-Hat 7 Open 1 BB
+47;Tom 3 Classic 1 BB
+48;Tom 2 Classic 1 BB
+49;Cymbal 1 Crush Hi 1 BB
+50;Tom 1 Classic 1 BB
+51;Cymbal 1 Crush Hi 2 BB
+52;Cymbal 4 China 1 BB
+53;Cymbal 4 China 2 BB
+54;Hi-Hat 8 Pedal 2 BB
+55;Cymbal 3 FXCymbal Hi BB
+56;Hi-Hat 6 Wood-Style BB
+57;Cymbal 2 Crash Lo 1 BB
+58;Special 5 Scratch 1 BB
+59;Cymbal 2 Crash Lo 2 BB
+60;Tom 6 Rim Click BB
+61;Tom 5 Rim Click BB
+62;Tom 4 Rim Click BB
+63;Tom 3 Rim Click BB
+64;Tom 2 Rim Click BB
+65;Special 6 Now BB
+66;Special 6 Get Ready BB
+67;Special 13 Fanfare 1 BB
+68;Special 12 Trumpet 1 BB
+69;Percussion 1 Shaker 1 BB
+70;Hi-Hat 2 S-Style BB
+71;Special 1 Scratch 1 BB
+72;Special 2 Scratch 1 BB
+73;Hi-Hat 3 NZ-Style BB
+74;Special 4 Scratch 1 BB
+75;Hi-Hat 4 F-Style BB
+76;Special 9 Can 2 BB
+77;Special 9 Can 1 BB
+78;Tom 5 Electronic BB
+79;Tom 4 Electronic BB
+80;Tom 3 Electronic BB
+81;Tom 2 Electronic BB
+82;Tom 1 Electronic BB
+83;Special 16 VScratch 1 BB
+84;Special 16 VScratch 2 BB
+85;Special 17 VScratch 1 BB
+86;Special 17 VScratch 2 BB
+87;Special 15 Peeptkp 1 BB
+88;Special 15 Peeptkp 2 BB
+89;Special 7 Laughter 1 BB
+
+[DRUMKIT:126000110-GospelAdLibs]
+48;C’mon
+49;Hoo!
+50;Aha!
+51;Oh Yeah
+52;Yayayayayah
+53;Put Your Hands Together
+54;C’mon Now
+55;Heeey
+56;Heeey
+57;Clap Your Hands, Everybody C’mon
+58;With All Your Sou
+59;Stand Up On Your Feet
+60;Uhh Yeah
+61;Aaoh
+62;Come On!
+63;Yeah!
+64;Alright Now!
+65;One
+66;Two
+67;Three
+68;Four
+69;One!
+70;Two!
+71;Three!
+72;Four!
+73;Five!
+74;Six!
+75;Seven!
+76;Eight!
+77;Clap!
+78;Gospel Clap 1
+79;Gospel Clap 2
+
+[DRUMKIT:126000114-IndianKit]
+15;Indian Hand Clap
+16;Dafli Open
+17;Dafli Slap
+18;Dafli Rim
+19;Duff Open
+20;Duff Slap
+21;Duff Rim
+22;Hatheli Long
+23;Hatheli Short
+24;Baya ge
+25;Baya ke
+26;Baya ghe
+27;Baya ka
+28;Tabla na
+29;Tabla tin
+30;Tablabaya dha
+31;Dhol 1 Open
+32;Dhol 1 Slap
+33;Dhol 1 Mute
+34;Dhol 1 Open Slap
+35;Dhol 1 Roll
+36;Dandia Short
+37;Dandia Long
+38;Chutki
+39;Chipri
+40;Khanjira Open
+41;Khanjira Slap
+42;Khanjira Mute
+43;Khanjira Bendup
+44;Khanjira Benddown
+45;Dholak 1 Open
+46;Dholak 1 Mute
+47;Dholak 1 Slap
+48;Dhol 2 Open
+49;Dhol 2 Slap
+50;Dhol 2 Rim
+51;Mridangam na
+52;Mridangam din
+53;Mridangam ki
+54;Mridangam ta
+55;Mridangam Chapu
+56;Mridangam Lo Closed
+57;Mridangam Lo Open
+58;Chimta Normal
+59;Chimta Ring
+60;Dholki Hi Open
+61;Dholki Hi Mute
+62;Dholki Lo Open
+63;Dholki Hi Slap
+64;Dholki Lo Slide
+65;Khol Open
+66;Khol Slide
+67;Khol Mute
+68;Manjira Open
+69;Manjira Close
+70;Jhanji Open
+71;Jhanji Close
+72;Mondira Open
+73;Mondira Close
+74;Indian Bhangra Scat 1
+75;Indian Bhangra Scat 2
+76;Indian Bhangra Scat 3
+77;indian Bhangra Scat 4
+78;Khomokh Normal
+79;Khomokh Mute
+80;Khomokh mltatk
+81;Thavil Open
+82;Thavil Slap
+83;Thavil Mute
+84;Khartaal
+85;Dholak 2 Open
+86;Dholak 2 Slide
+87;Dholak 2 Rim 1
+88;Dholak 2 Rim 2
+89;Dholak 2 Ring
+90;Dholak 2 Slap
+
+[DRUMKIT:126000124-ChineseKit]
+23;Da Cha 2
+24;Da Gu mp
+25;Da Gu Rim
+26;Da Gu f
+27;Da Gu Hand
+28;Da Gu Roll
+29;Pai Gu 4
+30;Pai Gu 4 High
+31;Pai Gu 3
+32;Pai Gu 3 High
+33;Pai Gu 2
+34;Pai Gu 2 High
+35;Pai Gu 1
+36;Luo High 1
+37;Gong Batter
+38;Jin Luo
+39;Luo High 2
+40;Luo Mid-Low
+41;Luo
+42;Jin Luo Low
+43;Da Cha 1
+44;Da Cha Effect
+45;Zhong Cha
+46;Xiao Cha Effect
+47;Xiao Cha
+48;Mang Luo Low
+49;Mang Luo Mid
+50;Qing
+51;Finger Bell
+52;Luo Big
+53;Mu Yu Low
+54;Mu Yu Mid-Low
+55;Mu Yu Mid
+56;Mu Yu High
+57;Nan Bang Zi Roll
+58;Nan Bang Zi
+59;Ban Gu
+60;Ban
+61;Ban Gu Roll
+62;Chinese Opera Voice 1
+63;Chinese Opera Voice 2
+64;Chinese Opera Voice 3
+65;Yun Luo F4
+66;Yun Luo F#4
+67;Yun Luo G4
+68;Yun Luo G#4
+69;Yun Luo A4
+70;Yun Luo A#4
+71;Yun Luo B4
+72;Yun Luo C5
+73;Yun Luo C#5
+74;Yun Luo D5
+75;Yun Luo D#5
+76;Yun Luo E5
+77;Yun Luo F5
+78;Yun Luo F#5
+79;Yun Luo G5
+80;Yun Luo G#5
+81;Yun Luo A5
+82;Yun Luo A#5
+83;Yun Luo B5
+84;Yun Luo C6
+
+[DRUMKIT:126008042-AfroCubanKit]
+13;Djembe Bass AF
+14;Djembe Close AF
+15;Djembe Open AF
+16;Djembe Slap AF
+17;Cajon Bass AF
+18;Cajon Mid AF
+19;Cajon Hi AF
+20;Conga Lo Open AF
+21;Conga Lo Close AF
+22;Conga Lo Slap Open AF
+23;Conga Lo Slap Mute AF
+24;Conga Hi Bass AF
+25;Conga Hi Heel AF
+26;Conga Hi Tip AF
+27;Conga Hi Open AF
+28;Conga Hi Slap Close AF
+29;Conga Hi Slap Open AF
+30;Conga Hi Slap Mute AF
+31;Bongo Lo Open 1 / Rim 1 AF
+32;Bongo Lo Open 3 AF
+33;Bongo Lo Close 3 AF
+34;Bongo Lo Slap AF
+35;Bongo Hi Heel AF
+36;Bongo Hi Tip AF
+37;Bongo Hi Open 1 /Rim 1 AF
+38;Bongo Hi Open 3 / Rim 3 AF
+39;Bongo Hi Mute1 AF
+40;Bongo Hi Slap AF
+41;Cowbell 3 Mouth AF
+42;Cowbell 3 Top1 AF
+43;Cowbell 3 Top2 AF
+44;Cowbell 3 Edge AF
+45;Cowbell 5 Mouth AF
+46;Cowbell 5 Top1 AF
+47;Cowbell 5 Top2 AF
+48;Cowbell 5 Edge AF
+49;Crash Cymbal AF
+50;Chabell Mute AF
+51;Chabell Open AF
+52;Chabell Top AF
+53;Mambobell Centre AF
+54;Mambobell Edge AF
+55;Timbale Finger Lo Mute AF
+56;Timbale Finger Lo Open AF
+57;Timbale Lo Cask Tip / Shank AF
+58;Timbale Hi Cask Tip / Shank AF
+59;Timbale Lo Side Stick AF
+60;Timbale Lo Open AF
+61;Timbale Lo Rim AF
+62;Timbale Hi Open AF
+63;Timbale Hi Rim AF
+64;Plastic Wood Block AF
+65;African Clave AF
+66;Wood Clave AF
+67;Maracas 1 Lo AF
+68;Maracas 1 Hi AF
+69;Maracas 2 Lo AF
+70;Maracas 2 Hi AF
+71;Shekere 2 Tone AF
+72;Shekere 2 Up AF
+73;Shekere 2 Down AF
+74;Shekere 1 Tone AF
+75;Shekere 1 Up AF
+76;Shekere 1 Down AF
+77;Guiro Up Short AF
+78;Guiro Dn Short AF
+79;Guiro Up Slow AF
+80;Guiro Up Fast AF
+81;Metal Guiro Up Short AF
+82;Metal Guiro Down Short AF
+83;Metal Guiro Long AF
+84;Palmas L Mute AF
+85;Palmas C Mute AF
+86;Palmas R Mute AF
+87;Palmas L Open AF
+88;Palmas C Open AF
+89;Palmas R Open AF
+90;Chimes Down AF
+91;Chimes Up AF
+
+[DRUMKIT:126008045-PopPercKit]
+13;Djembe Bass AF
+14;Djembe Close AF
+15;Djembe Open AF
+16;Djembe Slap AF
+17;Cajon Bass PP
+18;Cajon Mid PP
+19;Cajon Hi PP
+20;Conga Lo Open BR
+21;Conga Lo Close BR
+22;Conga Lo Slap Open BR
+23;Conga Lo Slap Mute BR
+24;Conga Hi Bass BR
+25;Conga Hi Heel BR
+26;Conga Hi Tip BR
+27;Conga Hi Open BR
+28;Conga Hi Slap Close BR
+29;Conga Hi Slap Open BR
+30;Conga Hi Slap Mute BR
+31;Bongo Lo Open 1 / Rim 1 AF
+32;Bongo Lo Open 3 AF
+33;Bongo Lo Close 3 AF
+34;Bongo Lo Slap AF
+35;Bongo Hi Heel AF
+36;Bongo Hi Tip AF
+37;Bongo Hi Open 1 /Rim 1 AF
+38;Bongo Hi Open 3 / Rim 3 AF
+39;Bongo Hi Mute1 AF
+40;Bongo Hi Slap AF
+41;Cowbell 5 Mouth AF
+42;Cowbell 3 Mouth AF
+43;Chabell Open AF
+44;Cowbell RD
+45;Fibre Clave PP
+46;Plastic Wood Block AF
+47;African Clave AF
+48;Wood Clave AF
+49;Crash Cymbal AF
+50;Temp Block 1 PP
+51;Temp Block 3 PP
+52;Temp Block 5 PP
+53;Tambourine 1 Shake PP
+54;Tambourine 1 Hit PP
+55;Tambourine 2 Shake PP
+56;Tambourine 2 Hit PP
+57;Tambourine 3 Hit PP
+58;Palmas L Mute AF
+59;Palmas R Mute AF
+60;Palmas L Open AF
+61;Palmas R Open AF
+62;Claps Lo PP
+63;Claps Hi PP
+64;Cabasa L BR
+65;Cabasa R BR
+66;Shaker 1 Up BR
+67;Shaker 1 Down BR
+68;Shaker 1 Long BR
+69;Shaker 2 Up BR
+70;Shaker 2 Down BR
+71;Shaker 2 Long BR
+72;Shaker 3 Up BR
+73;Shaker 3 Down BR
+74;Shaker 3 Long BR
+75;Shaker 4 Up BR
+76;Shaker 4 Down BR
+77;Shaker 4 Long BR
+78;Shaker 5 Up PP
+79;Shaker 5 Down PP
+80;Udu Bass Open PP
+81;Udu Bass PP
+82;Udu Heel PP
+83;Udu Tip PP
+84;Udu Body PP
+85;Udu Top PP
+86;Triangle Open Up BR
+87;Triangle Open Dn BR
+88;Triangle Close Up BR
+89;Triangle Close Dn BR
+90;Chimes Down AF
+91;Chimes Up AF
+
+[DRUMKIT:126008119-BrazilianKit]
+13;Djembe Bass AF
+14;Djembe Close AF
+15;Djembe Open AF
+16;Djembe Slap AF
+17;Surdo Open BR
+18;Surdo Mute BR
+19;Surdo Stop BR
+20;Conga Lo Open BR
+21;Conga Lo Close BR
+22;Conga Lo Slap Open BR
+23;Conga Lo Slap Mute BR
+24;Conga Hi Bass BR
+25;Conga Hi Heel BR
+26;Conga Hi Tip BR
+27;Conga Hi Open BR
+28;Conga Hi Slap Close BR
+29;Conga Hi Slap Open BR
+30;Conga Hi Slap Mute BR
+31;Bongo Lo Open 1 / Rim 1 AF
+32;Bongo Lo Open 3 AF
+33;Bongo Lo Close 3 AF
+34;Bongo Lo Slap AF
+35;Bongo Hi Heel AF
+36;Bongo Hi Tip AF
+37;Bongo Hi Open 1 /Rim 1 AF
+38;Bongo Hi Open 3 / Rim 3 AF
+39;Bongo Hi Mute1 AF
+40;Bongo Hi Slap AF
+41;Agogo 2 Close BR
+42;Agogo 2 Bell 2 BR
+43;Agogo 2 Bell 1 BR
+44;Agogo 1 Close BR
+45;Agogo 1 Bell 2 BR
+46;Agogo 1 Bell 1 BR
+47;Cabasa L BR
+48;Cabasa R BR
+49;Crash Cymbal AF
+50;Tamborim 1 Back BR
+51;Tamborim 1 Close BR
+52;Tamborim 1 Open BR
+53;Tamborim 1 Rim BR
+54;Tamborim 2 Up BR
+55;Tamborim 2 Down BR
+56;Pandeiro 2 Heel BR
+57;Pandeiro 2 Thumb Open / Shank BR
+58;Pandeiro 2 Toe Open / Shank BR
+59;Pandeiro 2 Thumb Close BR
+60;Pandeiro 2 Toe Close BR
+61;Pandeiro 2 Slap BR
+62;Pandeiro 1 Heel BR
+63;Pandeiro 1 Thumb Open BR
+64;Pandeiro 1 Toe Open BR
+65;Pandeiro 1 Thumb Close BR
+66;Pandeiro 1 Toe Close BR
+67;Pandeiro 1 Slap BR
+68;Shaker 1 Up BR
+69;Shaker 1 Down BR
+70;Shaker 1 Long BR
+71;Shaker 2 Up BR
+72;Shaker 2 Down BR
+73;Shaker 2 Long BR
+74;Shaker 3 Up BR
+75;Shaker 3 Down BR
+76;Shaker 3 Long BR
+77;Shaker 4 Up BR
+78;Shaker 4 Down BR
+79;Shaker 4 Long BR
+80;Shekere 1 Tone AF
+81;Shekere 1 Up AF
+82;Shekere 1 Down AF
+83;Reco-reco Scrape BR
+84;Reco-reco Short BR
+85;Reco-reco Long BR
+86;Triangle Open Up BR
+87;Triangle Open Down BR
+88;Triangle Close Up BR
+89;Triangle Close Down BR
+90;Chimes Down AF
+91;Chimes Up AF
+
+[DRUMKIT:127000000-StandardKit1]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Soft
+32;Sticks
+33;Kick Soft
+34;Open Rim Shot
+35;Kick Tight
+36;Kick
+37;Side Stick
+38;Snare
+39;Hand Clap
+40;Snare Tight
+41;Floor Tom L
+42;Hi-Hat Closed
+43;Floor Tom H
+44;Hi-Hat Pedal
+45;Low Tom
+46;Hi-Hat Open
+47;Mid Tom L
+48;Mid Tom H
+49;Crash Cymbal 1
+50;High Tom
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000001-StandardKit2]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;St2 Snare Roll 2
+30;Castanet
+31;St2 Snare Soft 2
+32;Sticks
+33;Kick Soft
+34;St2 Open Rim Shot H Short
+35;St2 Kick Tight Short
+36;St2 Kick Short
+37;Side Stick
+38;St2 Snare Short
+39;Hand Clap
+40;St2 Snare Tight H
+41;Floor Tom L
+42;Hi-Hat Closed
+43;Floor Tom H
+44;Hi-Hat Pedal
+45;Low Tom
+46;Hi-Hat Open
+47;Mid Tom L
+48;Mid Tom H
+49;Crash Cymbal 1
+50;High Tom
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000004-HitKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Electro
+32;Sticks
+33;Kick Tight L
+34;Snare Pitched
+35;Kick Wet
+36;Kick Tight Hard
+37;Stick Ambient
+38;Snare Ambient
+39;Hand Clap
+40;Snare Tight 2
+41;Hybrid Tom 1
+42;Hi-Hat Closed 2
+43;Hybrid Tom 2
+44;Hi-Hat Pedal 2
+45;Hybrid Tom 3
+46;Hi-Hat Open 2
+47;Hybrid Tom 4
+48;Hybrid Tom 5
+49;Crash Cymbal 1
+50;Hybrid Tom 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine Light
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000008-RoomKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Soft
+32;Sticks
+33;Kick Soft
+34;Open Rim Shot
+35;Kick Tight
+36;Kick
+37;Side Stick
+38;Snare Snappy
+39;Hand Clap
+40;Snare Tight Snappy
+41;Tom Room 1
+42;Hi-Hat Closed
+43;Tom Room 2
+44;Hi-Hat Pedal
+45;Tom Room 3
+46;Hi-Hat Open
+47;Tom Room 4
+48;Tom Room 5
+49;Crash Cymbal 1
+50;Tom Room 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000016-RockKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Noisy
+32;Sticks
+33;Kick Soft
+34;Open Rim Shot
+35;Kick 2
+36;Kick Gate
+37;Side Stick
+38;Snare Rock
+39;Hand Clap
+40;Snare Rock Tight
+41;Tom Rock 1
+42;Hi-Hat Closed
+43;Tom Rock 2
+44;Hi-Hat Pedal
+45;Tom Rock 3
+46;Hi-Hat Open
+47;Tom Rock 4
+48;Tom Rock 5
+49;Crash Cymbal 1
+50;Tom Rock 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000024-ElectroKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Elec  Reverse Cymbal
+29;Snare Roll
+30;Elec  Hi Q 2
+31;Elec  Snare Slappy Electro
+32;Sticks
+33;Elec  Kick 3
+34;Open Rim Shot
+35;Elec  Kick Gate
+36;Elec  Kick Gate Heavy
+37;Side Stick
+38;Elec  Snare Noisy 2
+39;Hand Clap
+40;Elec  Snare Noisy 3
+41;Elec  Tom Electro 1
+42;Hi-Hat Closed
+43;Elec  Tom Electro 2
+44;Hi-Hat Pedal
+45;Elec  Tom Electro 3
+46;Hi-Hat Open
+47;Elec  Tom Electro 4
+48;Elec  Tom Electro 5
+49;Crash Cymbal 1
+50;Elec  Tom Electro 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Elec  Scratch H2
+79;Elec  Scratch L2
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000025-AnalogKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Reverse Cymbal
+29;Snare Roll
+30;Hi Q2
+31;Snare Noisy 4
+32;Sticks
+33;Kick 3
+34;Open Rim Shot
+35;Kick Analog Short
+36;Kick Analog
+37;Side Stick Analog
+38;Snare Analog
+39;Hand Clap
+40;Snare Analog 2
+41;Tom Analog 1
+42;Hi-Hat Closed Analog
+43;Tom Analog 2
+44;Hi-Hat Closed Analog 2
+45;Tom Analog 3
+46;Hi-Hat Open Analog
+47;Tom Analog 4
+48;Tom Analog 5
+49;Crash Analog
+50;Tom Analog 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell Analog
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga Analog H
+63;Conga Analog M
+64;Conga Analog L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas 2
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves 2
+76;Wood Block H
+77;Wood Block L
+78;Scratch H 2
+79;Scratch L 2
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000027-DanceKit]
+13;Kick Dance 1
+14;Kick Dance 2
+15;Hi Q
+16;Whip Slap
+17;Scratch Dance 1
+18;Scratch Dance 2
+19;Finger Snap
+20;Click Noise
+21;Dance Perc 1
+22;Reverse Dance 1
+23;Dance Perc 2
+24;Hi Q Dance 1
+25;Snare Analog 3
+26;Vinyl Noise
+27;Snare Analog 4
+28;Reverse Cymbal
+29;Reverse Dance 2
+30;Hi Q 2
+31;Snare Techno
+32;Snare Dance 1
+33;Kick Techno Q
+34;Rim Gate
+35;Kick Techno L
+36;Kick Techno
+37;Side Stick Analog
+38;Snare Clap
+39;Dance Clap
+40;Snare Dry
+41;Tom Analog 1
+42;Hi-Hat Closed 3
+43;Tom Analog 2
+44;Hi-Hat Closed Analog 3
+45;Tom Analog 3
+46;Hi-Hat Open 3
+47;Tom Analog 4
+48;Tom Analog 5
+49;Crash Analog
+50;Tom Analog 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine Analog
+55;Splash Cymbal
+56;Cowbell Dance
+57;Crash Cymbal 2
+58;Vibraslap Analog
+59;Ride Analog
+60;Bongo Analog H
+61;Bongo Analog L
+62;Conga Analog H
+63;Conga Analog M
+64;Conga Analog L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas 2
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves 2
+76;Dance Perc 3
+77;Dance Perc 4
+78;Dance Breath 1
+79;Dance Breath 2
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000032-JazzKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Jazz H
+32;Sticks
+33;Kick Soft
+34;Open Rim Shot
+35;Kick Tight
+36;Kick Jazz
+37;Side Stick Light
+38;Snare JazzL
+39;Hand Clap
+40;Snare Jazz M
+41;Floor Tom L
+42;Hi-Hat Closed
+43;Floor Tom H
+44;Hi-Hat Pedal
+45;Low Tom
+46;Hi-Hat Open
+47;Mid Tom L
+48;Mid Tom H
+49;Crash Cymbal 1
+50;High Tom
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000040-BrushKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Bru  Brush Slap 2
+32;Sticks
+33;Kick Soft
+34;Open Rim Shot
+35;Kick Tight
+36;Bru  Kick Small
+37;Side Stick
+38;Bru  Brush Slap 3
+39;Hand Clap
+40;Bru  Brush Tap 2
+41;Bru  Tom Brush 1
+42;Hi-Hat Closed
+43;Bru  Tom Brush 2
+44;Hi-Hat Pedal
+45;Bru  Tom Brush 3
+46;Hi-Hat Open
+47;Bru  Tom Brush 4
+48;Bru  Tom Brush 5
+49;Crash Cymbal 1
+50;Bru  Tom Brush 6
+51;Ride Cymbal 1
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000041-RealBrushes]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Vintage Tip
+24;Vintage Swirl 1
+25;Vintage Slap 1
+26;Vintage Swirl 2
+27;Vintage Slap 2
+28;Vintage Tap Swirl
+29;Vintage Slap Swirl
+30;Vintage Swirl 3
+31;Vintage Slap 3
+32;Sticks
+33;Kick Soft L
+34;Open Rim Shot Real Brushes
+35;Kick Soft H
+36;Kick Jazz Ambience
+37;Stick Brushe
+38;Vintage Slap 4
+39;Clap Power
+40;Vintage Slap 5
+41;Tom Real Brushes 1
+42;Hi-Hat Closed Real Brushes
+43;Tom Real Brushes 2
+44;Hi-Hat Pedal Real Brushes
+45;Tom Real Brushes 3
+46;Hi-Hat Open Real Brushes
+47;Tom Real Brushes 4
+48;Tom Real Brushes 5
+49;Crash Cymbal Real Brushes
+50;Tom Real Brushes 6
+51;Ride Cymbal Real Brushes
+52;CHINE CYM Real Brushes
+53;Ride Cup Real Brushes
+54;Tambourine
+55;Splash Cymbal Real Brushes
+56;Cowbell
+57;Crash Cymbal Real Brushes
+58;Vibraslap
+59;Ride Cup Real Brushes
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000048-SymphonyKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Soft
+32;Sticks
+33;Sym  Kick Soft 2
+34;Open Rim Shot
+35;Sym  Gran Cassa
+36;Sym  Gran Cassa Mute
+37;Side Stick
+38;Sym  Band Snare
+39;Hand Clap
+40;Sym  Band Snare 2
+41;Sym  Tom Jazz 1
+42;Hi-Hat Closed
+43;Sym  Tom Jazz 2
+44;Hi-Hat Pedal
+45;Sym  Tom Jazz 3
+46;Hi-Hat Open
+47;Sym  Tom Jazz 4
+48;Sym  Tom Jazz 5
+49;Sym  Hand Cymbal
+50;Sym  Tom Jazz 6
+51;Sym  Hand Cymbal Short
+52;Chinese Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Sym  Hand Cymbal 2
+58;Vibraslap
+59;Sym  Hand Cymbal 2 Short
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000056-HipHopKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Hi-Hat Closed T8 2
+20;Tom T8 3
+21;Hi-Hato Open T8 2
+22;Tom T8 6
+23;Crah T8
+24;Triangle Mute
+25;Triangle Open
+26;Bell Tree
+27;Tambourine RX5
+28;Tambourine RX5 2
+29;Kick HipHop 9
+30;Hi-Hat closed Tek
+31;Kick Gate
+32;Hi-Hat Open Lo-Fi
+33;Kick Gran Casa Open
+34;Hi-Hat Reverse Drum&Bass
+35;Kick HipHop 1
+36;Kick Analog CR
+37;Snare Analog Sm Rim
+38;Snare HipHop 1
+39;Snare Clappy
+40;Snare HipHop 2
+41;Floor Tom 1
+42;Hi-Hat Closed Hip
+43;Low Tom
+44;Hi-Hat Pedal Hip
+45;Mid Tom L
+46;Hi-Hat Open Hip
+47;High Tom
+48;Ride Cymbal 3
+49;Crash Cymbal 3
+50;Shaker 2
+51;Scratch Bass Drum Forward
+52;Scratch Bass Drum Reverse
+53;Kick HipHop 2
+54;Snare HipHop Rim 2
+55;HipHop Clap 2
+56;HipHop Snap 1
+57;Snare HipHop 3
+58;Electric Clap 2
+59;Kick Hip Deep
+60;Kick HipHop 3
+61;Snare HipHop Rim 3
+62;Snare HipHop 5
+63;Electric Clap 1
+64;Handbell H
+65;Kick HopHop 4
+66;HipHop Clap 3
+67;HipHop Snap 2
+68;Snare HipHop Rim 5
+69;HipHop flex 1
+70;HipHop flex 2
+71;Shaker 2
+72;Kick HipHop 5
+73;Snare HipHop Rim 4
+74;Snare HipHop 6
+75;Snare HipHop 11
+76;Kick HipHop 10
+77;Snare HipHop 7
+78;HipHop Clap 5
+79;Conga H Tip
+80;Conga H Heel
+81;Conga H Open
+82;Conga L Open 1
+83;Conga L Open 2
+84;Kick HipHop8
+85;HipHop Clap 6
+86;Snare T8 1
+87;Snare T8 1H
+88;HipHop Clap 7
+89;Tom T8 1
+90;Hi-Hat Closed T8 2
+91;Tom T8 2
+
+[DRUMKIT:127000057-BreakKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Snare Break 8
+21;Snare Break 9
+22;Hi-Hat Closed Break 1
+23;Hi-Hat Closed Break 2
+24;Kick Break Deep
+25;Snare Hip
+26;Snare Lo-Fi
+27;Snare Clappy
+28;Snare LdwH Mono
+29;Snare Rock Roll
+30;Snare Gate 1
+31;Snare Mid
+32;Snare Break Rim
+33;Kick Break Heavy
+34;Snare Hip Rim 4
+35;Kick Break 2
+36;Kick Break 1
+37;Snare Hip Rim 1
+38;Snare Break 3
+39;Snare Break 1
+40;Snare Break 2
+41;Tom Break 1
+42;Hi-Hat Closed Rock Soft
+43;Tom Break 22
+44;Hi-Hat Pedal Rock
+45;Tom Break 3
+46;Hi-Hat Half Open Rock
+47;Tom Break 4
+48;Tom Break 5
+49;Crash Cymbal 2
+50;Tom Break 6
+51;Ride Cymbal 3
+52;Chinese Cymbal 2
+53;Ride Cymbal Cup 2
+54;Tambourine 1 Hit
+55;Crash Cymbal 3
+56;Cowbell 1
+57;Crash Cymbal 2
+58;Cowbell RX11
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Tip
+63;Conga H Open Slap
+64;Conga H Open
+65;Bongo 2 H
+66;Bongo 2 L
+67;Conga Open
+68;Agogo L
+69;Cabasa
+70;Maracas Slur
+71;Timbale H
+72;Timbale L
+73;Scratch H 2
+74;Scratch Down
+75;Clave
+76;Wood Block H
+77;Wood Block L
+78;Scratch L
+79;Scratch L 2
+80;Triangle Mute
+81;Triangle Open
+82;Kick Break 3
+83;Kick Break 4
+84;Kick Break 5
+85;Kick Break 6
+86;Kick Break 7
+87;Hi-Hat Closed Break 3
+88;Snare Break 4
+89;Snare Break 5
+90;Snare Break 6
+91;Snare Break 7
+
+[DRUMKIT:127000058-AnalogT8Kit]
+19;Snare Hammer
+20;Kick Zap Hard
+21;Snare Garg L
+22;Kick TekPower
+23;Kick Slimy
+24;Kick T8 1
+25;Snare Analog CR
+26;Snare T8 4
+27;Snare Clap Analog
+28;Snare T8 3
+29;Tom T8 5
+30;Snare T8 5
+31;kick T8 3
+32;Snare T8 4
+33;Kick T8 2
+34;Snare T8 3
+35;T8 Kick Bass
+36;Kick T8 1
+37;Snare T8 Rim
+38;Snare T8 2
+39;Clap T9
+40;Snare T8 1
+41;Tom T8 1
+42;Hi-Hat Closed T8 2
+43;Tom T8 2
+44;Hi-Hat Open T8 1
+45;Tom T8 3
+46;Hi-Hat Open T8 1
+47;Tom T8 4
+48;Tom T8 6
+49;Crash T8
+50;Tom T8 7
+51;Ride T9
+52;Chinese Cymbal 2
+53;Ride Cymbal Cup 2
+54;Tambourine RX 5
+55;Splash Cymbal
+56;Cowbell T8
+57;Crash Cymbal 4
+58;Vibraslap
+59;Ride Cymbal 3
+60;Conga T8 5
+61;Conga T8 4
+62;Conga T8 3
+63;Conga T8 2
+64;Conga T8 1
+65;Timbale H
+66;Timbale L
+67;Glass H
+68;Glass L
+69;Cabasa
+70;Maracas T8
+71;FxGun 2
+72;FxGun 1
+73;Analog Shaker H
+74;Analog Shaker L
+75;Clave T8
+76;Hi Q 1
+77;Hi Q 2
+78;Scratch L
+79;Scratch L 2
+80;Triangle Mute
+81;Triangle Open
+82;Analog Shaker
+83;Sleigh Bell
+84;Bell Tree
+85;Snare Hip 1
+86;Snare Hip 2
+87;Snare Hip Gate
+88;Snare Break 1
+89;Kick Blip
+90;Snare FX 1
+91;Kick FxHammer
+
+[DRUMKIT:127000059-AnalogT9Kit]
+19;Snare Drums&Bass 1
+20;Kick Break 2
+21;Snare Distortion
+22;Kick TekPower
+23;Kick Distortion RM
+24;Kick T9 2
+25;Snare Analog CR
+26;Snare T9 5
+27;Clap Analog Sm
+28;Snare T9 Gate
+29;Snare Rock Roll
+30;Snare T9 3
+31;Snare T9 4
+32;Snare T9 Gate
+33;Kick T9 4
+34;Snare T9 5
+35;Kick T9 1
+36;Kick T9 3
+37;Snare T9 Rim
+38;Snare T9 1
+39;Clap T9
+40;Snare T9 2
+41;Tom T9 1
+42;Hi-Hat Closed T9
+43;Tom T9 2
+44;Hi-Hat Pedal T9
+45;Tom T9 3
+46;Hi-Hat Open T9
+47;Tom T9 4
+48;Tom T9 5
+49;Crash T9
+50;Tom T9 6
+51;Ride T9
+52;Chinese Cymbal 2
+53;Ride Cymbal Cup 2
+54;Tambourine RX5
+55;Crash Cymbal 3
+56;Cowbell 1
+57;Crash Cymbal 4
+58;Cowbell T8
+59;Ride Cymbal 3
+60;Conga T8 5
+61;Conga T8 4
+62;Conga Tip
+63;Conga Open Slap
+64;Conga Open
+65;Timbale H
+66;Timbale L
+67;Analog Click
+68;Conga T8 1
+69;Cabasa
+70;Maracas Slur
+71;FxGun 2
+72;FxGun 1
+73;Scratch H 2
+74;Scratch Down
+75;Hi Q 3
+76;Hi Q 1
+77;Hi Q 2
+78;Scratch L
+79;Scratch L 2
+80;Triangle Mute
+81;Triangle Open
+82;Analog Shaker
+83;Sleigh Bell
+84;Bell Tree
+85;Snare Piccolo
+86;Snare T8 5
+87;Snare Rock Roll Distortion
+88;Snare Brush Mute
+89;Kick Blip Hard
+90;Snare Jungle 1
+91;Kick Sustain
+
+[DRUMKIT:127000060-HouseKit]
+13;W Kick
+14;Disco FX
+15;White Noise Down 1
+16;Pink Noise Down 1
+17;White Noise Down 2
+18;Pink Noise Down 2
+19;White Noise Up 2
+20;White Noise Up 1
+21;Pink Noise Up
+22;White Noise Up Release
+23;Pink Noise Up Release
+24;Kick T9 4
+25;Snare T8 Rim
+26;Snare T8 5
+27;Hand Clap
+28;Snare Garg L
+29;Snare Roll
+30;Snare T9 3
+31;Snare T8 1
+32;Snare T9 5
+33;Kick T9 1
+34;Snare T9 Gate
+35;Kick T9 2
+36;Kick T9 5
+37;Snare T9 Rim
+38;Snare T9 1
+39;Clap T9
+40;Snare T9 2
+41;Tom T9 1
+42;Hi-Hat Closed T8
+43;Tom T9 2
+44;Hi-Hat Pedal T9
+45;Tom T9 3
+46;Hi-Hat Open T9
+47;Tom T9 4
+48;Tom T9 5
+49;Crash T9
+50;Tom T9 6
+51;Ride T9
+52;Crash Cymbal 4
+53;Ride Cymbal Cup 2
+54;Tambourine Hit
+55;Crash Cymbal 3
+56;Cowbell 1
+57;Crash Cymbal 2
+58;Cowbell T8
+59;Ride Cymbal 3
+60;Bongo H Open 1 finger
+61;Bongo L Open 3 finger
+62;Conga High Tip
+63;Conga High Slap Open
+64;Conga High Open 2
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa 1
+70;Maracas Slur
+71;Vox Drum L
+72;Vox Drum H
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica H
+79;Cuica L
+80;Triangle Mute
+81;Triangle Open
+82;Analog Shaker
+83;Sleigh Bell
+84;Wind Chime
+85;Snare Break Roll
+86;Noise Burst
+87;Vox Bell
+88;Snare R&B 1
+89;Vox Alk
+90;Udu High
+91;Filter Kick
+
+[DRUMKIT:127000061-DrumMachine]
+19;Snare Drum&Bass 1
+20;Kick Break 2
+21;Snare Distortion
+22;Kick TekPower
+23;Kick Distortion RM
+24;Bass Drum Hard Long
+25;Bass Drum TekPower
+26;Bass Drum Distortion 5
+27;Bass Drum Distortion 3
+28;Bass Drum Distortion 1
+29;Bass Drum Drum&Bass 1
+30;Bass Drum Bilp
+31;Bass Drum Analog Sm
+32;Kick T8 2
+33;Kick T8 3
+34;Kick T9 HD 3
+35;Kick T9 2
+36;Kick T9 4
+37;Snare T9 Rim
+38;Snare T9 1
+39;Clap T9
+40;Snare T9 4
+41;Tom T9 1
+42;Hi-Hat Closed T9
+43;Tom T9 2
+44;Hi-Hat Pedal T9
+45;Tom T9 3
+46;Hi-Hat Open T9
+47;Tom T9 4
+48;Tom T9 5
+49;Crash T9
+50;Conga T8 1
+51;Ride T9
+52;Conga T8 2
+53;Analog Click
+54;Clave T8 1
+55;Maracas T8
+56;Tambourine Analog CR
+57;Analog Shaker
+58;Cowbell T9
+59;Cowbell Analog CR
+60;Snare T8 1
+61;Snare T8 2
+62;Snare T8 3
+63;Snare Analog CR
+64;Snare Jungle 1
+65;Snare D&B 1
+66;Snare Hip 1
+67;Snare R&B 1
+68;Snare R&B 2
+69;Snare Hip 1
+70;Snare Wood
+71;Snare Timbre
+72;Hit-Hat Closed T8 1
+73;Hit-Hat Open T8 1
+74;Hit-Hat Closed T8 2
+75;Hit-Hat Open T8 2
+76;Hit-Hat Pedal Acoustic
+77;Hit-Hat Closed Acoustic
+78;Hit-Hat Open Acoustic
+79;Hit-Hat Closed Lo-Fi
+80;Hit-Hat Open Lo-Fi
+81;Hit-Hat Closed Syn
+82;Hit-Hat Open Syn
+83;Analog Shaker
+84;Tambourine RX5
+85;Tambourine RX5
+86;Electric Cow
+87;Conga T8 3
+88;Electric Triangel
+89;Clave T8 2
+90;Analog Shaker
+91;Electric Clap 1
+
+[DRUMKIT:127000066-80sPopKit]
+13;Hi-Hat 2 Closed 81P  
+14;Hi-Hat 2 Open 81P  
+15;Hi-Hat 3 Closed 81P  
+16;Hi-Hat 3 Open 81P  
+17;Hi-Hat 1 Closed 83P  
+18;Hi-Hat 1 Open 83P  
+19;Clap 1 83P  
+20;Clap 4 81P  
+21;Metronome 2 83P  
+22;Metronome 1 83P  
+23;Side Stick 1 83P  
+24;Kick 2 83P  
+25;Side Stick 3 82P  
+26;Clap 1 82P  
+27;Clap 2 81P  
+28;Side Stick 4 81P  
+29;Side Stick 2 81P  
+30;Snare 4 81P  
+31;Snare 3 81P  
+32;Snare 1 83P  
+33;Kick 2 81P  
+34;Snare 2 83P  
+35;Kick 1 83P  
+36;Kick 1 82P  
+37;Side Stick 1 82P  
+38;Snare 2 82P  
+39;Clap 1 Pitch Up 82P  
+40;Snare 1 82P  
+41;Tom A6 82P  
+42;Hi-Hat 1 Closed 82P  
+43;Tom A5 82P  
+44;Hi-Hat 1 Pedal 82P  
+45;Tom A4 82P  
+46;Hi-Hat 1 Open 82P  
+47;Tom A3 82P  
+48;Tom A2 82P  
+49;Crash Cymbal PD 1  
+50;Tom A1 82P  
+51;Ride 1 82P  
+52;China Cymbal 82P  
+53;Ride Bell 82P  
+54;Tambourine 82P  
+55;Splash Cymbal 82P  
+56;Cowbell 82P  
+57;Crash Cymbal PD 2  
+58;Cowbell T8  
+59;Ride 2 82P  
+60;Bongo H 82P  
+61;Bongo L 82P  
+62;Conga Mute 82P  
+63;Conga H 82P  
+64;Conga L 82P
+65;Timbale H
+66;Timbale L
+67;Agogo H 82P
+68;Agogo L 82P
+69;Cabasa 82P
+70;Tom B5 83P  
+71;Tom B4 83P  
+72;Tom B3 83P
+73;Tom B2 83P
+74;Tom B1 83P
+75;Claves 83P
+76;Tom A6 81P
+77;Tom A5 81P
+78;Tom A4 81P  
+79;Tom A3 81P
+80;Tom A2 81P
+81;Tom A1 81P
+82;Cabasa 81P
+83;Jingle Bells
+84;Wind Chime
+85;Tom B6 80P
+86;Tom B5 80P
+87;Tom B4 80P
+88;Tom B3 80P
+89;Tom B2 80P
+90;Tom B1 80P  
+
+[DRUMKIT:127000067-80sR&BKit]
+13;Hi-Hat 3 Closed 80R  
+14;Hi-Hat 3 Open 80R  
+15;Hi-Hat 1 Closed 80R  
+16;Hi-Hat 1 Open 80R  
+17;Hi-Hat 3 Closed 81R  
+18;Hi-Hat 3 Open 81R  
+19;Hi-Hat 1 Closed 81R  
+20;Hi-Hat 1 Open 81R  
+21;Metronome 2 81R  
+22;Metronome 1 81R  
+23;Side Stick 5 81R  
+24;Kick 4 81R  
+25;Side Stick 2 81R  
+26;Clap 5 81R  
+27;Clap 2 81R  
+28;Clap 3 80R  
+29;Side Stick 5 80R  
+30;Clap 5 80R  
+31;Snare 4 81R  
+32;Side Stick 4 80R  
+33;Kick 2 81R  
+34;Snare 3 81R  
+35;Kick 2 80R  
+36;Kick 1 80R  
+37;Side Stick 1 80R  
+38;Snare 3 80R  
+39;Clap 2 80R  
+40;Snare 2 80R  
+41;Tom A6 81R  
+42;Hi-Hat 2 Closed 81R  
+43;Tom A5 81R  
+44;Hi-Hat 2 Pedal 81R  
+45;Tom A4 81R  
+46;Hi-Hat 2 Open 81R  
+47;Tom A3 81R  
+48;Tom A2 81R  
+49;Crash Cymbal 1 81R  
+50;Tom A1 81R  
+51;Ride 1 81R  
+52;China Cymbal 81R  
+53;Ride Bell 80R  
+54;Tambourine 80R  
+55;Splash Cymbal 80R  
+56;Cowbell 80R  
+57;Crash Cymbal 2 81R  
+58;Vibraslap  
+59;Crash Cymbal RD 1  
+60;Bongo H 80R  
+61;Bongo L 80R  
+62;Conga Mute 80R  
+63;Conga H 80R  
+64;Conga L 80R
+65;Timbale H
+66;Timbale L
+67;Agogo H 80R
+68;Agogo L 80R
+69;Cabasa 80R
+70;Tom T8 1  
+71;Tom T8 2  
+72;Tom T8 3
+73;Tom T8 4
+74;Tom T8 6
+75;Claves T8
+76;Tom A6 80R
+77;Tom A5 80R
+78;Tom A4 80R  
+79;Tom A3 80R
+80;Tom A2 80R
+81;Tom A1 80R
+82;Cabasa 81R  
+
+[DRUMKIT:127000068-DubstepKit]
+13;Kick 4 DS  
+14;Kick 5 DS  
+15;Digital DS  
+16;Pink Noise Down 1  
+17;White Noise Down 2  
+18;Pink Noise Down 2  
+19;Boomer DS  
+20;Synth Scratch DS  
+21;Bouncer DS  
+22;Tin Cowbell DS  
+23;Reverse Flanger Snare DS  
+24;Kick 13 DS  
+25;Snare 3 DS  
+26;Clap 4 DS  
+27;Snare 4 DS  
+28;Snare 11 DS  
+29;Snare 5 DS  
+30;Snare T9 3  
+31;Snare 6 DS  
+32;Clap 3 DS  
+33;Kick 2 DS  
+34;Clap 2 DS  
+35;Kick 3 DS  
+36;Kick 1 DS  
+37;Rim Shot 1 DS  
+38;Snare 1 DS  
+39;Clap 1 DS  
+40;Snare 2 DS  
+41;Tom T9 1  
+42;Hi-Hat Closed 1 DS  
+43;Tom T9 2  
+44;Hi-Hat Pedal 1 DS  
+45;Tom T9 3  
+46;Hi-Hat Open 1 DS  
+47;Tom T9 4  
+48;Tom T9 5  
+49;Crash Cymbal T9  
+50;Tom T9 6  
+51;Ride Cymbal T9  
+52;Crash Cymbal 4  
+53;Ride Cymbal Cup 2  
+54;Tambourine 82P  
+55;Splash Cymbal 2  
+56;Cowbell 82P  
+57;Crash Cymbal 2  
+58;Cowbell T8  
+59;Ride Cymbal 3  
+60;Bongo H 82P  
+61;Bongo L 82P  
+62;Conga Mute 82P  
+63;Conga H 82P  
+64;Conga L 82P
+65;Timbale H
+66;Timbale L
+67;Cowbell Hi Pitch 82P
+68;Cowbell Middle Pitch 82P
+69;Cabasa 81P
+70;Maracas Slur 2
+71;Vox Drum L  
+72;Vox Drum H
+73;Guiro Short
+74;Guiro Long
+75;Claves 83P
+76;Wood Block H
+77;Wood Block L
+78;Hi-Hat Closed 4 DS  
+79;Hi-Hat Closed 5 DS
+80;Triangle Mute
+81;Triangle Open
+82;Hi-Hat Open 3 DS  
+83;Kick 6 DS  
+84;Kick 7 DS  
+85;Kick 8 DS  
+86;Kick 10 DS  
+87;Snare 7 DS  
+88;Snare 8 DS  
+89;Snare 9 DS  
+90;Snare 10 DS  
+91;Filter Kick  
+
+[DRUMKIT:127000069-EDMKit]
+13;Kick 3 EDM  
+14;Kick 4 EDM  
+15;Glitch 4 EDM  
+16;Snare 12 EDM  
+17;Snare 3 EDM  
+18;Snare 4 EDM  
+19;White Noise Up 2  
+20;Glitch 3 EDM  
+21;Bump EDM  
+22;Reverse Shot EDM  
+23;Glitch 5 EDM  
+24;Kick 15 EDM  
+25;Snare 7 EDM  
+26;Snare 14 EDM  
+27;Snare 5 EDM  
+28;Snare 15 EDM  
+29;Reverse Hit EDM  
+30;Snare 17 EDM  
+31;Snare 2 EDM  
+32;Snare 1 EDM  
+33;Kick 8 EDM  
+34;Snare 16 EDM  
+35;Kick 5 EDM  
+36;Kick 16 EDM  
+37;Thump EDM  
+38;Snare 9 EDM  
+39;Clap 1 EDM  
+40;Snare 10 EDM  
+41;Tom B6 8P  
+42;Hi-Hat Closed EDM  
+43;Tom B5 8P  
+44;Hi-Hat Shank EDM  
+45;Tom B4 8P  
+46;Hi-Hat Open EDM  
+47;Tom B3 8P  
+48;Tom B2 8P  
+49;Crash Cymbal T9  
+50;Tom B1 8P  
+51;Ride Shank EDM  
+52;Crash Cymbal 4  
+53;Ride Cymbal Cup 2  
+54;Tambourine Hit  
+55;Splash Cymbal 2  
+56;Cowbell 1  
+57;Crash Cymbal 2  
+58;Cowbell T8  
+59;Ride Cymbal 3  
+60;Bongo H Open One Finger  
+61;Bongo L Open Three Finger  
+62;Conga H Tip  
+63;Conga H Slap Open  
+64;Conga H Open 2
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas Slur 2
+71;Vox Drum L  
+72;Vox Drum H
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Clap 2 EDM
+77;Clap 3 EDM
+78;Hi-Hat Closed 3 EDM  
+79;Hi-Hat Open 2 EDM
+80;Hi-Hat Closed 1 EDM
+81;Hi-Hat Closed 2 EDM
+82;Kick 6 EDM  
+83;Kick 9 EDM  
+84;Kick 10 EDM  
+85;Kick 11 EDM  
+86;Fill Tom EDM  
+87;Fill Snare EDM  
+88;Snare 8 EDM  
+89;Snare 13 EDM  
+90;Impact Lo EDM  
+91;Impact Hi EDM  
+
+[DRUMKIT:127000070-ElectroKit]
+13;Kick 7 EK  
+14;Kick 8 EK  
+15;SFX 13 EK  
+16;SFX 14 EK  
+17;Kick 5 EK  
+18;Kick 6 EK  
+19;SFX 12 EK  
+20;SFX 11 EK  
+21;SFX 10 EK  
+22;SFX 9 EK  
+23;SFX 8 EK  
+24;Kick 2 EK  
+25;Snare 2 EK  
+26;Snare 3 EK  
+27;Clap 6 EK  
+28;Snare 1 EK  
+29;Snare 4 EK  
+30;Snare 10 EK  
+31;Snare 5 EK  
+32;Clap 5 EK  
+33;Kick 14 EK  
+34;Clap 2 EK  
+35;Kick 1 EK  
+36;Kick 10 EK  
+37;Rim Shot 1 EK  
+38;Snare 9 EK  
+39;Clap 1 EK  
+40;Snare T9 1  
+41;Tom 1 EK  
+42;Hi-Hat Closed 1 EK  
+43;Tom 2 EK  
+44;Hi-Hat Closed 2 EK  
+45;Tom 3 EK  
+46;Hi-Hat Open 4 EK  
+47;Tom 4 EK  
+48;Tom 5 EK  
+49;Crash Cymbal T9  
+50;Tom 6 EK  
+51;Ride Cymbal T9  
+52;Crash Cymbal 4  
+53;Ride Cymbal Cup 2  
+54;Tambourine 82P  
+55;Splash Cymbal 2  
+56;Cowbell 80R  
+57;Crash Cymbal 2  
+58;Cowbell T8  
+59;Ride Cymbal 3  
+60;Bongo H 80R  
+61;Bongo L 80R  
+62;Conga Mute 80R  
+63;Conga H 80R  
+64;Conga L 80R
+65;Timbale H
+66;Timbale L
+67;Agogo H 80R
+68;Agogo L 80R
+69;Cabasa 80R
+70;Cabasa 81R
+71;Vox Drum L  
+72;Vox Drum H
+73;SFX 5 EK
+74;SFX 4 EK
+75;SFX 1 EK
+76;SFX 2 EK
+77;SFX 3 EK
+78;Clap 8 EK  
+79;Clap 4 EK
+80;Hi-Hat Open 1 EK
+81;Hi-Hat Open 2 EK
+82;Hi-Hat Open 5 EK  
+83;Kick 9 EK  
+84;Kick 13 EK  
+85;Kick 16 EK  
+86;Kick 12 EK  
+87;Snare 6 EK  
+88;Snare 8 EK  
+89;Snare 11 EK  
+90;Snare 7 EK  
+91;Filter Kick  
+
+[DRUMKIT:127000071-TrapKit]
+13;Kick 5 TP  
+14;Kick 6 TP  
+15;White Noise Down 1  
+16;Pink Noise Down 1  
+17;White Noise Down 2  
+18;Pink Noise Down 2  
+19;Finger Snap 1 TP  
+20;Finger Snap 2 TP  
+21;SFX 1 TP  
+22;SFX 2 TP  
+23;SFX 3 TP  
+24;Kick 11 TP  
+25;Snare 4 TP  
+26;Clap 1 TP  
+27;Clap 1 83P  
+28;Snare 5 TP  
+29;Snare 6 TP  
+30;Snare T9 3  
+31;Snare 3 TP  
+32;Clap 2 TP  
+33;Kick 2 TP  
+34;Clap 3 TP  
+35;Kick 1 TP  
+36;Kick 4 TP  
+37;Rim Shot 1 TP  
+38;Snare 1 TP  
+39;Clap 5 TP  
+40;Snare 2 TP  
+41;Tom 1 TP  
+42;Hi-Hat Closed 4 TP  
+43;Tom 2 TP  
+44;Hi-Hat Closed 5 TP  
+45;Tom 3 TP  
+46;Hi-Hat Open 1 TP  
+47;Tom 4 TP  
+48;Tom 5 TP  
+49;Crash Cymbal T9  
+50;Tom 6 TP  
+51;Ride Cymbal T9  
+52;Crash Cymbal 4  
+53;Ride Cymbal Cup 2  
+54;Tambourine Hit  
+55;Splash Cymbal 2  
+56;Cowbell 1 TP  
+57;Crash Cymbal 2  
+58;Cowbell T8  
+59;Ride Cymbal 3  
+60;Bongo H Open One Finger  
+61;Bongo L Open Three Finger  
+62;Conga H Tip  
+63;Conga H Slap Open  
+64;Conga H Open 2
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas Slur 2
+71;Vox Drum L  
+72;Vox Drum H
+73;Guiro Short
+74;Guiro Long
+75;Cowbell 2 TP
+76;Wood Block H
+77;Wood Block L
+78;Hi-Hat Closed 1 TP  
+79;Hi-Hat Closed 2 TP
+80;Triangle Mute
+81;Triangle Open
+82;Hi-Hat Open 5 TP  
+83;Kick 7 TP  
+84;Kick 8 TP  
+85;Kick 9 TP  
+86;Kick 10 TP  
+87;Snare 7 TP  
+88;Snare 8 TP  
+89;Snare 9 TP  
+90;Snare 10 TP  
+91;Clap 4 TP  
+
+[DRUMKIT:127000072-SchlagerKit]
+13;Loop Element 1a SC
+14;Loop Element 1b SC
+15;Loop Element 1c SC
+16;Loop Element 1d SC
+17;Loop Element 1e SC
+18;Loop Element 1f SC
+19;Loop Element 1g SC
+20;Loop Element 1h SC
+21;Loop Element 1i SC
+22;Loop Element 1f SC
+23;Noise Up 1 SC
+24;Kick TB SC
+25;Loop Element 2a SC
+26;Loop Element 2b SC
+27;Loop Element 2c SC
+28;Loop Element 2d SC
+29;Loop Element 2h SC
+30;Loop Element 2i SC
+31;Snare 1 SC
+32;Snare 1 83P
+33;Kick 2 81P
+34;Snare 4 SC
+35;Kick 2 SC
+36;Kick 1 SC
+37;Side Stick Power
+38;Snare 2 SC
+39;Snare 3 SC
+40;Snare 6 SC
+41;Tom 1 SC
+42;Hi-Hat Closed 1 SC
+43;Tom 2 SC
+44;Hi-Hat Closed 2 SC
+45;Tom 3 SC
+46;Hi-Hat Open 1 SC
+47;Tom 4 SC
+48;Tom 5 SC
+49;Crash Cymbal 1 SC
+50;Tom 6 Hi SC
+51;Ride Cymbal Acoustic 1
+52;Impact 6 SC
+53;Crash Impact SC
+54;Tambourine
+55;Crash Cymbal 2 SC
+56;Cowbell 1
+57;Crash Cymbal 3 SC
+58;Snare 5 SC
+59;Snare 7 SC
+60;Snare 8 SC
+61;Snare 9 SC
+62;Snare 10 SC
+63;Clap 7 SC
+64;Clap 1 SC
+65;Clap 2 SC
+66;Clap 3 SFX SC
+67;Clap 6 SC
+68;Clap 5 SFX SC
+69;Shaker 4 SC
+70;Shaker 3 SC
+71;Clap 8 SC
+72;Echo Shot 1 SC
+73;Echo Shot 2 SC
+74;Echo Shot 3 SC
+75;Echo Shot 4 SC
+76;Hi-Hat Closed 3 SC
+77;Hi-Hat Closed 4 SC
+78;Hi-Hat Closed 5 SC
+79;Hi-Hat Open 2 SC
+80;Shaker 1 SC
+81;Shaker 2 SC
+82;Shaker 6 SC
+83;Shaker 5 SC
+84;Reverse 1 SC
+85;Reverse 3 SC
+86;Reverse Snare 1 SC
+87;Long Snare SC
+88;LpDr Kick SC
+89;LpDr Hi-Hat 1 SC
+90;LpDr Snare SC
+91;LpDr Hi-Hat 2 SC
+
+[DRUMKIT:127000086-StudioKit]
+25;Brush Tap Stereo
+26;Brush Swirl Stereo
+27;Brush Slap Stereo
+28;Brush Tap Swirl Stereo
+29;Snare Roll Stereo
+31;Snare Studio L Stereo
+33;Kick Amb H Stereo
+34;Open Rim Shot Stereo
+35;Kick Amb Stereo
+36;Kick Studio Stereo
+37;Side Kick Stereo
+38;Snare Studio M Stereo
+39;Hand Clap Stereo
+40;Snare Studio H Stereo
+41;Floor Tom L Stereo
+42;Hi-Hat Closed Stereo
+43;Floor Tom H Stereo
+44;Hi-Hat Pedal Stereo
+45;Low Tom Stereo
+46;Hi-Hat Open Stereo
+47;Mid Tom L Stereo
+48;Mid Tom H Stereo
+49;Crash Cymbal 1 Stereo
+50;High Tom Stereo
+51;Ride Cymbal 1 Stereo
+52;Chinese Cymbal Stereo
+53;Ride Cymbal Cup Stereo
+54;Tambourine Stereo
+55;Splash Cymbal Stereo
+56;Cowbell Stereo
+57;Crash Cymbal 2 Stereo
+59;Ride Cymbal 2 Stereo
+60;Bongo H Stereo
+61;Bongo L Stereo
+62;Conga H Mute Stereo
+63;Conga H Open Stereo
+64;Conga L Stereo
+65;Timbale H Stereo
+66;Timbale L Stereo
+69;Cabasa Stereo
+70;Maracas Stereo
+73;Guiro Short Stereo
+74;Guiro Long Stereo
+78;Cuica Mute Stereo
+79;Cuica Open Stereo
+80;Triangle Mute Stereo
+81;Triangle Open Stereo
+82;Shaker Stereo
+84;Wind Chime Stereo
+
+[DRUMKIT:127000087-PowerKit1]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Soft Power 1
+32;Sticks
+33;Kick Amb+
+34;Open Rim Power 1
+35;Kick Power Open
+36;Kick Power Closed
+37;Side Stick Power
+38;Snare Power
+39;Hand Clap Power
+40;Snare Rough
+41;Tom Power 1
+42;Hi-Hat Closed Power
+43;Tom Power 2
+44;Hi-Hat Pedal Power
+45;Tom Power 3
+46;Hi-Hat Open Power
+47;Tom Power 4
+48;Tom Power 5
+49;Crash Cymbal Acoustic 1
+50;Tom Power 6
+51;Ride Cymbal Acoustic 1
+52;Chinese Cymbal Acoustic
+53;Ride Cymbal Acoustic
+54;Tambourine
+55;Splash Cymbal Acoustic
+56;Cowbell
+57;Crash Cymbal Acoustic 2
+58;Vibraslap
+59;Ride Cymbal Acoustic 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000088-PowerKit2]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Soft Power 2
+32;Sticks
+33;Kick Amb+
+34;Open Rim Power 2
+35;Kick Power Open
+36;Kick Power Closed
+37;Side Stick Power
+38;Snare Power Snappy
+39;Hand Clap Power
+40;Snare Loose
+41;Tom Power 1
+42;Hi-Hat Closed Power+Edge
+43;Tom Power 2
+44;Hi-Hat Pedal Power
+45;Tom Power 3
+46;Hi-Hat Open Power
+47;Tom Power 4
+48;Tom Power 5
+49;Crash Cymbal Acoustic 1
+50;Tom Power 6
+51;Ride Cymbal Acoustic 1
+52;Chinese Cymbal Acoustic
+53;Ride Cymbal Acoustic
+54;Tambourine
+55;Splash Cymbal Acoustic
+56;Cowbell
+57;Crash Cymbal Acoustic 2
+58;Vibraslap
+59;Ride Cymbal Acoustic 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000089-AcousticKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll Acoustic
+30;Castanet
+31;Snare Soft Acoustic
+32;Sticks
+33;Kick Soft Acoustic
+34;Rim Acoustic
+35;Kick Close Acoustic
+36;Kick Open Acoustic
+37;Stick Acoustic
+38;Snare Acoustic
+39;Hand Clap Power
+40;Snare Rough Acoustic
+41;Tom Acoustic 1
+42;Hi-Hat Closed Acoustic
+43;Tom Acoustic 2
+44;Hi-Hat Pedal Acoustic
+45;Tom Acoustic 3
+46;Hi-Hat Open Acoustic
+47;Tom Acoustic 4
+48;Tom Acoustic 5
+49;Crash Cymbal Acoustic 1
+50;Tom Acoustic 6
+51;Ride Cymbal Acoustic 1
+52;Chinese Cymbal Acoustic
+53;Ride Cymbal Acoustic
+54;Tambourine
+55;Splash Cymbal Acoustic
+56;Cowbell
+57;Crash Cymbal Acoustic 2
+58;Vibraslap
+59;Ride Cymbal Acoustic 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000090-RockKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll Rock
+30;Castanet
+31;Snare Soft Rock
+32;Sticks
+33;Kick Soft Rock
+34;Rim Rock
+35;Kick Rock Heavy
+36;Kick Rock
+37;Stick Rock
+38;Snare Rock
+39;Hand Clap Power
+40;Snare Dry Rock
+41;Tom Rock 1
+42;Hi-Hat Closed Rock
+43;Tom Rock 2
+44;Hi-Hat Pedal Rock
+45;Tom Rock 3
+46;Hi-Hat Open Rock
+47;Tom Rock 4
+48;Tom Rock 5
+49;Crash Cymbal Acoustic 1
+50;Tom Rock 6
+51;Ride Cymbal Acoustic 1
+52;Chinese Cymbal Acoustic
+53;Ride Cymbal Acoustic
+54;Tambourine
+55;Splash Cymbal Acounstic 
+56;Cowbell
+57;Crash Cymbal Acoustic 2
+58;Vibraslap
+59;Ride Cymbal Acoustic 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000091-LiveRealDrumsKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl 2
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll Rock
+30;Castanet
+31;SnareTight
+32;Sticks
+33;Kick Genuine
+34;Rim Real
+35;Kick Real 1
+36;Kick Real 2
+37;Stick Real
+38;Snare Real 1
+39;Clap Power
+40;Snare Real 2
+41;Tom Real 1
+42;Hi-Hat Closed Real
+43;Tom Real 2
+44;Hi-Hat Pedal Real
+45;Tom Real 3
+46;Hi-Hat Open Real
+47;Tom Real 4
+48;Tom Real 5
+49;Crash Cymbal Real 1
+50;Tom Real 6
+51;Ride Cymbal Real 1
+52;Chine Cym Real
+53;Ride Cup Real
+54;Tambourine
+55;Splash Cymbal Real
+56;Cowbell
+57;Crash Cymbal Real 2
+58;Vibraslap
+59;Ride Cymbal Real 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bell
+84;Bell Tree
+
+[DRUMKIT:127000127-ChineseMixKit]
+13;Surdo Mute
+14;Surdo Open
+15;Hi Q
+16;Whip Slap
+17;Scratch H
+18;Scratch L
+19;Finger Snap
+20;Click Noise
+21;Metronome Click
+22;Metronome Bell
+23;Seq Click L
+24;Seq Click H
+25;Brush Tap
+26;Brush Swirl
+27;Brush Slap
+28;Brush Tap Swirl
+29;Snare Roll
+30;Castanet
+31;Snare Soft
+32;Sticks
+33;Kick Soft
+34;Open Rim Shot
+35;Kick Tight
+36;Kick
+37;Side Stick
+38;Snare
+39;Hand Clap
+40;Snare Tight
+41;Floor Tom L
+42;Hi-Hat Closed
+43;Floor Tom H
+44;Hi-Hat Pedal
+45;Low Tom
+46;Hi-Hat Open
+47;Mid Tom L
+48;Mid Tom H
+49;Crash Cymbal 1
+50;High Tom
+51;Ride Cymbal 1
+52;China Cymbal
+53;Ride Cymbal Cup
+54;Tambourine
+55;Splash Cymbal
+56;Cowbell
+57;Crash Cymbal 2
+58;Vibraslap
+59;Ride Cymbal 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Dagu Mute
+68;Zhongcha Mute
+69;Dagu Heavy
+70;Zhongcha Open
+71;Paigu Middle
+72;Paigu Low
+73;Xiaocha Mute
+74;Bangu
+75;Xiaocha Open
+76;Bangzi
+77;Muyu Low
+78;Zhongluo Mute
+79;Muyu Mid-Low
+80;Zhongluo Open
+81;Muyu Middle
+82;Xiaoluo Open
+83;Muyu Mid-High
+84;Muyu High
+
+[DRUMKIT:127008017-RockDrumKit]
+13;Hi-Hat Tip 00 RD
+14;Hi-Hat Edge 00 RD
+15;Hi-Hat Tip 10 RD
+16;Hi-Hat Edge 10 RD
+17;Hi-Hat Edge 25 RD
+18;Hi-Hat Edge 50 RD
+19;Hi-Hat Edge 75 RD
+20;Hi-Hat Edge 99 RD
+21;Hi-Hat Pedal Closed RD
+22;Hi-Hat Pedal Splash
+23;Seq Click L
+24;Seq Click H
+25;Snare Brush Mute Snappy Off Edge Pressed JB
+26;Snare 2 no-Rim RD
+27;Snare 4 no-Rim RD
+28;Snare 3 no-Rim RD
+29;Snare Roll RD
+30;Snare 2 RD
+31;Snare 4 RD
+32;Stick Count VO
+33;Kick 4 RD
+34;Snare 1 Open Rim RD
+35;Kick 2 RD
+36;Kick 1 RD
+37;Snare 1 Side-Stick RD
+38;Snare 1 RD
+39;Clap Power
+40;Snare 3 RD
+41;Tom RD 1
+42;Hi-Hat Edge 00 RD
+43;Tom RD 2
+44;Hi-Hat Pedal Closed RD
+45;Tom RD 3
+46;Hi-Hat Edge 75 RD
+47;Tom RD 4
+48;Tom RD 5
+49;Crash Cymbal RD 1
+50;Tom RD 6
+51;Ride Cymbal Tip RD
+52;China Cymbal RD
+53;Ride Cymbal Cup RD
+54;Tambourine
+55;Splash Cymbal RD
+56;Cowbell RD
+57;Crash Cymbal RD 2
+58;Vibraslap
+59;Ride Cymbal Real 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bells
+84;Wind Chime
+
+[DRUMKIT:127008073-PopDrumKit]
+13;Hi-Hat Tip 00 PD  
+14;Hi-Hat Edge 00 PD  
+15;Hi-Hat Tip 10 PD  
+16;Hi-Hat Edge 10 PD  
+17;Hi-Hat Edge 25 PD  
+18;Hi-Hat Edge 50 PD  
+19;Hi-Hat Edge 75 PD  
+20;Hi-Hat Edge 99 PD  
+21;Hi-Hat Pedal Closed PD  
+22;Hi-Hat Pedal Splash  
+23;Seq Click L  
+24;Seq Click H  
+25;Snare Brush Mute Snappy Off Edge Pressed JB  
+26;Snare 5 no-Rim PD  
+27;Snare 4 no-Rim PD  
+28;Snare 2 no-Rim PD  
+29;Snare Roll PD  
+30;Snare 5 PD  
+31;Snare 4 PD  
+32;Stick Count VO  
+33;Kick 4 PD  
+34;Snare 2 Open Rim PD  
+35;Kick 2 PD  
+36;Kick 1 PD  
+37;Snare 1 Side-Stick PD  
+38;Snare 1 PD  
+39;Clap Power  
+40;Snare 2 PD  
+41;Tom PD 1  
+42;Hi-Hat Edge 00 PD  
+43;Tom PD 2  
+44;Hi-Hat Pedal Closed PD  
+45;Tom PD 3  
+46;Hi-Hat Edge 75 PD  
+47;Tom PD 4  
+48;Tom PD 5  
+49;Crash Cymbal PD 1  
+50;Tom PD 6  
+51;Ride Cymbal Tip PD  
+52;China Cymbal PD  
+53;Ride Cymbal Cup PD  
+54;Tambourine  
+55;Splash Cymbal PD  
+56;Cowbell 1 JB  
+57;Crash Cymbal PD 2  
+58;Vibraslap  
+59;Ride Cymbal Real 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bells
+84;Wind Chime
+
+[DRUMKIT:127008074-VintageOpenKit]
+13;Hi-Hat Tip 00 VO  
+14;Hi-Hat Edge 00 VO  
+15;Hi-Hat Tip 10 VO  
+16;Hi-Hat Edge 10 VO  
+17;Hi-Hat Edge 25 VO  
+18;Hi-Hat Edge 50 VO  
+19;Hi-Hat Edge 75 VO  
+20;Hi-Hat Edge 99 VO  
+21;Hi-Hat Pedal Closed VO  
+22;Hi-Hat Pedal Splash  
+23;Seq Click L  
+24;Seq Click H  
+25;Tambourine Stick  
+26;Snare 4 no-Rim VO  
+27;Snare 3 no-Rim VO  
+28;Snare 2 no-Rim VO  
+29;Snare Roll PD  
+30;Snare 3 VO  
+31;Snare 4 VO  
+32;Stick Count VO  
+33;Kick 4 VO  
+34;Snare 2 Open Rim VO  
+35;Kick 2 VO  
+36;Kick 1 VO  
+37;Snare 1 Side-Stick VO  
+38;Snare 1 VO  
+39;Clap Power  
+40;Snare 2 VO  
+41;Tom VO 1  
+42;Hi-Hat Tip 00 VO  
+43;Tom VO 2  
+44;Hi-Hat Pedal Closed VO  
+45;Tom VO 3  
+46;Hi-Hat Edge 75 VO  
+47;Tom VO 4  
+48;Tom VO 5  
+49;Crash Cymbal VO 1  
+50;Tom VO 6  
+51;Ride Cymbal Tip VO  
+52;China Cymbal PD  
+53;Ride Cymbal Cup VO  
+54;Tambourine  
+55;Splash Cymbal PD  
+56;Cowbell 1 JB  
+57;Crash Cymbal VO 2  
+58;Vibraslap  
+59;Ride Cymbal Real 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bells
+84;Wind Chime
+
+[DRUMKIT:127008075-JazzBrushKitComp]
+13;Surdo Mute  
+14;Surdo Open  
+15;Hi Q  
+16;Whip Slap  
+17;Scratch H  
+18;Scratch L  
+19;Finger Snap  
+20;Click Noise  
+21;Metronome Click  
+22;Metronome Bell  
+23;Snare Brush Linear Sweep Short L/R  
+24;Snare Brush Linear Sweep Long L/R  
+25;Snare Brush Snappy Off Edge Pressed JB  
+26;Snare Brush Swirl Loop 1 JB  
+27;Snare Brush Pressed JB  
+28;Snare Brush Swirl Loop 2 with Attack Cpt  
+29;Snare Brush Swirl Loop 1 with Attack Cpt  
+30;Snare Brush Dynamic Sweep Long - Short Cpt  
+31;Snare Brush Pressed Low Range Cpt  
+32;Stick Count VO  
+33;Kick 5 VM  
+34;Snare Brush Mute only Shaft Cpt  
+35;Kick 2 JB  
+36;Kick 3 JB  
+37;Snare 2 Side-Stick JS  
+38;Snare Brush Mute with Shaft JB  
+39;Clap Power  
+40;Snare Brush with Shaft JB  
+41;Tom JB 1  
+42;Hi-Hat Center 00 JB  
+43;Tom JB 2  
+44;Hi-Hat Pedal Closed JB  
+45;Tom JB 3  
+46;Hi-Hat Edge 75 JB  
+47;Tom JB 4  
+48;Tom JB 5  
+49;Crash Cymbal JB 1  
+50;Tom JB 6  
+51;Ride Cymbal Tip JB  
+52;China Cymbal Real Brushes  
+53;Ride Cymbal Cup JB  
+54;Tambourine  
+55;Splash Cymbal JB  
+56;Cowbell 1 JB  
+57;Crash Cymbal JB 2  
+58;Vibraslap  
+59;Ride Backend JB
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bells
+84;Wind Chime
+
+[DRUMKIT:127008076-JazzBrushExpanded]
+13;Hi-Hat Ctr 00 JB  
+14;Hi-Hat Edge 00 JB  
+15;Hi-Hat Ctr 10 JB  
+16;Hi-Hat Edge 10 JB  
+17;Hi-Hat Edge 25 JB  
+18;Hi-Hat Edge 50 JB  
+19;Hi-Hat Edge 75 JB  
+20;Hi-Hat Edge 99 JB  
+21;Hi-Hat Pedal Closed JB  
+22;Hi-Hat Pedal Splash  
+23;Snare Brush Swirl Loop 1 JB
+24;Snare Brush Swirl Loop 2 JB 
+25;Snare Brush Dynamic Sweep Long JB  
+26;Snare Brush Dynamic Sweep Medium JB  
+27;Snare Brush Dynamic Sweep Short JB  
+28;Snare Brush Linear Sweep Long L JB  
+29;Snare Brush Linear Sweep Long R JB  
+30;Snare Brush Linear Sweep Short L JB  
+31;Snare Brush Linear Sweep Short R JB  
+32;Stick Count VO  
+33;Kick 5 VM  
+34;Snare Brush Pressed JB  
+35;Kick 2 JB  
+36;Kick 3 JB  
+37;Snare 2 Side-Stick JS  
+38;Snare Brush Mute with Shaft JB  
+39;Clap Power  
+40;Snare Brush with Shaft JB  
+41;Tom JB 1  
+42;Hi-Hat Center 00 JB  
+43;Tom JB 2  
+44;Hi-Hat Pedal Closed JB  
+45;Tom JB 3  
+46;Hi-Hat Edge 75 JB  
+47;Tom JB 4  
+48;Tom JB 5  
+49;Crash Cymbal JB 1  
+50;Tom JB 6  
+51;Ride Cymbal Tip JB  
+52;China Cymbal Real Brushes  
+53;Ride Cymbal Cup JB  
+54;Tambourine
+55;Splash Cymbal JB  
+56;Cowbell 1 JB  
+57;Crash Cymbal JB 2
+58;Cowbell 1 Tip JB
+59;Ride Brush Backend JB
+60;Snare Brush Roll JB
+61;Snare Brush Snappy Off Pressed JB
+62;Snare Brush Snappy Off Edge Pressed JB
+63;Snare Brush Snappy Off JB
+64;Snare Brush Snappy Off Edge JB
+65;Snare Brush Mute Snappy Off Pressed JB
+66;Snare Brush Mute Snappy Off Edge Pressed JB
+67;Snare Brush Mute Snappy Off JB
+68;Snare Brush Mute Snappy Off Edge JB
+69;Snare Brush Swish L JB
+70;Snare Brush Swish R JB
+71;Kick 4 JB
+72;Kick 3 JS
+73;Snare 2 Side-Stick JS
+74;Snare 2 no-Rim JS
+75;Clap AF
+76;Snare 2 Snappy Off JS
+77;Tom JS 1
+78;Hi-Hat Edge 00 JS
+79;Tom JS 2
+80;Hi-Hat Edge 50 JS
+81;Tom JS 3
+82;Hi-Hat Edge 99 JS
+83;Tom JS 4
+84;Tom JS 5
+85;Crash Cymbal JS 1
+86;Tom JS 6
+87;Ride Cymbal Tip JS
+88;China Cymbal PD
+89;Ride Cymbal Cup JS
+90;Shaker
+91;Splash Cymbal JS
+
+[DRUMKIT:127008077-VintageMutedKit]
+13;Hi-Hat Tip 00 VM  
+14;Hi-Hat Edge 00 VM  
+15;Hi-Hat Tip 10 VM  
+16;Hi-Hat Edge 10 VM  
+17;Hi-Hat Edge 25 VM  
+18;Hi-Hat Edge 50 VM  
+19;Hi-Hat Edge 75 VM  
+20;Hi-Hat Edge 99 VM  
+21;Hi-Hat Pedal Closed VM  
+22;Hi-Hat Pedal Splash  
+23;Seq Click L
+24;Seq Click H  
+25;Tambourine Stick  
+26;Snare 4 no-Rim VM  
+27;Snare 3 no-Rim VM  
+28;nare 2 no-Rim VM  
+29;Snare Roll PD  
+30;Snare 3 VM  
+31;Snare 4 VM  
+32;Stick Count VM  
+33;Kick 4 VM  
+34;Snare 1 Open Rim VM  
+35;Kick 2 VM  
+36;Kick 5 VM  
+37;Snare 1 Side-Stick VM  
+38;Snare 1 VM  
+39;Clap Power  
+40;Snare 2 VM  
+41;Tom VM 1  
+42;Hi-Hat Edge 00 VM  
+43;Tom VM 2  
+44;Hi-Hat Pedal Closed VM  
+45;Tom VM 3  
+46;Hi-Hat Edge 75 VM  
+47;Tom VM 4  
+48;Tom VM 5  
+49;Crash Cymbal VM 1  
+50;Tom VM 6  
+51;Ride Cymbal Tip VM  
+52;China Cymbal PD  
+53;Ride Cymbal Cup VM Tambourine  
+54;Tambourine
+55;Splash Cymbal PD  
+56;Cowbell 1 JB  
+57;Crash Cymbal VM 2
+58;Vibraslap  
+59;Ride Cymbal Real 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Agogo H
+68;Agogo L
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bells
+84;Wind Chime
+
+[DRUMKIT:127008078-JazzSlickKit]
+13;Hi-Hat Tip 00 JS
+14;Hi-Hat Edge 00 JS
+15;Hi-Hat Tip 10 JS
+16;Hi-Hat Edge 10 JS
+17;Hi-Hat Edge 25 JS
+18;Hi-Hat Edge 50 JS
+19;Hi-Hat Edge 75 JS
+20;Hi-Hat Edge 99 JS
+21;Hi-Hat Pedal Closed JS
+22;Hi-Hat Pedal Splash
+23;Seq Click L
+24;Seq Click H
+25;Snappy Off Side-Stick JS
+26;Snare 2 Snappy Off no-Rim JS
+27;Snare 1 no-Rim JS
+28;Snare 4 no-Rim JS
+29;Snare Roll JS
+30;Snare 1 JS
+31;Snare 4 JS
+32;Stick Count VO
+33;Kick 5 VM
+34;Snare 2 Open Rim JS
+35;Kick 2 JS
+36;Kick 3 JS
+37;Snare 2 Side-Stick JS
+38;Snare 2 no-Rim JS
+39;Clap Power
+40;Snare 2 Snappy Off JS
+41;Tom JS 1
+42;Hi-Hat Edge 00 JS
+43;Tom JS 2
+44;Hi-Hat Pedal Closed JS
+45;Tom JS 3
+46;Hi-Hat Edge 99 JS
+47;Tom JS 4
+48;Tom JS 5
+49;Crash Cymbal JS 1
+50;Tom JS 6
+51;Ride Cymbal Tip JS
+52;China Cymbal PD
+53;Ride Cymbal Cup JS Tambourine
+54;Tambourine
+55;Splash Cymbal JS
+56;Cowbell 2 JB
+57;Crash Cymbal JS 2
+58;Vibraslap
+59;Ride Cymbal Real 2
+60;Bongo H
+61;Bongo L
+62;Conga H Mute
+63;Conga H Open
+64;Conga L
+65;Timbale H
+66;Timbale L
+67;Cowbell 1 JB
+68;Cowbell 1 Tip JB
+69;Cabasa
+70;Maracas
+71;Samba Whistle H
+72;Samba Whistle L
+73;Guiro Short
+74;Guiro Long
+75;Claves
+76;Wood Block H
+77;Wood Block L
+78;Cuica Mute
+79;Cuica Open
+80;Triangle Mute
+81;Triangle Open
+82;Shaker
+83;Jingle Bells
+84;Wind Chime
+

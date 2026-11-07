@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "packageName": "com.phantominnovation.choir",
+  "versionCode": 11,
+  "versionName": "1.10",
+  "downloadUrl": "https://drive.google.com/file/d/1SQ-SpIEWmziwsHwBu6NUGj7EviyRffeS/view",
+  "sha256": "57ac66845e8e5f802d7532b23db5d2ddfe62137e44b2b09a8583664181794855",
+  "sizeBytes": 20633929,
+  "publishedAt": "2026-10-24T16:07:31.774Z",
+  "notes": "Hosts can edit selected registrations directly from hymn lists and stay in the same list after saving. Changes sync throughout the library.",
+  "guestReadVerified": true
+}

@@ -1,0 +1,10 @@
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="drive_links.xml" />
+        <include domain="sharedpref" path="registration_edits.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="drive_links.xml" />
+        <include domain="sharedpref" path="registration_edits.xml" />
+    </device-transfer>
+</data-extraction-rules>

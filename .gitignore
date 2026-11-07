@@ -1,0 +1,44 @@
+# ── Android build ──────────────────────────────────────────────
+android/.gradle/
+android/app/build/
+android/build/
+android/.kotlin/
+android/local.properties
+android/app/google-services.json
+
+# ── Web build ───────────────────────────────────────────────────
+web/dist/
+web/node_modules/
+web/test-results/
+
+# ── Firebase ────────────────────────────────────────────────────
+firebase/node_modules/
+firebase/.firebase/
+firebase/firestore-debug.log
+firebase/firebase-debug.log
+firebase/ui-debug.log
+firebase/database-debug.log
+
+# ── Extraction / tools ──────────────────────────────────────────
+extraction_work/node_modules/
+extraction_work/instrument_files.zip
+
+# ── Outputs (keep APKs + release JSON, skip test reports & screenshots) ─
+outputs/choir-android/screenshots/
+outputs/choir-android/version-*-test-reports/
+outputs/choir-web/
+
+# ── OS / editor ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+*.tmp
+
+# ── Credentials (never commit) ──────────────────────────────────
+*.keystore
+*.jks
+google-services.json
+service-account*.json
+*.p12
+

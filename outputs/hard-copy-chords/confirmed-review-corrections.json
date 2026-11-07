@@ -1,0 +1,65 @@
+{
+  "excluded": [
+    {
+      "reviewNumber": 3,
+      "sheet": "GLORY",
+      "song": "Glory in the highest",
+      "action": "Leave unmatched"
+    }
+  ],
+  "savedAliases": [
+    {
+      "reviewNumber": 5,
+      "sheet": "GLORY",
+      "song": "Sing praises to the living God",
+      "registration": "Glory to the trinity",
+      "registrationId": "08172b31379c9cbe68a6",
+      "cell": "B10",
+      "displayName": "Sing praises to the living God (Glory to the trinity)"
+    },
+    {
+      "reviewNumber": 14,
+      "sheet": "ALLELUIA",
+      "song": "Choirs are singing",
+      "registration": "Alleluia Jim Reeves",
+      "registrationId": "512fd3d742474512adee",
+      "cell": "B4",
+      "displayName": "Choirs are singing (Alleluia Jim Reeves)"
+    },
+    {
+      "reviewNumber": 28,
+      "sheet": "HOLY",
+      "song": "Lord of Hosts",
+      "registration": "MGC",
+      "registrationId": "7f6d98481aea4132faa3",
+      "cell": "B8",
+      "displayName": "Lord of Hosts (MGC)"
+    }
+  ],
+  "confirmedCrossSectionMatches": [
+    {
+      "reviewNumber": 10,
+      "sourceSheet": "RESPONSE",
+      "song": "I will sing",
+      "registration": "I will sing I will praise",
+      "registrationId": "577a8cd6c8f0dc61b306",
+      "destinationSheet": "COMMUNION",
+      "status": "Copied into destination tab; original entry retained",
+      "displayName": "I will sing (I will sing I will praise)",
+      "destinationRow": 19,
+      "sourceNote": "Matched in COMMUNION"
+    },
+    {
+      "reviewNumber": 41,
+      "sourceSheet": "COMMUNION",
+      "song": "We Place Upon Your Table",
+      "registration": "We come to your feast",
+      "registrationId": "4ac37972edcef9e9bc0d",
+      "destinationSheet": "OFFERTORY",
+      "status": "Copied into destination tab; original entry retained",
+      "displayName": "We Place Upon Your Table (We come to your feast)",
+      "destinationRow": 13,
+      "sourceNote": "Matched in OFFERTORY"
+    }
+  ]
+}

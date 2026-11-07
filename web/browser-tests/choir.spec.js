@@ -1,0 +1,163 @@
+import {test,expect} from '@playwright/test';
+import {PDFDocument} from 'pdf-lib';
+import {readFile} from 'node:fs/promises';
+const root='http://127.0.0.1:8180/v1/projects/demo-the-choir/databases/(default)/documents';
+const fields=data=>Object.fromEntries(Object.entries(data).map(([k,v])=>[k,typeof v==='boolean'?{booleanValue:v}:typeof v==='number'?{integerValue:String(v)}:typeof v==='string'?{stringValue:v}:{mapValue:{fields:fields(v)}}]));
+const fixture=async(path,data)=>{const r=await fetch(root+'/'+path,{method:'PATCH',headers:{Authorization:'Bearer owner','Content-Type':'application/json'},body:JSON.stringify({fields:fields(data)})});expect(r.ok).toBeTruthy();};
+const email='web-host@example.test',password='Local-emulator-only-123!';
+test.beforeEach(async()=>{
+  await fetch('http://127.0.0.1:8180/emulator/v1/projects/demo-the-choir/databases/(default)/documents',{method:'DELETE'});
+  let result=await fetch('http://127.0.0.1:9199/identitytoolkit.googleapis.com/v1/accounts:signUp?key=demo-key',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password,returnSecureToken:true})}).then(r=>r.json());
+  if(result.error)result=await fetch('http://127.0.0.1:9199/identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=demo-key',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,password,returnSecureToken:true})}).then(r=>r.json());
+  await fixture('hosts/'+result.localId,{active:true});
+});
+async function open(page){
+  await page.goto('/?emulator=true');
+  await expect(page.getByRole('heading',{name:'Your library.'})).toBeVisible();
+  await expect(page.locator('.connection')).toHaveText('Library synced');
+}
+async function host(page){
+  await page.getByRole('button',{name:'Host login'}).click();
+  await page.getByLabel('Email',{exact:true}).fill(email);await page.getByLabel('App password',{exact:true}).fill(password);
+  await page.getByRole('button',{name:'Sign in',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Host controls'})).toBeVisible();
+  await expect(page.locator('dialog')).toHaveCount(0);
+}
+async function fits(page){expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();}
+test('guest browsing, counts, filters and ordered shared hymn lists',async({page},info)=>{
+  const errors=[];page.on('pageerror',e=>{if(!e.message.includes('127.0.0.1:8180/google.firestore.v1.Firestore/Listen/channel'))errors.push(e.message);});
+  await open(page);await fits(page);
+  await page.screenshot({path:`test-results/${info.project.name}-home.png`,fullPage:true});
+  await page.goto('/?emulator=true#library');await expect(page.locator('.result-heading')).toContainText('458 REGISTRATIONS');
+  await page.locator('#chord-filter').selectOption('with');await expect(page.locator('.registration').first()).toBeVisible();
+  await expect(page.locator('.registration .chord-badge:not(.available)')).toHaveCount(0);
+  await page.locator('#search').fill('Beautiful Sunday');await expect(page.locator('.registration')).toHaveCount(1);
+  await expect(page.getByRole('button',{name:'Add registration',exact:true})).toHaveCount(0);
+  await page.goto('/?emulator=true#hymns/1');
+  await page.getByRole('button',{name:'Add hymns',exact:true}).first().click();
+  await page.getByLabel('Hymns',{exact:true}).fill('Entrance: Beautiful Sunday\nUnknown hymn');
+  await page.getByRole('button',{name:'Find & add'}).click();
+  await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(page.locator('.hymn-item')).toHaveCount(2);await expect(page.locator('.hymn-item').nth(1)).toContainText('Not available');
+  await expect(page.getByRole('button',{name:'Clear list',exact:true})).toHaveCount(0);
+  await expect(page.locator('[data-resource=offline]')).toContainText('Beautiful Sunday');
+  await page.getByRole('button',{name:'Find registration',exact:true}).click();
+  await page.getByLabel('Search all registrations').fill('Aicha');
+  await page.locator('.choice').first().click();await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(page.locator('.hymn-item').nth(1)).toContainText('Aicha');
+  await page.reload();await expect(page.locator('.hymn-item').nth(1)).toContainText('Aicha');
+  await fits(page);await page.screenshot({path:`test-results/${info.project.name}-hymns.png`,fullPage:true});
+  expect(errors).toEqual([]);
+});
+test('host manages sections and registrations while another client receives changes',async({page,browser},info)=>{
+  await open(page);await host(page);await page.goto('/?emulator=true#other');
+  await page.getByRole('button',{name:'Add section',exact:true}).click();
+  await page.getByLabel('Section name').fill('Browser Christmas');
+  await page.getByRole('dialog').getByRole('button',{name:'Add section',exact:true}).click();await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(page.getByRole('heading',{name:'Browser Christmas'})).toBeVisible();
+  await page.getByRole('button',{name:'Add registration',exact:true}).click();
+  await page.getByLabel('Registration name').fill('Web test hymn');await page.getByLabel('Style',{exact:true}).fill('Waltz');
+  await page.getByRole('dialog').getByLabel('Drive files',{exact:true}).fill('Score | https://drive.google.com/file/d/test/view');
+  await page.getByRole('dialog').getByRole('button',{name:'Add registration',exact:true}).click();await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(page.locator('.registration')).toHaveCount(1);
+  await page.getByRole('button',{name:'Change',exact:true}).click();
+  await page.getByLabel('Availability').selectOption('enabled');await page.getByRole('button',{name:'Save',exact:true}).click();
+  await expect(page.locator('.chord-badge.available')).toHaveCount(1);
+  await page.getByRole('button',{name:'Rename / remove',exact:true}).click();
+  await page.getByLabel('Section name').fill('Christmas service');
+  await page.getByRole('button',{name:'Save name',exact:true}).click();await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(page.getByRole('heading',{name:'Christmas service'})).toBeVisible();
+  const guest=await browser.newContext(),other=await guest.newPage();
+  await other.goto('/?emulator=true#other');
+  await expect(other.getByRole('heading',{name:'Christmas service'})).toBeVisible();
+  await expect(other.getByRole('button',{name:'Rename / remove',exact:true})).toHaveCount(0);
+  await page.getByRole('button',{name:'Rename / remove',exact:true}).click();
+  await page.getByRole('button',{name:'Remove section',exact:true}).click();
+  await page.getByLabel('Move registrations to').selectOption('holy');
+  await page.screenshot({path:`test-results/${info.project.name}-remove-section.png`});
+  await page.getByRole('button',{name:'Remove section',exact:true}).click();await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(other.getByRole('heading',{name:'Christmas service'})).toHaveCount(0);
+  await other.goto('/?emulator=true#section/holy');
+  await other.locator('#search').fill('Web test hymn');
+  await expect(other.locator('.registration')).toContainText('Waltz');
+  await expect(other.getByRole('link',{name:'Open Drive file'})).toHaveCount(1);
+  await expect(other.locator('.chord-badge.available')).toHaveCount(1);
+  await page.goto('/?emulator=true#section/holy');await page.locator('#search').fill('Web test hymn');
+  await page.getByRole('button',{name:'Edit Web test hymn',exact:true}).click();
+  await page.getByLabel('Tempo (BPM)').fill('99');await page.getByRole('button',{name:'Save changes'}).click();
+  await expect(other.locator('.registration')).toContainText('99');
+  await page.getByRole('button',{name:'Edit Web test hymn',exact:true}).click();
+  await page.getByRole('button',{name:'Delete registration',exact:true}).click();
+  await page.getByRole('button',{name:'Delete registration',exact:true}).click();
+  await expect(other.locator('.registration')).toHaveCount(0);
+  await guest.close();await fits(page);
+});
+
+test('hosts edit a registration from a hymn list and guests receive the shared change',async({page,browser})=>{
+  await fixture('hymnLists/2',{title:'Second service',text:'Entrance: Beautiful Sunday\nUnknown hymn',choices:{},revision:1});
+  await open(page);await host(page);await page.goto('/?emulator=true#hymns/2');
+  const card=page.locator('.hymn-item').first();
+  await expect(card.getByRole('button',{name:'Edit Beautiful Sunday',exact:true})).toHaveText('Edit registration');
+  await expect(page.locator('.hymn-item').nth(1).locator('[data-action=edit-registration]')).toHaveCount(0);
+  const guest=await browser.newContext(),other=await guest.newPage();
+  await other.goto('/?emulator=true#hymns/2');
+  await expect(other.locator('.hymn-item')).toHaveCount(2);
+  await expect(other.locator('[data-action=edit-registration]')).toHaveCount(0);
+  // Persist the choice so a later rename keeps the same registration selected.
+  await card.getByRole('button',{name:'Change registration',exact:true}).click();
+  await page.locator('.choice').filter({hasText:'Beautiful Sunday'}).first().click();
+  await expect(page.locator('dialog')).toHaveCount(0);
+  await card.getByRole('button',{name:'Edit Beautiful Sunday',exact:true}).click();
+  await page.getByLabel('Registration name').fill('Beautiful Sunday revised');
+  await page.getByLabel('Tempo (BPM)').fill('107');await page.getByLabel('Transpose',{exact:true}).fill('-3');
+  await page.getByRole('button',{name:'Save changes',exact:true}).click();
+  await expect(page.locator('dialog')).toHaveCount(0);
+  await expect(page).toHaveURL(/#hymns\/2$/);
+  await expect(card.locator('.registration')).toContainText('Beautiful Sunday revised');
+  await expect(other.locator('.hymn-item').first().locator('.registration')).toContainText('107');
+  await expect(other.locator('.hymn-item').first().locator('.registration')).toContainText('-3');
+  await other.goto('/?emulator=true#section/entrance');await other.locator('#search').fill('Beautiful Sunday revised');
+  await expect(other.locator('.registration')).toContainText('107');
+  await card.getByRole('button',{name:'Edit Beautiful Sunday revised',exact:true}).click();
+  await page.getByRole('button',{name:'Cancel',exact:true}).click();
+  await expect(page.locator('dialog')).toHaveCount(0);
+  await page.getByRole('button',{name:'Host controls'}).click();await page.getByRole('button',{name:'Sign out',exact:true}).click();
+  await expect(page.locator('[data-action=edit-registration]')).toHaveCount(0);
+  await expect(card.getByRole('button',{name:'Change registration',exact:true})).toBeVisible();
+  await guest.close();await fits(page);
+});
+
+test('each hymn list ends in three groups and collects its public PDF and Google Doc locally',async({page},info)=>{
+  await fixture('hymnLists/1',{title:'Sunday service',text:'Entrance: Beautiful Sunday\nEntrance: As we gather\nEntrance: Call to walk\nUnknown hymn',choices:{},revision:1});
+  await open(page);await page.goto('/?emulator=true#hymns/1');
+  await expect(page.locator('[data-resource]')).toHaveCount(3);
+  await expect(page.locator('[data-resource=offline]')).toContainText('Beautiful Sunday');
+  await expect(page.locator('[data-resource=missing]')).toContainText('Unknown hymn');
+  await expect(page.locator('[data-resource=drive]')).toContainText('As we gather');
+  await expect(page.locator('[data-resource=drive]')).toContainText('Call to walk');
+  const location=await page.locator('.resource-summary').evaluate(el=>({resources:el.getBoundingClientRect().top,last:document.querySelector('.hymn-item:last-child').getBoundingClientRect().bottom}));
+  expect(location.resources).toBeGreaterThanOrEqual(location.last);
+  await page.locator('.resource-summary').scrollIntoViewIfNeeded();
+  await fits(page);await page.screenshot({path:`test-results/${info.project.name}-resource-groups.png`,fullPage:true});
+  await page.getByRole('button',{name:'Create combined PDF',exact:true}).click();
+  await page.getByRole('dialog').getByRole('button',{name:'Create combined PDF',exact:true}).click();
+  const ready=page.getByRole('link',{name:'Download combined PDF',exact:true});await expect(ready).toBeVisible({timeout:60000});
+  await expect(page.locator('.pdf-progress')).toContainText('2 of 2 files included');
+  await page.screenshot({path:`test-results/${info.project.name}-pdf-ready.png`});
+  const downloadEvent=page.waitForEvent('download');await ready.click();const download=await downloadEvent;
+  const path=`test-results/${info.project.name}-combined.pdf`;await download.saveAs(path);
+  const pdf=await PDFDocument.load(await readFile(path));expect(pdf.getPageCount()).toBeGreaterThanOrEqual(2);
+  expect(download.suggestedFilename()).toBe('Sunday service - Drive chords.pdf');
+  await page.context().route('https://www.googleapis.com/drive/v3/files/1U360hXcURI-ugHIU6jh-iTklLQ8yogm5YkRJAGzqxY4**',
+    route=>route.fulfill({status:403,contentType:'application/json',body:'{"error":{"message":"Download disabled"}}'}));
+  await page.getByRole('button',{name:'Create again',exact:true}).click();
+  await expect(page.getByRole('link',{name:'Download partial PDF',exact:true})).toBeVisible({timeout:60000});
+  await expect(page.getByRole('link',{name:'Download combined PDF',exact:true})).toHaveCount(0);
+  await expect(page.locator('.pdf-progress')).toContainText('INCOMPLETE');
+  await expect(page.locator('.pdf-failures')).toContainText('Called To walk');
+  await page.getByRole('dialog').getByRole('button',{name:'Close',exact:true}).last().click();
+  await page.getByRole('link',{name:/LIST 2/}).click();
+  await expect(page.locator('[data-resource]')).toHaveCount(0);
+  await expect(page.getByText('A service starts with a song')).toBeVisible();
+});
+

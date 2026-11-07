@@ -1,0 +1,20 @@
+{
+  "version": "1.1",
+  "firebaseAuthentication": "deferred; shipped provider denies all editing",
+  "hostOnlyOperations": [
+    "add registration",
+    "edit fields and section",
+    "delete registration",
+    "change Drive links"
+  ],
+  "originalRegistrationCount": 458,
+  "originalAssetUnchanged": true,
+  "testHostProviderInApp": false,
+  "apkSha256": "53c2690e6386f7824b7455355d122ec3fcede7780264e0c4bc93777682b942a0",
+  "unitTestsPassed": 3,
+  "deviceTestsPassed": 14,
+  "lintSummary": "0 errors, 11 warnings",
+  "installedOverExistingApp": true,
+  "existingPreferenceFilesPreserved": true,
+  "preservedPreferenceFileCount": 0
+}

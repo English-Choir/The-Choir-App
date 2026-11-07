@@ -1,0 +1,27 @@
+{
+  "id": "1SQ-SpIEWmziwsHwBu6NUGj7EviyRffeS",
+  "name": "The-Choir-1.10.apk",
+  "parents": [
+    "1sLM2zur6JvRQB5hX88WAA6CxNiDjujKy"
+  ],
+  "webViewLink": "https://drive.google.com/file/d/1SQ-SpIEWmziwsHwBu6NUGj7EviyRffeS/view?usp=drivesdk",
+  "owners": [
+    {
+      "emailAddress": "englishchoir00@gmail.com"
+    }
+  ],
+  "permissions": [
+    {
+      "type": "anyone",
+      "role": "reader",
+      "allowFileDiscovery": false
+    },
+    {
+      "type": "user",
+      "role": "owner"
+    }
+  ],
+  "md5Checksum": "71e21490a6db438175666863397e1032",
+  "size": "20633929",
+  "sha256": "57ac66845e8e5f802d7532b23db5d2ddfe62137e44b2b09a8583664181794855"
+}

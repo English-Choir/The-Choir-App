@@ -1,0 +1,693 @@
+{
+  "summary": {
+    "syncComplete": true,
+    "syncedAt": "2026-10-19T16:36:50.520Z",
+    "originalSongs": 135,
+    "matchedOriginalSongs": 134,
+    "unmatched": [
+      {
+        "section": "GLORY",
+        "song": "Glory in the highest",
+        "matched": false
+      }
+    ],
+    "liveSongRows": 147
+  },
+  "audit": [
+    {
+      "section": "ENTRANCE",
+      "song": "Beautiful Sunday",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Come on and celebrate",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Come thou fount",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Down the mountain",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Father in my life I see",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "How lovely is your dwelling place",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Jesus stand among us",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Love somersaults",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "O what a wonderful day",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "Reign Lord",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "We have Come into His House",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "We praise you father",
+      "matched": true
+    },
+    {
+      "section": "ENTRANCE",
+      "song": "You are the voice",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Donny osmond",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Donna",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Festive",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "I confess",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Irish",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Jumbalaya",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "John bosco",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Jesus, I've forgotten",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Sr. Anita",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Summer sun",
+      "matched": true
+    },
+    {
+      "section": "LORD HAVE MERCY",
+      "song": "Tonight",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Glory in the highest",
+      "matched": false
+    },
+    {
+      "section": "GLORY",
+      "song": "Glory to the father",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "I'll always remember",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Long glory",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Mass of Joyful heart",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Nani",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "New moon",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Short Glory",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Sing praises to the living God",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Sing to God",
+      "matched": true
+    },
+    {
+      "section": "GLORY",
+      "song": "Sing to God a song of glory",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "All the ends of the earth",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "Be exalted",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "Down the mountain",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "How Good is the God we adore",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "I will sing",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "Jesus is King",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "The lord is my shepherd",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "Trust in me",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "What thanks O lord",
+      "matched": true
+    },
+    {
+      "section": "RESPONSE",
+      "song": "Wonderful Merciful Saviour",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Alle alleluia",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Boney M",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Choirs are singing",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Maleika",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Praise him on the trumpet",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Praise ye the lord",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Seek Ye First",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Shrek",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Sing alleluia to the lord",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "This day",
+      "matched": true
+    },
+    {
+      "section": "ALLELUIA",
+      "song": "Word of God",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Abba Father",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Blessed be God (blest are you lord)",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Break thou the bread of life",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Comes the time",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Father take the gifts",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Give them all",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "In bread we bring you lord",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "On this day",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Potter's hand",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "Take Me Father",
+      "matched": true
+    },
+    {
+      "section": "OFFERTORY",
+      "song": "This is my desire",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "Aicha",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "By the Rivers of Babylon",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "Campion",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "CSPE",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "Hosanna in the Highest (Sing Sing)",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "Jambalaya",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "Lord of Hosts",
+      "matched": true
+    },
+    {
+      "section": "HOLY",
+      "song": "Promise",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "Bachelor boy",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "Dying",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "He Is Lord",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "Jesus name above all",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "Majesty",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "Save Us, Saviour",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "Twinkle",
+      "matched": true
+    },
+    {
+      "section": "PROCLAMATION",
+      "song": "When we eat this",
+      "matched": true
+    },
+    {
+      "section": "OUR FATHER",
+      "song": "Abba Father",
+      "matched": true
+    },
+    {
+      "section": "OUR FATHER",
+      "song": "Echo",
+      "matched": true
+    },
+    {
+      "section": "OUR FATHER",
+      "song": "Straight",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "Alberta",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "American dream",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "Caribbean",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "Cut off",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "I confess",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "I started a joke",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "Paper Roses",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "Ribbons of Blue",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "St. Teresa",
+      "matched": true
+    },
+    {
+      "section": "LAMB OF GOD",
+      "song": "We Are Gathering",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Come and dine",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Crumbs from the table",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Every Tiny Star",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Fill my cup lord",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "I ,the lord( here I am lord)",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "I will come to u in silence",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Knowing You, Jesus",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Lose yourself in me",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Shepherd Me, O God",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Take and eat",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "Take eat and hunger no longer",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "The Lord Is My Shepherd",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "This Is My Commandment",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "We Celebrate This Festive Day",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "We Place Upon Your Table",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "When the oceans rise",
+      "matched": true
+    },
+    {
+      "section": "COMMUNION",
+      "song": "What a beautiful name it is",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Dawn it is breaking",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Every Morning",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Give Thanks",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "In moments like these",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "O Give Thanks to the Lord",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Oh How I love",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Thanks Do I",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Thankyou lord for all you've done",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "There's a roof up above me",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "Trust in me",
+      "matched": true
+    },
+    {
+      "section": "THANKSGIVING",
+      "song": "You Are My Love & My Light",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Colours of day",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Daily Daily",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Go the mass is ended",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Immaculate Mary",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Its a lovely lovely name",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Mother of Jesus",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "No One Can Live as an Island",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "O Queen of the Holy Rosary",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "On this day",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "Thank you Lord, for all you've done",
+      "matched": true
+    },
+    {
+      "section": "RECESSIONAL",
+      "song": "What's the surprise",
+      "matched": true
+    }
+  ]
+}

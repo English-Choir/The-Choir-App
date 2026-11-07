@@ -1,0 +1,8 @@
+node_modules/
+*-debug.log
+.firebase/
+service-account*.json
+*.credentials.json
+.clasprc.json
+chords/.clasp.json
+chords/deploy/

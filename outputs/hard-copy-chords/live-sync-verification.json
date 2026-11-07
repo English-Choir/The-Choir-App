@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-10-19T15:38:54.431Z",
+  "account": "englishchoir00@gmail.com",
+  "songs": 135,
+  "syncEnabled": true,
+  "health": "ok",
+  "originalSongListRestored": true,
+  "beautifulSundayMode": "automatic",
+  "sheetToApp": true,
+  "hostAppendOnce": true,
+  "hostDisablePersists": true,
+  "browserEditTrigger": true,
+  "finalVerifiedAt": "2026-10-19T15:43:46.807Z",
+  "finalDeploymentVerified": true,
+  "idleRunsVerified": true,
+  "tests": {
+    "androidDevice": 17,
+    "firestoreRules": 9,
+    "sync": 9
+  },
+  "hostRequestIntervalMinutes": 1,
+  "idleFullRefreshMinutes": 5
+}

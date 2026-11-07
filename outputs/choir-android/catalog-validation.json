@@ -1,0 +1,27 @@
+{
+  "registrations": 458,
+  "settingsPreserved": 458,
+  "linksPreserved": 298,
+  "registrationsWithLinks": 292,
+  "withoutLinks": 166,
+  "voiceFieldsIncluded": false,
+  "apkCatalogMatchesReviewedSource": true,
+  "countryWaltzRegistrations": 31,
+  "apkSha256": "99201a65378aa4f8404b0e1d3870592b210b722c1163d1e6b9d2ad2cc82e4742",
+  "debugBuild": true,
+  "testResults": [
+    {
+      "name": "com.phantominnovation.choir.LibraryLogicTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "com.phantominnovation.choir.CatalogInstrumentedTest",
+      "tests": "6",
+      "failures": "0",
+      "errors": "0"
+    }
+  ],
+  "lint": "0 errors; 12 advisory warnings (dependency versions, optional Kotlin extensions, resource-folder qualifier, window-size API recommendation)"
+}

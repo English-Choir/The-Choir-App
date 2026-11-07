@@ -1,0 +1,818 @@
+{
+  "title": "Hard copy chord list",
+  "source": "Reviewed Google Sheets snapshot",
+  "syncedAt": "2026-10-19T16:36:50.520Z",
+  "sections": [
+    {
+      "id": "entrance",
+      "sheet": "ENTRANCE",
+      "songs": [
+        {
+          "name": "Beautiful Sunday",
+          "aliases": []
+        },
+        {
+          "name": "Come on and celebrate",
+          "aliases": [
+            "Come on celebrate"
+          ]
+        },
+        {
+          "name": "Come thou fount",
+          "aliases": [
+            "Come thou fount of every blessing"
+          ]
+        },
+        {
+          "name": "Down the mountain",
+          "aliases": []
+        },
+        {
+          "name": "Father in my life I see",
+          "aliases": [
+            "Father in my life"
+          ]
+        },
+        {
+          "name": "How lovely is your dwelling place",
+          "aliases": [
+            "How lovely"
+          ]
+        },
+        {
+          "name": "Jesus stand among us",
+          "aliases": [
+            "Jesus stand among"
+          ]
+        },
+        {
+          "name": "Love somersaults",
+          "aliases": []
+        },
+        {
+          "name": "O what a wonderful day",
+          "aliases": [
+            "Oh what a wonderful"
+          ]
+        },
+        {
+          "name": "Reign Lord",
+          "aliases": []
+        },
+        {
+          "name": "We have Come into His House",
+          "aliases": [
+            "We have come into his"
+          ]
+        },
+        {
+          "name": "We praise you father",
+          "aliases": [
+            "We praise you"
+          ]
+        },
+        {
+          "name": "You are the voice",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "lhm",
+      "sheet": "LORD HAVE MERCY",
+      "songs": [
+        {
+          "name": "Donny osmond",
+          "aliases": []
+        },
+        {
+          "name": "Donna",
+          "aliases": []
+        },
+        {
+          "name": "Festive",
+          "aliases": []
+        },
+        {
+          "name": "I confess",
+          "aliases": []
+        },
+        {
+          "name": "Irish",
+          "aliases": []
+        },
+        {
+          "name": "Jumbalaya",
+          "aliases": []
+        },
+        {
+          "name": "John bosco",
+          "aliases": []
+        },
+        {
+          "name": "Jesus, I've forgotten",
+          "aliases": []
+        },
+        {
+          "name": "Sr. Anita",
+          "aliases": []
+        },
+        {
+          "name": "Summer sun",
+          "aliases": []
+        },
+        {
+          "name": "Tonight",
+          "aliases": []
+        },
+        {
+          "name": "Ribbons of Blue",
+          "aliases": [
+            "Ribbions of blue"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glory",
+      "sheet": "GLORY",
+      "songs": [
+        {
+          "name": "Glory in the highest",
+          "aliases": []
+        },
+        {
+          "name": "Glory to the father",
+          "aliases": []
+        },
+        {
+          "name": "I'll always remember",
+          "aliases": [
+            "I'll always"
+          ]
+        },
+        {
+          "name": "Long glory",
+          "aliases": []
+        },
+        {
+          "name": "Mass of Joyful heart",
+          "aliases": []
+        },
+        {
+          "name": "Nani",
+          "aliases": []
+        },
+        {
+          "name": "New moon",
+          "aliases": []
+        },
+        {
+          "name": "Short Glory",
+          "aliases": []
+        },
+        {
+          "name": "Sing praises to the living God (Glory to the trinity)",
+          "aliases": [
+            "Glory to the trinity"
+          ]
+        },
+        {
+          "name": "Sing to God",
+          "aliases": []
+        },
+        {
+          "name": "Sing to God a song of glory",
+          "aliases": [
+            "Sing to God"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "response",
+      "sheet": "RESPONSE",
+      "songs": [
+        {
+          "name": "All the ends of the earth",
+          "aliases": []
+        },
+        {
+          "name": "Be exalted (I will give thanks to you)",
+          "aliases": []
+        },
+        {
+          "name": "Down the mountain",
+          "aliases": []
+        },
+        {
+          "name": "How Good is the God we adore",
+          "aliases": [
+            "How good"
+          ]
+        },
+        {
+          "name": "I will sing (I will sing I will praise)",
+          "aliases": []
+        },
+        {
+          "name": "Jesus is King",
+          "aliases": []
+        },
+        {
+          "name": "The lord is my shepherd",
+          "aliases": []
+        },
+        {
+          "name": "Trust in me",
+          "aliases": []
+        },
+        {
+          "name": "What thanks O lord",
+          "aliases": []
+        },
+        {
+          "name": "Wonderful Merciful Saviour",
+          "aliases": [
+            "Wonderful merciful"
+          ]
+        },
+        {
+          "name": "Knowing You, Jesus",
+          "aliases": [
+            "Knowing You"
+          ]
+        },
+        {
+          "name": "Shepherd Me, O God",
+          "aliases": [
+            "Shepherd me O God"
+          ]
+        },
+        {
+          "name": "The Lord Is My Shepherd (waltz)",
+          "aliases": [
+            "The lord is my shepherd (waltz)"
+          ]
+        },
+        {
+          "name": "When the oceans rise",
+          "aliases": [
+            "When the ocean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alleluia",
+      "sheet": "ALLELUIA",
+      "songs": [
+        {
+          "name": "Alle alleluia",
+          "aliases": []
+        },
+        {
+          "name": "Boney M",
+          "aliases": []
+        },
+        {
+          "name": "Choirs are singing (Alleluia Jim Reeves)",
+          "aliases": [
+            "Alleluia Jim Reeves"
+          ]
+        },
+        {
+          "name": "Maleika",
+          "aliases": [
+            "Malieka"
+          ]
+        },
+        {
+          "name": "Praise him on the trumpet",
+          "aliases": []
+        },
+        {
+          "name": "Praise ye the lord",
+          "aliases": []
+        },
+        {
+          "name": "Seek Ye First",
+          "aliases": [
+            "Seek ye (Alleluia)"
+          ]
+        },
+        {
+          "name": "Shrek",
+          "aliases": []
+        },
+        {
+          "name": "Sing alleluia to the lord",
+          "aliases": [
+            "Sing Alleluia"
+          ]
+        },
+        {
+          "name": "This day",
+          "aliases": [
+            "This day God made"
+          ]
+        },
+        {
+          "name": "Word of God",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "offertory",
+      "sheet": "OFFERTORY",
+      "songs": [
+        {
+          "name": "Abba Father",
+          "aliases": []
+        },
+        {
+          "name": "Blessed be God (blest are you lord)",
+          "aliases": []
+        },
+        {
+          "name": "Break thou the bread of life",
+          "aliases": [
+            "Break thou the bread"
+          ]
+        },
+        {
+          "name": "Comes the time",
+          "aliases": [
+            "Comes the time we bring to you"
+          ]
+        },
+        {
+          "name": "Father take the gifts",
+          "aliases": []
+        },
+        {
+          "name": "Give them all",
+          "aliases": []
+        },
+        {
+          "name": "In bread we bring you lord",
+          "aliases": [
+            "In bread we bring"
+          ]
+        },
+        {
+          "name": "On this day",
+          "aliases": [
+            "On this day of joy"
+          ]
+        },
+        {
+          "name": "Potter's hand",
+          "aliases": [
+            "Potters Hands"
+          ]
+        },
+        {
+          "name": "Take Me Father",
+          "aliases": []
+        },
+        {
+          "name": "This is my desire",
+          "aliases": []
+        },
+        {
+          "name": "We Place Upon Your Table (We come to your feast)",
+          "aliases": [
+            "We come to your feast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holy",
+      "sheet": "HOLY",
+      "songs": [
+        {
+          "name": "Aicha",
+          "aliases": []
+        },
+        {
+          "name": "By the Rivers of Babylon",
+          "aliases": [
+            "Rivers of Babylon"
+          ]
+        },
+        {
+          "name": "Campion",
+          "aliases": [
+            "Campion (trichy)"
+          ]
+        },
+        {
+          "name": "CSPE",
+          "aliases": []
+        },
+        {
+          "name": "Hosanna in the Highest (Sing Sing)",
+          "aliases": [
+            "Sing sing hosanna (HOLY)"
+          ]
+        },
+        {
+          "name": "Jambalaya",
+          "aliases": [
+            "Jumbalaya"
+          ]
+        },
+        {
+          "name": "Lord of Hosts (MGC)",
+          "aliases": [
+            "MGC"
+          ]
+        },
+        {
+          "name": "Promise",
+          "aliases": []
+        },
+        {
+          "name": "Donny osmond",
+          "aliases": [
+            "Donny osmond"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "proclamation",
+      "sheet": "PROCLAMATION",
+      "songs": [
+        {
+          "name": "Bachelor boy",
+          "aliases": []
+        },
+        {
+          "name": "Dying",
+          "aliases": []
+        },
+        {
+          "name": "He Is Lord",
+          "aliases": []
+        },
+        {
+          "name": "Jesus name above all",
+          "aliases": []
+        },
+        {
+          "name": "Majesty",
+          "aliases": []
+        },
+        {
+          "name": "Save Us, Saviour",
+          "aliases": []
+        },
+        {
+          "name": "Twinkle",
+          "aliases": []
+        },
+        {
+          "name": "When we eat this",
+          "aliases": [
+            "When we eat this bread"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "our-father",
+      "sheet": "OUR FATHER",
+      "songs": [
+        {
+          "name": "Abba Father",
+          "aliases": []
+        },
+        {
+          "name": "Echo",
+          "aliases": []
+        },
+        {
+          "name": "Straight",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "log",
+      "sheet": "LAMB OF GOD",
+      "songs": [
+        {
+          "name": "Alberta",
+          "aliases": []
+        },
+        {
+          "name": "American dream",
+          "aliases": []
+        },
+        {
+          "name": "Caribbean",
+          "aliases": []
+        },
+        {
+          "name": "Cut off",
+          "aliases": []
+        },
+        {
+          "name": "I confess",
+          "aliases": []
+        },
+        {
+          "name": "I started a joke",
+          "aliases": []
+        },
+        {
+          "name": "Paper Roses",
+          "aliases": []
+        },
+        {
+          "name": "Ribbons of Blue",
+          "aliases": []
+        },
+        {
+          "name": "St. Teresa",
+          "aliases": [
+            "St. Teresa's"
+          ]
+        },
+        {
+          "name": "We Are Gathering",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "communion",
+      "sheet": "COMMUNION",
+      "songs": [
+        {
+          "name": "Come and dine",
+          "aliases": []
+        },
+        {
+          "name": "Crumbs from the table",
+          "aliases": []
+        },
+        {
+          "name": "Every Tiny Star",
+          "aliases": [
+            "Every tiny"
+          ]
+        },
+        {
+          "name": "Fill my cup lord",
+          "aliases": [
+            "Fill my cup"
+          ]
+        },
+        {
+          "name": "I ,the lord( here I am lord)",
+          "aliases": []
+        },
+        {
+          "name": "I will come to u in silence",
+          "aliases": [
+            "Ill come to you in silence"
+          ]
+        },
+        {
+          "name": "Knowing You, Jesus",
+          "aliases": []
+        },
+        {
+          "name": "Lose yourself in me",
+          "aliases": [
+            "Lose yourself"
+          ]
+        },
+        {
+          "name": "Shepherd Me, O God",
+          "aliases": []
+        },
+        {
+          "name": "Take and eat",
+          "aliases": []
+        },
+        {
+          "name": "Take eat and hunger no longer",
+          "aliases": [
+            "Take eat"
+          ]
+        },
+        {
+          "name": "The Lord Is My Shepherd (waltz)",
+          "aliases": []
+        },
+        {
+          "name": "This Is My Commandment",
+          "aliases": [
+            "This my commandment (COMM)"
+          ]
+        },
+        {
+          "name": "We Celebrate This Festive Day",
+          "aliases": []
+        },
+        {
+          "name": "We Place Upon Your Table (We come to your feast)",
+          "aliases": []
+        },
+        {
+          "name": "When the oceans rise",
+          "aliases": []
+        },
+        {
+          "name": "What a beautiful name it is",
+          "aliases": [
+            "What a beautiful"
+          ]
+        },
+        {
+          "name": "I will sing (I will sing I will praise)",
+          "aliases": [
+            "I will sing I will praise"
+          ]
+        },
+        {
+          "name": "Jesus is King",
+          "aliases": [
+            "Jesus is king"
+          ]
+        },
+        {
+          "name": "Trust in me",
+          "aliases": [
+            "Trust in me"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thanks-giving",
+      "sheet": "THANKSGIVING",
+      "songs": [
+        {
+          "name": "Dawn it is breaking",
+          "aliases": []
+        },
+        {
+          "name": "Every Morning",
+          "aliases": []
+        },
+        {
+          "name": "Give Thanks",
+          "aliases": [
+            "Give thanks - Don Moen"
+          ]
+        },
+        {
+          "name": "In moments like these",
+          "aliases": [
+            "Moments like these"
+          ]
+        },
+        {
+          "name": "O Give Thanks to the Lord",
+          "aliases": []
+        },
+        {
+          "name": "Oh How I love",
+          "aliases": []
+        },
+        {
+          "name": "Thanks Do I",
+          "aliases": []
+        },
+        {
+          "name": "Thankyou lord for all you've done",
+          "aliases": []
+        },
+        {
+          "name": "There's a roof up above me",
+          "aliases": [
+            "There is a roof"
+          ]
+        },
+        {
+          "name": "Trust in me",
+          "aliases": []
+        },
+        {
+          "name": "You Are My Love & My Light",
+          "aliases": [
+            "Your are my love and my life"
+          ]
+        },
+        {
+          "name": "Be exalted (I will give thanks to you)",
+          "aliases": [
+            "I will give thanks to you (Be Exalted)"
+          ]
+        },
+        {
+          "name": "What thanks O lord",
+          "aliases": [
+            "What thanks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recessional",
+      "sheet": "RECESSIONAL",
+      "songs": [
+        {
+          "name": "Colours of day",
+          "aliases": []
+        },
+        {
+          "name": "Daily Daily",
+          "aliases": []
+        },
+        {
+          "name": "Go the mass is ended",
+          "aliases": []
+        },
+        {
+          "name": "Immaculate Mary",
+          "aliases": []
+        },
+        {
+          "name": "Its a lovely lovely name",
+          "aliases": []
+        },
+        {
+          "name": "Mother of Jesus",
+          "aliases": []
+        },
+        {
+          "name": "No One Can Live as an Island",
+          "aliases": [
+            "No man can live as an island"
+          ]
+        },
+        {
+          "name": "O Queen of the Holy Rosary",
+          "aliases": [
+            "O queen of the holy"
+          ]
+        },
+        {
+          "name": "On this day",
+          "aliases": []
+        },
+        {
+          "name": "Thank you Lord, for all you've done",
+          "aliases": []
+        },
+        {
+          "name": "What's the surprise",
+          "aliases": []
+        }
+      ]
+    },
+    {
+      "id": "adoration",
+      "sheet": "ADORATION",
+      "songs": []
+    },
+    {
+      "id": "ash",
+      "sheet": "ASH",
+      "songs": []
+    },
+    {
+      "id": "mission-wedding",
+      "sheet": "MISSION WEDDING",
+      "songs": []
+    },
+    {
+      "id": "sob",
+      "sheet": "SOB",
+      "songs": []
+    },
+    {
+      "id": "way-of-the-cross",
+      "sheet": "WAY OF THE CROSS",
+      "songs": []
+    },
+    {
+      "id": "we-believe",
+      "sheet": "WE BELIEVE",
+      "songs": []
+    },
+    {
+      "id": "z-grade",
+      "sheet": "Z-GRADE",
+      "songs": []
+    }
+  ]
+}

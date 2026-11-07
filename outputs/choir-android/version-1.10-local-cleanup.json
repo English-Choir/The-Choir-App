@@ -1,0 +1,38 @@
+﻿{
+    "applied":  true,
+    "reclaimedBytes":  361566621,
+    "targets":  [
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\The-Choir-1.8.apk",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-build.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-device-focused.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-device-tests.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-device.xml",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-drive-before-cleanup.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-drive-cleanup.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-drive.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-emulator-error.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-emulator.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-final-build.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-firebase-audit.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-home.png",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-integration-build.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-integration.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-local-cleanup.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-public-download.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-release.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-rules-deploy.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-rules-test.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-validation-build.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-verification.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-web-audit.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.8-web-browser-tests.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\firebase\\firestore-debug.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\android\\app\\build",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\android\\.gradle",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\android\\.kotlin"
+                ],
+    "retainedApks":  [
+                         "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\The-Choir-1.10.apk",
+                         "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\The-Choir-1.9.apk"
+                     ]
+}

@@ -1,0 +1,4 @@
+<full-backup-content>
+    <include domain="sharedpref" path="drive_links.xml" />
+    <include domain="sharedpref" path="registration_edits.xml" />
+</full-backup-content>

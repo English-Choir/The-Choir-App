@@ -1,0 +1,30 @@
+{
+  "versionName": "1.9",
+  "versionCode": 10,
+  "installedAndLaunched": true,
+  "registrations": 458,
+  "driveLinkedRegistrations": 292,
+  "offlineChordsRegistrations": 130,
+  "hostSessionPreserved": true,
+  "jvmTests": 20,
+  "hymnUiTests": 3,
+  "pdfDeviceTests": 3,
+  "webLogicAndPdfTests": 11,
+  "webBrowserTests": 6,
+  "webProductionSmokePassed": [
+    "desktop Chromium",
+    "iPhone-sized WebKit"
+  ],
+  "livePdfAndGoogleDocMergedOnAndroid": true,
+  "livePdfAndGoogleDocMergedOnWeb": true,
+  "localProcessing": true,
+  "partialOutputExplicitlyLabeled": true,
+  "publicCatalogMatchesSource": true,
+  "retainedApks": [
+    "1.9",
+    "1.8"
+  ],
+  "googleAdminAccount": "englishchoir00@gmail.com",
+  "webUrl": "https://the-choir-library.bonnyloom256.chatgpt.site",
+  "checkedAt": "2026-10-20T12:38:56.088Z"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Hard copy chord list",
+  "source": "Song list supplied by the host from Google Keep, 19 October 2026",
+  "sections": [
+    {"id":"entrance","sheet":"ENTRANCE","songs":["Beautiful Sunday","Come on and celebrate","Come thou fount","Down the mountain","Father in my life I see","How lovely is your dwelling place","Jesus stand among us","Love somersaults","O what a wonderful day","Reign Lord","We have Come into His House","We praise you father","You are the voice"]},
+    {"id":"lhm","sheet":"LORD HAVE MERCY","songs":["Donny osmond","Donna","Festive","I confess","Irish","Jumbalaya","John bosco","Jesus, I've forgotten","Sr. Anita","Summer sun","Tonight"]},
+    {"id":"glory","sheet":"GLORY","songs":["Glory in the highest","Glory to the father","I'll always remember","Long glory","Mass of Joyful heart","Nani","New moon","Short Glory","Sing praises to the living God","Sing to God","Sing to God a song of glory"]},
+    {"id":"response","sheet":"RESPONSE","songs":["All the ends of the earth","Be exalted","Down the mountain","How Good is the God we adore","I will sing","Jesus is King","The lord is my shepherd","Trust in me","What thanks O lord","Wonderful Merciful Saviour"]},
+    {"id":"alleluia","sheet":"ALLELUIA","songs":["Alle alleluia","Boney M","Choirs are singing","Maleika","Praise him on the trumpet","Praise ye the lord","Seek Ye First","Shrek","Sing alleluia to the lord","This day","Word of God"]},
+    {"id":"offertory","sheet":"OFFERTORY","songs":["Abba Father","Blessed be God (blest are you lord)","Break thou the bread of life","Comes the time","Father take the gifts","Give them all","In bread we bring you lord","On this day","Potter's hand","Take Me Father","This is my desire"]},
+    {"id":"holy","sheet":"HOLY","songs":["Aicha","By the Rivers of Babylon","Campion(reprint)","CSPE","Hosanna in the Highest (Sing Sing)","Jambalaya","Lord of Hosts","Promise"]},
+    {"id":"proclamation","sheet":"PROCLAMATION","songs":["Bachelor boy","Dying","He Is Lord","Jesus name above all","Majesty","Save Us, Saviour","Twinkle","When we eat this"]},
+    {"id":"our-father","sheet":"OUR FATHER","songs":["Abba Father","Echo","Straight"]},
+    {"id":"log","sheet":"LAMB OF GOD","songs":["Alberta","American dream","Caribbean","Cut off","I confess","I started a joke","Paper Roses","Ribbons of Blue","St. Teresa","We Are Gathering"]},
+    {"id":"communion","sheet":"COMMUNION","songs":["Come and dine (Reprint if possible)","Crumbs from the table","Every Tiny Star","Fill my cup lord","I ,the lord( here I am lord)","I will come to u in silence","Knowing You, Jesus","Lose yourself in me","Shepherd Me, O God","Take and eat","Take eat and hunger no longer","The Lord Is My Shepherd","This Is My Commandment","We Celebrate This Festive Day","We Place Upon Your Table","When the oceans rise","What a beautiful name it is"]},
+    {"id":"thanks-giving","sheet":"THANKSGIVING","songs":["Dawn it is breaking","Every Morning","Give Thanks","In moments like these","O Give Thanks to the Lord","Oh How I love","Thanks Do I","Thankyou lord for all you've done","There's a roof up above me","Trust in me","You Are My Love & My Light"]},
+    {"id":"recessional","sheet":"RECESSIONAL","songs":["Colours of day","Daily Daily","Go the mass is ended","Immaculate Mary","Its a lovely lovely name","Mother of Jesus","No One Can Live as an Island","O Queen of the Holy Rosary","On this day","Thank you Lord, for all you've done","What's the surprise"]}
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "updates": [
+    {
+      "row": 50,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 11,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 43,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 26,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 12,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 48,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 28,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 13,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 14,
+      "missing": false,
+      "status": "Confirmed other folder",
+      "reason": "Pairing confirmed by user (19 Oct 2026). File remains in 4 RESPONSE."
+    },
+    {
+      "row": 37,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 27,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 32,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 23,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    },
+    {
+      "row": 9,
+      "missing": true,
+      "status": "Missing file (confirmed)",
+      "reason": "User confirmed that this registration has no Drive file (19 Oct 2026)."
+    },
+    {
+      "row": 22,
+      "missing": false,
+      "status": "Confirmed other folder",
+      "reason": "Pairing confirmed by user (19 Oct 2026). File remains in Holy Spirit."
+    },
+    {
+      "row": 20,
+      "missing": false,
+      "status": "Confirmed match",
+      "reason": "Pairing confirmed by user (19 Oct 2026)."
+    }
+  ],
+  "review_updates": [
+    {
+      "row": 43,
+      "status": "Matched name",
+      "registrations": "ENTRANCE: As we gather ",
+      "note": "Same-folder filename match. Musical content was not compared."
+    },
+    {
+      "row": 46,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Call to walk",
+      "note": "User confirmed: ENTRANCE: Call to walk."
+    },
+    {
+      "row": 47,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Come on celebrate",
+      "note": "User confirmed: ENTRANCE: Come on celebrate."
+    },
+    {
+      "row": 48,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Come people of the risen",
+      "note": "User confirmed: ENTRANCE: Come people of the risen."
+    },
+    {
+      "row": 54,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Hail the day",
+      "note": "User confirmed: ENTRANCE: Hail the day."
+    },
+    {
+      "row": 56,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: How lovely",
+      "note": "User confirmed: ENTRANCE: How lovely."
+    },
+    {
+      "row": 57,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: It came upon\nHOLY: it came up on the midnight",
+      "note": "User confirmed: ENTRANCE: It came upon. Other pairings retain their individual sheet statuses."
+    },
+    {
+      "row": 58,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Jesus your the sweetest",
+      "note": "User confirmed: ENTRANCE: Jesus your the sweetest."
+    },
+    {
+      "row": 59,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Jesus stand among",
+      "note": "User confirmed: ENTRANCE: Jesus stand among."
+    },
+    {
+      "row": 60,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Lord I lift",
+      "note": "User confirmed: ENTRANCE: Lord I lift."
+    },
+    {
+      "row": 62,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Oh what a wonderful ",
+      "note": "User confirmed: ENTRANCE: Oh what a wonderful."
+    },
+    {
+      "row": 68,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Standing on the promise",
+      "note": "User confirmed: ENTRANCE: Standing on the promise."
+    },
+    {
+      "row": 72,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: We have come into his",
+      "note": "User confirmed: ENTRANCE: We have come into his."
+    },
+    {
+      "row": 74,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: We are here because of grace",
+      "note": "User confirmed: ENTRANCE: We are here because of grace."
+    },
+    {
+      "row": 121,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Come ring out your joy",
+      "note": "User confirmed: ENTRANCE: Come ring out your joy."
+    },
+    {
+      "row": 351,
+      "status": "Confirmed match",
+      "registrations": "ENTRANCE: Holy spirit we welcome",
+      "note": "User confirmed: ENTRANCE: Holy spirit we welcome."
+    }
+  ],
+  "overall": {
+    "matched": 146,
+    "review": 148,
+    "missing": 164
+  },
+  "backup": "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\extraction_work\\SX900 Registrations.before-entrance-review.xlsx.bak",
+  "output": "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\sx900-registration-extraction\\SX900 Registrations - ENTRANCE reviewed.xlsx"
+}
