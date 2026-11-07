@@ -1,0 +1,31 @@
+﻿{
+    "applied":  true,
+    "reclaimedBytes":  363714221,
+    "targets":  [
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\The-Choir-1.9.apk",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-build.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-combined-page.png",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-combined.pdf",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-device-tests.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-device.xml",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-drive-before-cleanup.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-drive-cleanup.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-drive.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-final-build.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-local-cleanup.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-pdf-render-check.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-pdf-tests.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-public-download.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-release.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-verification.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-web-audit.json",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\version-1.9-web-browser-tests.log",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\android\\app\\build",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\android\\.gradle",
+                    "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\android\\.kotlin"
+                ],
+    "retainedApks":  [
+                         "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\The-Choir-1.11.apk",
+                         "C:\\Users\\griff\\Documents\\PHANTOM INNOVATION\\APPs\\The CHOIR App\\outputs\\choir-android\\The-Choir-1.10.apk"
+                     ]
+}
