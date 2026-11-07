@@ -1,0 +1,2 @@
+*.bup filter=lfs diff=lfs merge=lfs -text
+extraction_work/banks.json filter=lfs diff=lfs merge=lfs -text
